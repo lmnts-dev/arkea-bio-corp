@@ -44,7 +44,7 @@ a{
 }
 
 .elementor-button-icon svg{
-  background-image: linear-gradient(var(--e-global-color-bf644ae) ,var(--e-global-color-bf644ae ));
+  background-image: linear-gradient(to right, var(--e-global-color-bf644ae) ,var(--e-global-color-bf644ae ));
   background-size: 0 100%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -58,3 +58,9 @@ a{
   background-size: 100% 100%;
 }
 
+
+.elementor-toggle-icon svg{
+  display: inline-block;
+  width: 4.25em;
+  height: 4.25em;
+}
