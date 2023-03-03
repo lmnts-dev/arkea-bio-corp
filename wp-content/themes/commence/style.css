@@ -79,7 +79,7 @@ a{
 .link--underline::before{
   content: "" ;
   position: absolute;
-  width: 100%;
+  border-radius: 7px;
   height: 2rem;
   mix-blend-mode: multiply;
   bottom: 0;
@@ -92,5 +92,5 @@ a{
 
 .link--underline:hover::before{
   visibility: visible;
-  width: 100%;
+  width: 95%;
 }
