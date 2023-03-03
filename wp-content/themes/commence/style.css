@@ -13,12 +13,12 @@
 
 /*THEME*/
 
-body a{
+main a{
   background-color: transparent!important;
   text-decoration: none;
 }
 
-body a::after {
+main a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -26,11 +26,11 @@ body a::after {
   background-color: var(--e-global-color-primary );
   bottom: -15%;
   left: 0px;
-  opacity: 0.6;
+  border-radius: 7px;
   transition: all 0.25s ease 0s;
 }
 
-body a:hover::after {
+main a:hover::after {
   height: 3px;
 }
 
