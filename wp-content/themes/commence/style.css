@@ -14,6 +14,12 @@
 /*THEME*/
 
 a{
-  background-color: transparent;
+  background-color: transparent!important;
+}
+
+.elementor-button-icon{
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
 }
 
