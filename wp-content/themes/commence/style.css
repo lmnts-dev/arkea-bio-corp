@@ -51,6 +51,7 @@ a{
   will-change: background;
   transition: background 0.25s ease 0s;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .elementor-button-icon svg:hover{
