@@ -13,12 +13,13 @@
 
 /*THEME*/
 
-main a{
+.elementor-widget-text-editor a{
   background-color: transparent!important;
   text-decoration: none;
+  position: relative;
 }
 
-main a::after {
+.elementor-widget-text-editor a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -30,7 +31,7 @@ main a::after {
   transition: all 0.25s ease 0s;
 }
 
-main a:hover::after {
+.elementor-widget-text-editor a:hover::after {
   height: 3px;
 }
 
