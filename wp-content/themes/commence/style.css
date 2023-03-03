@@ -13,9 +13,12 @@
 
 /*THEME*/
 
-.elementor-widget-text-editor a{
+a{
   background-color: transparent!important;
   text-decoration: none;
+}
+
+.elementor-widget-text-editor a{
   position: relative;
 }
 
@@ -38,5 +41,19 @@
 .elementor-button-icon{
   display: flex;
   align-items: center;
+}
+
+.elementor-button-icon svg{
+  background-image: linear-gradient(var(--e-global-color-primary ),var(--e-global-color-primary ));
+  background-size: 100% 0px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  will-change: background;
+  transition: background 0.25s ease 0s;
+  overflow: hidden;
+}
+
+.elementor-button-icon svg:hover{
+  background-size: 100% 100%;
 }
 
