@@ -1,0 +1,7 @@
+name: arkea-bio-corp
+recipe: pantheon
+config:
+  framework: wordpress
+  site: arkea-bio-corp
+  id: 81ee8cbf-c14c-4756-8fd8-0502223e1e9b
+  
