@@ -65,9 +65,31 @@ a{
   height: 4.25em;
 }
 
-.social-icon a:hover .social-icon-container{
+.social-icon-container:hover{
   background-image: url(/wp-content/uploads/2023/03/blob-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.link--underline{
+  position: relative;
+}
+
+.link--underline::before{
+  content: "" ;
+  position: absolute;
+  width: 100%;
+  height: 2em;
+  bottom: 0;
+  left: 0;
+  background-color: var(--e-global-color-bf644ae);
+  visibility: visible;
+  width:0;
+  transition: all 0.5s;
+}
+
+.link--underline:hover::before{
+  visibility: visible;
+  width: 100%;
 }
