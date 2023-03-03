@@ -64,3 +64,10 @@ a{
   width: 4.25em;
   height: 4.25em;
 }
+
+.social-icon a:hover .social-icon-container{
+  background-image: url(/wp-content/uploads/2023/03/blob-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
