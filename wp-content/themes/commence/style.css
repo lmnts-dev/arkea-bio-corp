@@ -43,7 +43,7 @@ a{
   align-items: center;
 }
 
-.elementor-button-icon svg, .elementor-social-icon svg{
+.elementor-button-link svg, .elementor-social-icon svg{
   background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@ a{
   border-radius: 50%;
 }
 
-.elementor-button-icon a:hover svg, .elementor-social-icon  a:hover svg{
+.elementor-button-link:hover svg, .elementor-social-icon:hover svg{
   background-size: 100% 100%;
 }
 
@@ -113,7 +113,7 @@ a{
   position: relative;
 }
 
-.card a svg{
+.card .elementor-button-icon svg{
   width: 2.625em;
   height: 2.625em;
 }
