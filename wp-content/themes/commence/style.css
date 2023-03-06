@@ -70,6 +70,7 @@ a{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  transition: background 0.25s ease 0s;
 }
 
 .link--underline{
@@ -93,4 +94,14 @@ a{
 .link--underline:hover::before{
   visibility: visible;
   width: 95%;
+}
+
+.elementor-toggle-item:hover .accordion-hover-img{
+  display: block;
+}
+
+.accordion-hover-img{
+  position: absolute;
+  right: 0;
+  display: none;
 }
