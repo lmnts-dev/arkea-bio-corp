@@ -105,3 +105,17 @@ a{
   right: 0;
   display: none;
 }
+
+.card a{
+  float: right;
+  font-size: 1.25em;
+  font-weight: 700;
+  position: relative;
+}
+
+.card a::after{
+  position: absolute;
+  content: url('wp-content/uploads/2023/03/ExternalArrow-corner.svg');
+  width: 2.625em;
+  height: 2.625em;
+}
