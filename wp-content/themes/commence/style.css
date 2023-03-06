@@ -96,7 +96,7 @@ a{
   width: 95%;
 }
 
-.elementor-toggle-item:hover .accordion-hover-img{
+.elementor-toggle-item:hover .accordion-hover-img, .elementor-toggle-title .accordion-hover-img{
   display: block;
 }
 
