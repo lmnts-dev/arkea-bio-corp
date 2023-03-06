@@ -44,7 +44,7 @@ a{
 }
 
 .elementor-button-icon svg{
-  background-image: linear-gradient(to right, var(--e-global-color-bf644ae) ,var(--e-global-color-bf644ae ));
+  background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
   background-size: 0 100%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -65,13 +65,13 @@ a{
   height: 4.25em;
 }
 
-.social-icon-container:hover{
+/* .social-icon-container:hover{
   background-image: url(/wp-content/uploads/2023/03/blob-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   transition: background 0.25s ease 0s;
-}
+} */
 
 .link--underline{
   position: relative;
@@ -136,7 +136,7 @@ a{
 }
 
 .elementor-form button svg circle{
-  fill: none;
+  fill: none!important;
 }
 
 .elementor-form .elementor-button-text{
