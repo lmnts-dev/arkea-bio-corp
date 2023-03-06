@@ -54,7 +54,7 @@ a{
   border-radius: 50%;
 }
 
-.elementor-button-icon svg:hover, .elementor-social-icon  svg{
+.elementor-button-icon a:hover svg, .elementor-social-icon  a:hover svg{
   background-size: 100% 100%;
 }
 
@@ -113,21 +113,9 @@ a{
   position: relative;
 }
 
-.card a::after{
-  position: absolute;
-  content: url(/wp-content/uploads/2023/03/ExternalArrow-corner.svg);
+.card a svg{
   width: 2.625em;
   height: 2.625em;
-  display: inline-flex;
-  align-items: center;
-  left: auto;
-  background: transparent;
-  padding-left: 19px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .elementor-form button svg{
