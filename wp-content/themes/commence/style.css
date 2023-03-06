@@ -115,7 +115,30 @@ a{
 
 .card a::after{
   position: absolute;
-  content: url('wp-content/uploads/2023/03/ExternalArrow-corner.svg');
+  content: url(/wp-content/uploads/2023/03/ExternalArrow-corner.svg);
   width: 2.625em;
   height: 2.625em;
+  display: inline-flex;
+  align-items: center;
+  left: auto;
+  background: transparent;
+  padding-left: 19px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.elementor-form button svg{
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.elementor-form button svg circle{
+  fill: none;
+}
+
+.elementor-form .elementor-button-text{
+  padding-right: 10px;
 }
