@@ -43,7 +43,7 @@ a{
   align-items: center;
 }
 
-.elementor-button-link svg, .elementor-form .elementor-button-icon svg .elementor-social-icon svg{
+.elementor-button-link svg, .elementor-form .elementor-button-icon svg, .elementor-social-icon svg{
   background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -114,8 +114,8 @@ a{
 }
 
 .card-btn svg{
-  width: 2.625em;
-  height: 2.625em;
+  width: 2.625rem;
+  height: 2.625rem;
 }
 
 .elementor-form button svg{
@@ -129,4 +129,9 @@ a{
 
 .elementor-form .elementor-button-text{
   padding-right: 10px;
+}
+
+.elementor-form input::placeholder{
+  color: var(--e-global-color-primary );
+  font-size: 1.25rem;
 }
