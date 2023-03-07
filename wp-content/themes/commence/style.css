@@ -64,7 +64,7 @@ a{
   transition: all 0.25s ease 0s;
 }
 
-.elementor-widget-text-editor a:hover::after {
+.elementor-widget-text-editor a:hover::after,  .elementor-location-footer .elementor-nav-menu .menu-item a:hover::after {
   height: 3px;
 }
 
