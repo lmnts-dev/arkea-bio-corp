@@ -139,7 +139,7 @@ a{
 
 .elementor-form input::placeholder, .elementor-form textarea::placeholder{
   font-size: 1.25rem;
-  opacity: 1;
+  opacity: 1!important;
 }
 
 .elementor-form input{
@@ -157,12 +157,18 @@ a{
   padding: 8px 50px;
   border: 2px solid var(--e-global-color-primary );
   border-radius: 29px;
+  width: 100%;
 }
 
 .elementor-form .elementor-field-type-radio label:hover {
   background-color: var(--e-global-color-primary );
   color: var(--e-global-color-accent );
   cursor: pointer;
+}
+
+.elementor-form .elementor-field-subgroup{
+  justify-content: space-between;
+  width: 100%;
 }
 
 .elementor-form .elementor-field-type-radio span{
@@ -188,5 +194,13 @@ a{
 
   .social-icon-container h3{
     opacity: 1!important;
+  }
+
+  .elementor-form .elementor-field-subgroup{
+    width: auto;
+  }
+
+  .elementor-form .elementor-field-subgroup label{
+    width: 100%;
   }
 }
