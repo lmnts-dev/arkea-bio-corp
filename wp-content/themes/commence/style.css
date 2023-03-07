@@ -54,7 +54,7 @@ a{
   border-radius: 50%;
 }
 
-.elementor-button-link:hover svg, .elementor-social-icon:hover svg, .elementor-form .elementor-button-icon svg {
+.elementor-button-link:hover svg, .elementor-social-icon:hover svg, .elementor-form .elementor-button-icon:hover svg {
   background-size: 100% 100%;
 }
 
@@ -65,13 +65,14 @@ a{
   height: 4.25em;
 }
 
-/* .social-icon-container:hover{
-  background-image: url(/wp-content/uploads/2023/03/blob-1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: background 0.25s ease 0s;
-} */
+.social-icon-container h3{
+  opacity: 0;
+  transition: all 0.25s ease 0s;
+}
+
+.social-icon-container:hover h3{
+  opacity: 1;
+}
 
 .link--underline{
   position: relative;
@@ -134,4 +135,12 @@ a{
 .elementor-form input::placeholder{
   color: var(--e-global-color-primary );
   font-size: 1.25rem;
+}
+
+@media (max-width: 767px)
+{
+  .card-btn svg{
+    width: 1.875rem;
+    height: 1.875rem;
+  }
 }
