@@ -197,10 +197,16 @@ a{
   }
 
   .elementor-form .elementor-field-subgroup{
-    width: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .elementor-form .elementor-field-subgroup label{
     width: 100%;
+  }
+
+  .accordion-hover-img{
+    position: relative;
+    display: block;
   }
 }
