@@ -162,7 +162,11 @@ a{
 }
 
 .elementor-form input{
-  padding: 28px 0 13px 10px;
+  padding: 28px 0 13px 10px!important;
+}
+
+.elementor-form .elementor-field-type-text label, .elementor-form .elementor-field-type-textarea label, .elementor-form .elementor-field-type-email label{
+  display: none;
 }
 
 .elementor-form input[type="radio"] {
@@ -171,7 +175,7 @@ a{
   width: 0;
 }
 
-.elementor-form .elementor-field-type-radio label {
+.elementor-form .elementor-field-type-radio .elementor-field-subgroup label {
   display: inline-block;
   padding: 8px 50px;
   border: 2px solid var(--e-global-color-primary );
@@ -187,7 +191,6 @@ a{
 
 .elementor-form .elementor-field-subgroup{
   justify-content: space-between;
-  width: 100%;
 }
 
 .elementor-form .elementor-field-type-radio span{
