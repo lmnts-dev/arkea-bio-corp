@@ -183,7 +183,7 @@ a{
   width: 100%;
 }
 
-.eleentor-form .elementor-field-type-radio .elementor-field-label{
+.elementor-form .elementor-field-type-radio .elementor-field-label{
   font-weight: 600;
   padding: 28px 0 9px 10px;
   line-height: 27px;
@@ -223,7 +223,7 @@ a{
   .elementor-form .elementor-field-subgroup{
     flex-direction: column;
     flex-wrap: nowrap;
-    flex-basis: auto;
+    flex-basis: auto!important;
   }
 
   .elementor-form .elementor-field-subgroup label{
@@ -235,7 +235,11 @@ a{
     display: block;
   }
 
-  .elementor-form input::placeholder{
+  .elementor-form input::placeholder, .elementor-form textarea::placeholder{
     font-size: 1rem;
+  }
+
+  .elementor-form .elementor-button-text{
+    font-size: 1.25rem;
   }
 }
