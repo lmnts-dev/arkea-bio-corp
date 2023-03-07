@@ -48,11 +48,11 @@ a{
   text-decoration: none;
 }
 
-.elementor-widget-text-editor a{
+.elementor-widget-text-editor a, .elementor-location-footer .elementor-nav-menu .menu-item a{
   position: relative;
 }
 
-.elementor-widget-text-editor a::after {
+.elementor-widget-text-editor a::after, .elementor-location-footer .elementor-nav-menu .menu-item a::after {
   content: "";
   position: absolute;
   width: 100%;
