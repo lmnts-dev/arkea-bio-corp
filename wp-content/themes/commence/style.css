@@ -13,6 +13,25 @@
 
 /*THEME*/
 
+/*NAV*/
+
+.header--sticky {
+ transform: translatey(-110px);
+ -moz-transition: all .3s ease!important;
+ -webkit-transition: all .3s ease!important;
+ transition: all .3s ease!important;
+}
+
+
+.elementor-sticky--effects.header--sticky  {
+ height: auto!important;
+ transform: translatey(0px);
+}
+
+.elementor-sticky--effects.header--transparent {
+ display: none!important;
+}
+
 a{
   background-color: transparent!important;
   text-decoration: none;
