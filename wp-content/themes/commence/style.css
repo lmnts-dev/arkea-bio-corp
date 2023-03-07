@@ -96,6 +96,20 @@ a{
   transition: all 0.5s;
 }
 
+.link--underline--green::before{
+  content: "" ;
+  position: absolute;
+  border-radius: 7px;
+  height: 2rem;
+  mix-blend-mode: multiply;
+  bottom: 0;
+  left: 0.5ch;
+  background-color: var(--e-global-color-baa2b97);
+  visibility: visible;
+  width:0;
+  transition: all 0.5s;
+}
+
 .link--underline:hover::before{
   visibility: visible;
   width: 95%;
@@ -103,6 +117,11 @@ a{
 
 .elementor-toggle-item:hover .accordion-hover-img, .elementor-toggle-title .accordion-hover-img{
   display: block;
+}
+
+.elementor-tab-title .elementor-active .link--underline::before{
+  visibility: visible;
+  width: 95%;
 }
 
 .accordion-hover-img{
