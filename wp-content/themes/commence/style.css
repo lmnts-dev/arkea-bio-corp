@@ -32,6 +32,17 @@
  display: none!important;
 }
 
+.no-margin{
+  margin: 0!important;
+}
+
+/*FOOTER*/
+.no-link a{
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
+}
+
 a{
   background-color: transparent!important;
   text-decoration: none;
