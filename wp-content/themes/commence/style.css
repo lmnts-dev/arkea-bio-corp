@@ -177,7 +177,7 @@ a{
 
 .elementor-form .elementor-field-type-radio .elementor-field-subgroup label {
   display: inline-block;
-  padding: 8px 50px;
+  padding: 9px 50px;
   border: 2px solid var(--e-global-color-primary );
   border-radius: 29px;
   width: 100%;
@@ -218,6 +218,10 @@ a{
 
   .social-icon-container h3{
     opacity: 1!important;
+  }
+
+  .social-icon-container:hover{
+    background: none!important;
   }
 
   .elementor-form .elementor-field-subgroup{
