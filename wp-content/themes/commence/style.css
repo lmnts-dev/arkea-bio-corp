@@ -130,6 +130,7 @@ a{
 
 .elementor-form .elementor-button-text{
   padding-right: 10px;
+  font-size: 2rem;
 }
 
 .elementor-form input::placeholder{
@@ -144,10 +145,15 @@ a{
 }
 
 .elementor-form .elementor-field-type-radio label {
-   display: inline-block;
-    padding: 8px 50px;
-    border: 2px solid var(--e-global-color-primary );
-    border-radius: 29px;
+  display: inline-block;
+  padding: 8px 50px;
+  border: 2px solid var(--e-global-color-primary );
+  border-radius: 29px;
+}
+
+.elementor-form .elementor-field-type-radio label:hover {
+  background-color: var(--e-global-color-primary );
+  color: var(--e-global-color-accent );
 }
 
 .elementor-form .elementor-field-type-radio span{
@@ -155,10 +161,10 @@ a{
   margin-bottom: 10px;
 }
 
-.elementor-form .elementor-field-type-radio label:hover .elementor-form .elementor-field-type-radio {
+.elementor-form input[type="radio"]:checked + label {
   background-color: var(--e-global-color-primary );
   color: var(--e-global-color-accent );
-}
+} 
 
 .social-icons{
 
