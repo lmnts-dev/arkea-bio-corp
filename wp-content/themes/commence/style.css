@@ -150,6 +150,16 @@ a{
     border-radius: 29px;
 }
 
+.elementor-form .elementor-field-type-radio span{
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.elementor-form .elementor-field-type-radio label:hover .elementor-form .elementor-field-type-radio {
+  background-color: var(--e-global-color-primary );
+  color: var(--e-global-color-accent );
+}
+
 .social-icons{
 
 }
