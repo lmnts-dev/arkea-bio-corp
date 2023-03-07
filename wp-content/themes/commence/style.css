@@ -43,6 +43,10 @@
   text-decoration: none;
 }
 
+.no-link a::after{
+  height: 0!important;
+}
+
 a{
   background-color: transparent!important;
   text-decoration: none;
@@ -62,6 +66,7 @@ a{
   left: 0px;
   border-radius: 7px;
   transition: all 0.25s ease 0s;
+  opacity: 1!important;
 }
 
 .elementor-widget-text-editor a:hover::after,  .elementor-location-footer .elementor-nav-menu .menu-item a:hover::after {
