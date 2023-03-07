@@ -183,7 +183,13 @@ a{
   width: 100%;
 }
 
-.elementor-form .elementor-field-type-radio label:hover {
+.eleentor-form .elementor-field-type-radio .elementor-field-label{
+  font-weight: 600;
+  padding: 28px 0 9px 10px;
+  line-height: 27px;
+}
+
+.elementor-form .elementor-field-type-radio .elementor-field-subgroup label:hover {
   background-color: var(--e-global-color-primary );
   color: var(--e-global-color-accent );
   cursor: pointer;
@@ -230,5 +236,9 @@ a{
   .accordion-hover-img{
     position: relative;
     display: block;
+  }
+
+  .elementor-form input::placeholder{
+    font-size: 1rem;
   }
 }
