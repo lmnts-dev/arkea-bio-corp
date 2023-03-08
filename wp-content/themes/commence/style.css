@@ -119,6 +119,7 @@ a{
 
 .text--underline{
   position: relative;
+  display: inline-block;
 }
 
 .text--underline::before{
