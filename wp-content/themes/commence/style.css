@@ -309,7 +309,8 @@ a{
   
    .social-hover-img--6{
     left: 0;
-    left: auto;
+    right: auto;
+    top: 0;
   }  
 
   .social-hover-img--7{
