@@ -272,7 +272,7 @@ a{
   white-space: nowrap;
 }
 
-@media (min-width: 1024px)
+@media (min-width: 1025px)
 {
   .social-icon-container{
     position: inherit!important;
@@ -331,19 +331,21 @@ a{
   }
 }
 
-@media (max-width: 768px)
-{
-  .card-btn svg{
-    width: 1.875rem;
-    height: 1.875rem;
-  }
-
+@media (max-width: 1024px){
   .social-icon-container h3{
     opacity: 1!important;
   }
 
   .social-icon-container:hover{
     background: none!important;
+  }
+}
+
+@media (max-width: 768px)
+{
+  .card-btn svg{
+    width: 1.875rem;
+    height: 1.875rem;
   }
 
   .elementor-form .elementor-field-subgroup{
