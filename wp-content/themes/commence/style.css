@@ -272,6 +272,27 @@ a{
   white-space: nowrap;
 }
 
+@media (min-width: 1024px)
+{
+  .social-icon-container{
+    position: inherit!important;
+  }
+
+  .social-hover-img{
+    position: absolute;
+    right: 0;
+    max-width: 600px;
+    bottom: 0;
+    left: auto;
+    height: min-content;
+    z-index: -1;
+  }
+
+  .social-hover-img{
+    height: fit-content;
+  }
+}
+
 @media (max-width: 768px)
 {
   .card-btn svg{
