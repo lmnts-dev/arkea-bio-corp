@@ -108,7 +108,7 @@ a{
   height: 4.25em;
 }
 
-.social-icon-container h3, .social-icon-container:hover .social-hover-img{
+.social-icon-container h3, .social-icon-container .social-hover-img{
   opacity: 0;
   transition: all 0.25s ease 0s;
 }
