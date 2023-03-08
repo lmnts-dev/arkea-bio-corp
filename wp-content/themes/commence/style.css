@@ -117,11 +117,11 @@ a{
   opacity: 1;
 }
 
-.link--underline{
+.text--underline{
   position: relative;
 }
 
-.link--underline::before{
+.text--underline::before{
   content: "" ;
   position: absolute;
   border-radius: 7px;
@@ -135,7 +135,7 @@ a{
   transition: all 0.5s;
 }
 
-.link--underline--green::before{
+.text--underline--green::before{
   content: "" ;
   position: absolute;
   border-radius: 7px;
@@ -149,7 +149,7 @@ a{
   transition: all 0.5s;
 }
 
-.link--underline:hover::before{
+.text--underline:hover::before{
   visibility: visible;
   width: 95%;
 }
