@@ -61,7 +61,7 @@ a{
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: var(--e-global-color-primary );
+  background-color: var(--e-global-color-primary)!important;
   bottom: -15%;
   left: 0px;
   border-radius: 7px;
@@ -71,6 +71,10 @@ a{
 
 .elementor-widget-text-editor a:hover::after,  .elementor-location-footer .elementor-nav-menu .menu-item a:hover::after {
   height: 3px;
+}
+
+.elementor-location-footer .elementor-nav-menu .menu-item a::after{
+  background-color: var(--e-global-color-primary );
 }
 
 .elementor-button-icon{
@@ -239,6 +243,19 @@ a{
   background-color: var(--e-global-color-primary );
   color: var(--e-global-color-accent );
 } 
+
+.elementor-nav-menu--dropdown ul{
+  display: flex;
+  overflow: scroll;
+}
+
+.elementor-nav-menu--dropdown li a{
+  justify-content: center;
+  display: inline-block;
+  border: 2px solid var(--e-global-color-primary );
+  border-radius: 29px;
+  width: 100%;
+}
 
 @media (max-width: 768px)
 {
