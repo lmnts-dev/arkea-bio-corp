@@ -292,20 +292,28 @@ a{
     width: auto;
   }
 
-  .social-hover-img--2, .accordion-hover-img--5{
+  .social-hover-img--2{
     right: auto;
     left: 0;
+    bottom: 100px;
   }  
-
   .social-hover-img--3{
     right: auto;
     left: 30%;
+    bottom: 50px;
   }  
 
   .social-hover-img--4{
-    right: auto;
+    right: 0;
     left: auto;
+    bottom: 50px;
   } 
+
+  .social-hover-img--5{
+    right: auto;
+    left: 0;
+    bottom: 100px;
+ }
   
    .social-hover-img--6{
     left: 0;
