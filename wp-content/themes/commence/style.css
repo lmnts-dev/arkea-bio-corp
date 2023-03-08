@@ -13,6 +13,10 @@
 
 /*THEME*/
 
+section{
+	padding: 5%!important;
+}
+
 /*NAV*/
 
 .header--sticky {
@@ -246,7 +250,7 @@ a{
 
 .elementor-nav-menu--dropdown{
   border-top: solid 2px var(--e-global-color-primary );
-  padding: 27px 20px 29px;
+  padding: 27px 0 29px;
 }
 
 .elementor-nav-menu--dropdown ul{
