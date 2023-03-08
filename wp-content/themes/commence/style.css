@@ -244,9 +244,18 @@ a{
   color: var(--e-global-color-accent );
 } 
 
+.elementor-nav-menu--dropdown{
+  border-top: solid 2px var(--e-global-color-primary );
+  padding-top: 27px;
+}
+
 .elementor-nav-menu--dropdown ul{
   display: flex;
   overflow: scroll;
+}
+
+.elementor-nav-menu--dropdown ul li{
+  padding: 0 5px;
 }
 
 .elementor-nav-menu--dropdown li a{
@@ -255,6 +264,7 @@ a{
   border: 2px solid var(--e-global-color-primary );
   border-radius: 29px;
   width: 100%;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px)
