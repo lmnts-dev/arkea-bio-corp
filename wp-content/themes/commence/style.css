@@ -285,6 +285,9 @@ a{
     left: auto;
     z-index: -1;
     opacity: 0.9;
+  }
+
+  img{
     max-height: 395px;
     width: auto;
   }
