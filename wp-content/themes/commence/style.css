@@ -160,7 +160,7 @@ a{
 
 .text--underline{
   position: relative;
-  display: inline-block;
+  display: initial;
   font-family: "Merriweather", Sans-serif!important;
   font-weight: 900!important;
 }
@@ -203,9 +203,15 @@ a{
   width: 95%;
 }
 
+/*ACCORDIONS*/
+
 .accordion-hover-img{
   position: absolute;
   right: 0;
+}
+
+.elementor-active .text--underline {
+  width: 90%!important;
 }
 
 .card-container{
