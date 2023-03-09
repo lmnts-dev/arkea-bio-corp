@@ -14,11 +14,10 @@ function year_shortcode () {
 
 add_shortcode ('year', 'year_shortcode');
 
-function mobile_nav () {
-    if(window.scrollY==0){
-        console.log('at top');
-    }
-    else{
-        console.log('not at top');
-    }
+/* Custom script with no dependencies, enqueued in the footer */
+
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_scripts');
+function  my_theme_enqueue_scripts() {
+    wp_enqueue_script('custom', get_stylesheet_directory_uri().'/js/theme.js', 
+    array(), false, true);
 }
