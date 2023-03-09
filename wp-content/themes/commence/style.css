@@ -198,7 +198,7 @@ a{
   width: 95%;
 }
 
-.elementor-tab-title .elementor-active .link--underline::before{
+.elementor-tab-title .elementor-active .text--underline::before{
   visibility: visible;
   width: 95%;
 }
@@ -211,7 +211,11 @@ a{
 }
 
 .elementor-active .text--underline::before {
-  width: 90%!important;
+  width: 95%!important;
+}
+
+.elementor-tab-title:hover .text--underline::before{
+  width: 95%!important;
 }
 
 .card-container{
