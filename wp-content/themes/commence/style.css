@@ -17,6 +17,17 @@ section{
 	padding: 5%!important;
 }
 
+/*MODAL*/
+.elementor-popup-modal .dialog-lightbox-widget{ 
+     width: 80%;
+    background: transparent;
+}
+
+.elementor-popup-modal .dialog-lightbox-widget .dialog-lightbox-message{
+  width: 100%;
+} 
+
+
 /*NAV*/
 
 .header--sticky {
@@ -83,7 +94,7 @@ a{
   left: 0px;
   border-radius: 7px;
   transition: all 0.25s ease 0s;
-  opacity: 1;
+  opacity: 1!important;
 }
 
 .elementor-widget-text-editor a:hover::after,  .elementor-location-footer .elementor-nav-menu .menu-item a:hover::after {
