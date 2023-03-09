@@ -223,6 +223,12 @@ a{
   margin-right: 30vw;
 }
 
+.elementor-toggle-icon, .elementor-toggle-icon svg, .elementor-toggle-icon-closed, .elementor-toggle-icon-opened{
+  width: 42px;
+}
+
+
+/*CARDS*/
 .card-container{
   height: min-content;
 }
