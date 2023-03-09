@@ -28,6 +28,10 @@ section{
   width: 100%!important;
 } 
 
+.dialog-close-button i::before {
+  content: url("/wp-content/uploads/2023/03/modal-close.svg");
+}
+
 
 /*NAV*/
 
