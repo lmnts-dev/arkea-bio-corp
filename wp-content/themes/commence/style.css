@@ -208,6 +208,7 @@ a{
 .accordion-hover-img{
   position: absolute;
   right: 0;
+  bottom: 0;
 }
 
 .elementor-active .text--underline::before {
@@ -224,7 +225,7 @@ a{
 }
 
 .elementor-toggle-icon, .elementor-toggle-icon svg, .elementor-toggle-icon-closed, .elementor-toggle-icon-opened{
-  width: 42px;
+  width: 42px!important;
 }
 
 
