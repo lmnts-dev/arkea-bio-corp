@@ -355,6 +355,10 @@ a{
   .social-icon-container:hover{
     background: none!important;
   }
+
+  #connect-with-us{
+    max-width: 80vw;
+  }
 }
 
 @media (max-width: 768px)
