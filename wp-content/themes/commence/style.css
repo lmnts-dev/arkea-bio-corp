@@ -165,7 +165,6 @@ a{
 .accordion-hover-img{
   position: absolute;
   right: 0;
-  display: none;
 }
 
 .card-container{
@@ -274,6 +273,8 @@ a{
   white-space: nowrap;
 }
 
+.comments-area { display: none; }
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
@@ -362,7 +363,6 @@ a{
 
   .accordion-hover-img{
     position: relative;
-    display: block;
   }
 
   .elementor-form input::placeholder, .elementor-form textarea::placeholder{
