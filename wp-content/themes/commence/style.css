@@ -210,7 +210,7 @@ a{
   right: 0;
 }
 
-.elementor-active .text--underline {
+.elementor-active .text--underline::before {
   width: 90%!important;
 }
 
