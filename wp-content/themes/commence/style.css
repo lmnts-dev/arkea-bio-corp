@@ -120,6 +120,8 @@ a{
 .text--underline{
   position: relative;
   display: inline-block;
+  font-family: "Merriweather", Sans-serif!important;
+  font-weight: 900!important;
 }
 
 .text--underline::before{
@@ -153,10 +155,6 @@ a{
 .text--underline:hover::before{
   visibility: visible;
   width: 95%;
-}
-
-.elementor-toggle-item:hover .accordion-hover-img, .elementor-toggle-title .accordion-hover-img{
-  display: block;
 }
 
 .elementor-tab-title .elementor-active .link--underline::before{
