@@ -218,6 +218,11 @@ a{
   width: 95%!important;
 }
 
+.elementor-tab-content{
+  display: block;
+  margin-right: 30vw;
+}
+
 .card-container{
   height: min-content;
 }
