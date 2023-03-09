@@ -401,7 +401,12 @@ a{
   }
 
   #footer-menu .no-link{
-    margin-top: 27px;
+    margin-top: 60px;
+  }
+
+  #connect-with-us svg{
+    height: 60px;
+    width: auto;
   }
 
 }
