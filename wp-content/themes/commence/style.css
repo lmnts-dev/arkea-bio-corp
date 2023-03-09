@@ -83,7 +83,7 @@ a{
   left: 0px;
   border-radius: 7px;
   transition: all 0.25s ease 0s;
-  opacity: 1!important;
+  opacity: 1;
 }
 
 .elementor-widget-text-editor a:hover::after,  .elementor-location-footer .elementor-nav-menu .menu-item a:hover::after {
@@ -391,4 +391,17 @@ a{
   .elementor-form .elementor-button-text{
     font-size: 1.25rem;
   }
+
+  #footer-menu .menu-item .elementor-item{
+    justify-content: center;
+  }
+
+  #footer-menu .menu-item .elementor-item::after{
+    width: 0!important;
+  }
+
+  #footer-menu .no-link{
+    margin-top: 27px;
+  }
+
 }
