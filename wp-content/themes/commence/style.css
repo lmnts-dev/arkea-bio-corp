@@ -27,7 +27,7 @@ section{
 }
 
 .elementor-sticky--active{
-  background:transparent!important;
+  background: var(--e-global-color-a741065)!important;
 }
 
 
