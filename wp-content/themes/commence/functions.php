@@ -13,3 +13,12 @@ function year_shortcode () {
 }
 
 add_shortcode ('year', 'year_shortcode');
+
+function mobile_nav () {
+    if(window.scrollY==0){
+        console.log('at top');
+    }
+    else{
+        console.log('not at top');
+    }
+}
