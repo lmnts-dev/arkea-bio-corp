@@ -19,8 +19,9 @@ section{
 
 /*MODAL*/
 .dialog-lightbox-widget-content{ 
-  width: 80%!important;
+  width: 60%!important;
   background: transparent!important;
+  max-width: 1050px;
 }
 
 .dialog-lightbox-widget .dialog-lightbox-message{
