@@ -26,6 +26,10 @@ section{
  transition: all .3s ease!important;
 }
 
+.elementor-sticky--active{
+  background:transparent!important;
+}
+
 
 .elementor-sticky--effects.header--sticky  {
  height: auto!important;

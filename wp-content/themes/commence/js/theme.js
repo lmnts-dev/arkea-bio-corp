@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const nav = document.querySelector(".mobile-nav--sticky");
+  console.log(nav, 'nav here');
   if (element.scrollTop == 0) {
-    console.log(nav, 'nav here');
     nav.classList.toggle('transparent');
   }
   else {
