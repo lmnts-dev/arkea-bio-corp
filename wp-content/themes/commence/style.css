@@ -29,7 +29,7 @@ section{
 } 
 
 .dialog-close-button i::before {
-  content: url("/wp-content/uploads/2023/03/modal-close.svg");
+  /* content: url("/wp-content/uploads/2023/03/modal-close.svg"); */
 }
 
 
