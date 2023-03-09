@@ -356,8 +356,9 @@ a{
     background: none!important;
   }
 
-  #connect-with-us{
+  #connect-with-us .e-con-inner{
     max-width: 80vw;
+    margin-top: -50px;
   }
 }
 
