@@ -18,12 +18,12 @@ section{
 }
 
 /*MODAL*/
-.dialog-lightbox-widget{ 
+.dialog-lightbox-widget-content{ 
   width: 80%!important;
   background: transparent!important;
 }
 
-.dialog-lightbox-widget .dialog-lightbox-widget-content{
+.dialog-lightbox-widget .dialog-lightbox-message{
   width: 100%!important;
 } 
 
