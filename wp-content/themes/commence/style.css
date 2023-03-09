@@ -30,6 +30,10 @@ section{
   background: var(--e-global-color-a741065)!important;
 }
 
+.elementor-sticky--active .elementor-menu-toggle{
+  color: var(--e-global-color-primary)!important;
+}
+
 
 .elementor-sticky--effects.header--sticky  {
  height: auto!important;
