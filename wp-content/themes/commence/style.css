@@ -224,10 +224,19 @@ a{
   margin-right: 30vw;
 }
 
-.elementor-toggle-icon, .elementor-toggle-icon svg, .elementor-toggle-icon-closed, .elementor-toggle-icon-opened{
+/* .elementor-accordion-icon, .elementor-accordion-icon-closed, .elementor-accordion-icon-opened {
   width: 42px!important;
+} */
+
+.elementor-accordion-item:not(:last-of-type){
+  margin-bottom: 55px;
 }
 
+.elementor-accordion-icon-opened svg, .elementor-accordion-icon-closed svg{
+  width: 42px;
+  display: block;
+  height: 42px;
+}
 /*DNA ANIMATION*/
  #dna-strand-1, #dna-strand-2{
   transform-style: preserve-3d;
@@ -476,7 +485,7 @@ a{
     height: 20px;
   }
 
-  .dialog-close-button {
+  .dialog-close-button .eicon-close {
     font-size: 15px;
   }
 
