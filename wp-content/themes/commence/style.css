@@ -444,8 +444,16 @@ a{
   }
 
   .elementor-sticky--active .elementor-share-btn__text{
-    color: var(--e-global-color-primary)!important;  }  
+    color: var(--e-global-color-primary)!important; 
+  }  
+}
+
+@media (max-width: 900px){
+  .elementor-tab-content{
+    display: block;
+    margin-right: 0;
   }
+}
 
 @media (max-width: 768px)
 {
@@ -508,5 +516,9 @@ a{
 
   .elementor-widget-theme-site-logo{
     width: 100%;
+  }
+
+  .elementor-accordion-item:not(:last-of-type){
+    margin-bottom: 30px;
   }
 }
