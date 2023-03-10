@@ -499,4 +499,12 @@ a{
     flex-direction: column;
   }
 
+  .elementor-widget-theme-site-logo{
+    width: 100%;
+  }
+
+  .mobile-share .elementor-share-btn_email{
+    background-color: transparent;
+  }
+
 }
