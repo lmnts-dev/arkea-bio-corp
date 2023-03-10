@@ -262,6 +262,7 @@ a{
 .card-btn svg{
   width: 2.625rem;
   height: 2.625rem;
+  overflow: visible;
 }
 
 .elementor-form button svg{
