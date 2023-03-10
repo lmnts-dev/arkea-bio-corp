@@ -224,12 +224,12 @@ a{
   margin-right: 30vw;
 }
 
-/* .elementor-accordion-icon, .elementor-accordion-icon-closed, .elementor-accordion-icon-opened {
-  width: 42px!important;
-} */
-
 .elementor-accordion-item:not(:last-of-type){
   margin-bottom: 55px;
+}
+
+.elementor-accordion-icon{
+  width: 42px!important;
 }
 
 .elementor-accordion-icon-opened svg, .elementor-accordion-icon-closed svg{
