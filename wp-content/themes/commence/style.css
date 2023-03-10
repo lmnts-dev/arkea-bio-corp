@@ -419,6 +419,10 @@ a{
     margin-top: -50px;
     background-color: var(--e-global-color-a741065)!important;
   }
+
+  .dialog-lightbox-widget-content{ 
+    width: 95%!important;
+  }
 }
 
 @media (max-width: 768px)
