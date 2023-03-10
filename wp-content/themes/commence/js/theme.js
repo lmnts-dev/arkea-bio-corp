@@ -3,7 +3,8 @@ let strand2 = document.querySelector("#dna-strand-2 img");
 
 
  window.addEventListener("scroll", () => {
-   let top = window.pageYOffset / 10;
-   strand1.style.transform = 'rotateX(' + top + 'deg)';
-   strand2.style.transform = 'rotateX(' + top + 'deg)';
+  let top = window.pageYOffset / 10;
+  let top2 = window.pageYOffset / 12;
+  strand1.style.transform = 'rotateX(' + top + 'deg)';
+  strand2.style.transform = 'rotateX(' + top2 + 'deg)';
 });
