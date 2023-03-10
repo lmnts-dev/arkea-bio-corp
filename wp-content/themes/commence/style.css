@@ -52,6 +52,7 @@ section{
  -moz-transition: all .3s ease!important;
  -webkit-transition: all .3s ease!important;
  transition: all .3s ease!important;
+ width: 100%!important;
 }
 
 .elementor-sticky--active{
