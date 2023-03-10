@@ -312,7 +312,7 @@ a{
 
 .elementor-form .elementor-field-type-radio .elementor-field-label{
   font-weight: 600;
-  padding: 28px 0 9px 10px;
+  padding: 28px 0 9px 10px!important;
   line-height: 27px;
 }
 
@@ -493,6 +493,10 @@ a{
 
   .dialog-close-button .eicon-close {
     font-size: 15px;
+  }
+
+  .elementor-nav-menu{
+    flex-direction: column;
   }
 
 }
