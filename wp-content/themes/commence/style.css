@@ -129,7 +129,7 @@ a{
 }
 
 .elementor-button-icon svg path{
-  fill: transparent;
+  fill: transparent!important;
 }
 
 .elementor-button-link svg, .elementor-form .elementor-button-icon svg, .elementor-social-icon svg{
