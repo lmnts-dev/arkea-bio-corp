@@ -1,8 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const nav = document.querySelector(".mobile-nav--sticky");
-  console.log(nav, 'nav here');
-  if (window.scrollY == 0) {
-    console.log('works');
-    nav.classList.toggle('color');
-  }
+let strand1 = document.querySelector("#dna-strand-1");
+
+ window.addEventListener("scroll", () => {
+  var top = window.pageYOffset / 10;
+  strand1.style.transform = 'rotate3d(0.5, 0.5, 0.5, ' + top + 'deg)';
+});
+});
+
+let strand1 = document.querySelector("#dna-strand-1");
+console(strand1, 'strand 1');
+ window.addEventListener("scroll", () => {
+  var top = window.pageYOffset / 10;
+  strand1.style.transform = 'rotate3d(0.5, 0.5, 0.5, ' + top + 'deg)';
 });
