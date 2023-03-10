@@ -471,4 +471,13 @@ a{
     width: auto;
   }
 
+  .dialog-close-button{
+    width: 20px;
+    height: 20px;
+  }
+
+  .dialog-close-button {
+    font-size: 15px;
+  }
+
 }
