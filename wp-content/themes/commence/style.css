@@ -128,6 +128,10 @@ a{
   align-items: center;
 }
 
+.elementor-button-icon svg path{
+  fill: transparent;
+}
+
 .elementor-button-link svg, .elementor-form .elementor-button-icon svg, .elementor-social-icon svg{
   background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
   background-size: 0 100%;
