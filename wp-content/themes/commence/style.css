@@ -233,9 +233,9 @@ a{
 }
 
 .elementor-accordion-icon-opened svg, .elementor-accordion-icon-closed svg{
-  width: 42px;
+  width: 42px!important;
   display: block;
-  height: 42px;
+  height: 42px!important;
 }
 /*DNA ANIMATION*/
  #dna-strand-1, #dna-strand-2{
