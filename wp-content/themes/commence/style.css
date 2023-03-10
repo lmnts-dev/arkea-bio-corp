@@ -438,7 +438,14 @@ a{
   .dialog-lightbox-widget-content{ 
     width: 95%!important;
   }
-}
+
+  .mobile-share .elementor-share-btn_email{
+    background-color: transparent!important;
+  }
+
+  .elementor-sticky--active .elementor-share-btn__text{
+    color: var(--e-global-color-primary)!important;  }  
+  }
 
 @media (max-width: 768px)
 {
@@ -502,9 +509,4 @@ a{
   .elementor-widget-theme-site-logo{
     width: 100%;
   }
-
-  .mobile-share .elementor-share-btn_email{
-    background-color: transparent!important;
-  }
-
 }
