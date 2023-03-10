@@ -232,7 +232,11 @@ a{
  #dna-strand-1, #dna-strand-2{
   transform-style: preserve-3d;
  }
- 
+
+ .helix-container{
+  bottom: 20px;
+ }
+
 /*CARDS*/
 .card-container{
   height: min-content;
