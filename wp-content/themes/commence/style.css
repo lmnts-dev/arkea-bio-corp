@@ -228,6 +228,11 @@ a{
   width: 42px!important;
 }
 
+/*DNA ANIMATION*/
+ #dna-strand-1, #dna-strand-2{
+  transform-style: preserve-3d;
+ }
+ 
 /*CARDS*/
 .card-container{
   height: min-content;
