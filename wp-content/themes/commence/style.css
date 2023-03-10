@@ -218,6 +218,7 @@ a{
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: -1;
 }
 
 .elementor-active .text--underline::before {
@@ -524,5 +525,9 @@ a{
 
   .elementor-accordion-item:not(:last-of-type){
     margin-bottom: 30px;
+  }
+
+  .elementor-social-icon{
+    justify-content: center;
   }
 }
