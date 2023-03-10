@@ -504,7 +504,7 @@ a{
   }
 
   .mobile-share .elementor-share-btn_email{
-    background-color: transparent;
+    background-color: transparent!important;
   }
 
 }
