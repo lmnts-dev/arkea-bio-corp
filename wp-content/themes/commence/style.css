@@ -490,6 +490,8 @@ a{
     width: 100%;
   }
 
+  /*ACCORDIONS*/
+
   .accordion-hover-img{
     position: relative;
   }
@@ -502,6 +504,12 @@ a{
     font-size: 1.25rem;
   }
 
+  .team-accordions .elementor-tab-content p{
+    column-count: 2;
+    column-gap: 46px;
+  }
+
+  /*FOOTER*/
   #footer-menu .menu-item .elementor-item{
     justify-content: center;
   }
