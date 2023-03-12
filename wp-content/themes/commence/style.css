@@ -367,6 +367,10 @@ a{
 
 .comments-area { display: none; }
 
+ .elementor-social-icon{
+    justify-content: start;
+  }
+
 
 @media (min-width: 1025px)
 {
@@ -534,10 +538,6 @@ a{
 
   .elementor-accordion-item:not(:last-of-type){
     margin-bottom: 30px;
-  }
-
-  .elementor-social-icon{
-    justify-content: center;
   }
 
   .elementor-form button svg{
