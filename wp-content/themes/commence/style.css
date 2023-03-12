@@ -367,9 +367,14 @@ a{
 
 .comments-area { display: none; }
 
- .elementor-social-icon{
-    justify-content: start;
-  }
+.elementor-social-icon{
+  justify-content: start;
+}
+
+.team-accordion .elementor-tab-content p{
+  column-count: 2;
+  column-gap: 46px;
+}
 
 
 @media (min-width: 1025px)
@@ -502,11 +507,6 @@ a{
 
   .elementor-form .elementor-button-text{
     font-size: 1.25rem;
-  }
-
-  .team-accordion .elementor-tab-content p{
-    column-count: 2;
-    column-gap: 46px;
   }
 
   /*FOOTER*/
