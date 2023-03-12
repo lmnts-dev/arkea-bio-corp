@@ -504,7 +504,7 @@ a{
     font-size: 1.25rem;
   }
 
-  .team-accordions .elementor-tab-content p{
+  .team-accordion .elementor-tab-content p{
     column-count: 2;
     column-gap: 46px;
   }
