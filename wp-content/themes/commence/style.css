@@ -313,6 +313,7 @@ a{
   border: 2px solid var(--e-global-color-primary );
   border-radius: 29px;
   width: 100%;
+  text-align: center;
 }
 
 .elementor-form .elementor-field-type-radio .elementor-field-label{
@@ -323,7 +324,7 @@ a{
 
 .elementor-form .elementor-field-type-radio .elementor-field-subgroup label:hover {
   background-color: var(--e-global-color-primary );
-  color: var(--e-global-color-accent );
+  color: var(--e-global-color-accent )!important;
   cursor: pointer;
 }
 
@@ -365,6 +366,13 @@ a{
 }
 
 .comments-area { display: none; }
+
+@media (min-width: 1492px)
+{
+  .elementor-form .elementor-field-subgroup{
+    justify-content: flex-start;
+  }
+}
 
 @media (min-width: 1025px)
 {
@@ -529,5 +537,10 @@ a{
 
   .elementor-social-icon{
     justify-content: center;
+  }
+
+  .elementor-form button svg{
+    width: 30px;
+    height: 30px;
   }
 }
