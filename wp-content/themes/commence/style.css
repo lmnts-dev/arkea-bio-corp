@@ -376,6 +376,10 @@ a{
   column-gap: 46px;
 }
 
+.team-accordion .elementor-tab-content p img{
+  clip-path: url('/wp-content/uploads/2023/03/blob.svg');
+}
+
 
 @media (min-width: 1025px)
 {
