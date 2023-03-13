@@ -395,7 +395,7 @@ a{
 
 #problem, #better-future{
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #problem .e-con, #better-future .e-con{
