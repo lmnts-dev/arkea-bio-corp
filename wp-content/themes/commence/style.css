@@ -402,13 +402,13 @@ a{
 }
 
 .spiral-back{
-  left: -5%;
-  top: 0%;
+  left: -5%!important;
+  top: 0%!important;
 }
 
 .spiral{
-  left: -11%;
-  top: -11%;
+  left: -11%!important;
+  top: -11%!important;
 }
 
 
