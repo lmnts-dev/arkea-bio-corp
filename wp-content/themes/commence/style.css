@@ -263,7 +263,20 @@ a{
 /*DNA ANIMATION*/
  #dna-strand-1, #dna-strand-2{
   transform-style: preserve-3d;
+  animation: moving 5s infinite linear;
  }
+
+ @keyframes moving {
+  0% {
+    transform: translate(0, 0)
+  }
+  50% {
+    transform: translate(-450px, 0)
+  }
+  100% {
+    transform: translate(-900px, 0)
+  }
+}
 
  .helix-container{
   bottom: 20px;
