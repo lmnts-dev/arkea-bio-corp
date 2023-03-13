@@ -270,6 +270,12 @@ a{
   right: 0;
  }
 
+ #dna-strand-1 img, #dna-strand-2 img{
+  position: absolute;
+  left: 100%;
+  animation: slide-left 3s linear infinite;
+ }
+
 @keyframes slide-left {
   0% {
     transform: translateX(0);
