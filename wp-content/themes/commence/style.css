@@ -380,6 +380,19 @@ a{
   clip-path: url('/wp-content/uploads/2023/03/blob.svg');
 }
 
+#problem{
+  position: relative;
+}
+
+#problem .e-con{
+  position: initial;
+}
+
+.spiral, .spiral-back{
+  left: -20%;
+  top: -5%;
+}
+
 
 @media (min-width: 1025px)
 {
