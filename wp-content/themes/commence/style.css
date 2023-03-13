@@ -265,18 +265,15 @@ a{
   transform-style: preserve-3d;
   /* animation: moving 5s infinite linear; */
  }
-/* 
- @keyframes moving {
+
+@keyframes slide-left {
   0% {
-    transform: translate(0, 0)
-  }
-  50% {
-    transform: translate(-450px, 0)
+    transform: translateX(0);
   }
   100% {
-    transform: translate(-900px, 0)
-  } */
-}
+    transform: translateX(-100%);
+  }
+} 
 
  .helix-container{
   bottom: 20px;

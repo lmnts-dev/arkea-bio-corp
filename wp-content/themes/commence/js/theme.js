@@ -12,4 +12,19 @@ let spiral2 = document.querySelector('.spiral--future img');
    
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
   spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
-});
+ });
+
+
+ function animateImageOnScroll() {
+  const animatedImage = document.querySelector('.spiral--future img');
+  const imageContainer = document.querySelector('.spiral--future');
+  const imageTop = imageContainer.getBoundingClientRect().top;
+
+  if (imageTop < window.innerHeight) {
+    animatedImage.style.animationPlayState = 'running';
+  } else {
+    animatedImage.style.animationPlayState = 'paused';
+  }
+}
+
+window.addEventListener('scroll', animateImageOnScroll);
