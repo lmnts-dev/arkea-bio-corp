@@ -9,5 +9,5 @@ let spiral = document.querySelector('.spiral img');
   strand1.style.transform = 'rotateX(' + top + 'deg)';
   strand2.style.transform = 'rotateX(' + top2 + 'deg)';
    
-  spiral.style.transform = 'rotateY(' + top + 'deg)';
+  spiral.style.transform = 'rotateZ(' + top + 'deg)';
 });
