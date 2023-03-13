@@ -11,9 +11,5 @@ let spiral2 = document.querySelector('.spiral--future img');
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
    spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
    
-    if (imageTop < window.innerHeight) {
-    animatedImage.style.animationPlayState = 'running';
-  } else {
-    animatedImage.style.animationPlayState = 'paused';
-  }
+  animatedImage.style.animationPlayState = 'running';
  });
