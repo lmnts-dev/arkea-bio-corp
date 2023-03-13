@@ -393,11 +393,11 @@ a{
   clip-path: url('/wp-content/uploads/2023/03/blob.svg');
 }
 
-#problem{
+#problem, #better-future{
   position: relative;
 }
 
-#problem .e-con{
+#problem .e-con, #better-future .e-con{
   position: initial;
 }
 
