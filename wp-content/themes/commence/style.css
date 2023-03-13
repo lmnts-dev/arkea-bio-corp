@@ -396,7 +396,7 @@ a{
     opacity: 0.9;
   }
 
-  img{
+  .social-hover-img img{
     max-height: 395px;
     width: auto;
   }
