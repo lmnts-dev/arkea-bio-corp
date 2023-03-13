@@ -13,7 +13,7 @@ let spiral2 = document.querySelector('.spiral--future img');
    spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
   
 
-   strand1.classList.toggle('activate');
+  //  strand1.classList.toggle('activate');
    
   // const translateX = scrollPos * 0.5; // adjust the speed of the slide here
   
