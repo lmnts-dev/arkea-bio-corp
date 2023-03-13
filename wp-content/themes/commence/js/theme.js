@@ -5,10 +5,7 @@ let spiral = document.querySelector('.spiral img');
 let spiral2 = document.querySelector('.spiral--future img');
 
  window.addEventListener("scroll", () => {
-  let top = window.pageYOffset / 4;
-  let top2 = window.pageYOffset / 2;
-  strand1.style.transform = 'rotateX(' + top + 'deg)';
-  strand2.style.transform = 'rotateX(' + top + 'deg)';
+let top2 = window.pageYOffset / 2;
    
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
   spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
