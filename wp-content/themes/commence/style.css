@@ -267,26 +267,19 @@ a{
 }
 
 /*DNA ANIMATION*/
- #dna-strand-1, #dna-strand-2{
-  overflow: hidden;
-  position: relative;
- }
+#dna-strand-1, #dna-strand-2{
+  animation: slide 20s linear infinite;
+}
 
- #dna-strand-1 img, #dna-strand-2 img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease-out;
- }
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
 
-@keyframes slide-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} 
 
  .helix-container{
   bottom: 20px;
