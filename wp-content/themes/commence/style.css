@@ -267,7 +267,7 @@ a{
 }
 
 /*DNA ANIMATION*/
-#dna-strand-1, #dna-strand-2{
+.activate{
   animation: slide 20s linear infinite;
 }
 
