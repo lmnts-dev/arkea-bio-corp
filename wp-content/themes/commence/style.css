@@ -251,6 +251,15 @@ a{
   display: block;
   height: 42px!important;
 }
+
+.elementor-tab-content p img{
+  display: none;
+} 
+
+.elementor-active p img{
+  display: block;
+}
+
 /*DNA ANIMATION*/
  #dna-strand-1, #dna-strand-2{
   transform-style: preserve-3d;
