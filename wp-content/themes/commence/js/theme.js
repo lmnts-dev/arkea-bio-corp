@@ -11,10 +11,10 @@ let spiral2 = document.querySelector('.spiral--future img');
    let scrollPos = window.scrollY;
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
    spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
-   animatedImage.style.animationPlayState = 'running';
+  //  animatedImage.style.animationPlayState = 'running';
    
-  const translateX = scrollPos * 0.5; // adjust the speed of the slide here
+  // const translateX = scrollPos * 0.5; // adjust the speed of the slide here
   
-  strand1.style.transform = `translateX(${translateX}px)`;
+  // strand1.style.transform = `translateX(${translateX}px)`;
 
  });
