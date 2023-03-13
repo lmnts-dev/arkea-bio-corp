@@ -399,7 +399,7 @@ a{
 }
 
 #problem .e-con, #better-future .e-con{
-  position: initial;
+  /* position: initial; */
 }
 
 .spiral-back{
