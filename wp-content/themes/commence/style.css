@@ -194,11 +194,18 @@ a{
 
 .text--underline--set{
   display: inline-block;
+  z-index: 1;
 }
 
 .text--underline--set::before{
   visibility: visible;
   width: 95%!important;
+  height: 1.75rem;
+}
+
+.text--underline--set__title::before{
+  mix-blend-mode: initial!important;
+  z-index: -1!important;
 }
 
 .text--underline--green::before{
