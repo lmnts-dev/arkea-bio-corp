@@ -407,9 +407,9 @@ a{
 }
 
 .spiral-back--future{
-  left: auto;
-  right: 0;
-  top: 0;
+  left: auto!important;
+  right: 0!important;
+  top: 0!important;
 }
 
 .spiral{
@@ -418,8 +418,8 @@ a{
 }
 
 .spiral--future{
-  right: 0;
-  top: 0;
+  right: -20%!important;
+  top: -20%!important;
 }
 
 
