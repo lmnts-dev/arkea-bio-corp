@@ -5,16 +5,15 @@ let spiral = document.querySelector('.spiral img');
 let spiral2 = document.querySelector('.spiral--future img');
 
  window.addEventListener("scroll", () => {
-let top2 = window.pageYOffset / 2;
-   
+  let top2 = window.pageYOffset / 2; 
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
   spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
  });
 
 
  function animateImageOnScroll() {
-  const animatedImage = document.querySelector('.spiral--future img');
-  const imageContainer = document.querySelector('.spiral--future');
+   const imageContainer = document.querySelector('#dna-strand-1');
+  const animatedImage = document.querySelector('#dna-strand-1 img');
   const imageTop = imageContainer.getBoundingClientRect().top;
 
   if (imageTop < window.innerHeight) {
