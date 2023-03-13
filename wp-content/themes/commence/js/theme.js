@@ -1,5 +1,5 @@
-let strand1 = document.querySelector("#dna-strand-1 img");
-let strand2 = document.querySelector("#dna-strand-2 img");
+let strand1 = document.querySelector("#dna-strand-1");
+let strand2 = document.querySelector("#dna-strand-2");
 const imageContainer = document.querySelector('#dna-strand-1');
 
 
