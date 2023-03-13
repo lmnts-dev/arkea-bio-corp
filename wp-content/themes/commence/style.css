@@ -262,19 +262,15 @@ a{
 
 /*DNA ANIMATION*/
  #dna-strand-1, #dna-strand-2{
-  transform-style: preserve-3d;
-  right: 0;
-  width: 100vw;
-  height: 200px;
-  transform: translateY(-50%);
-  right: 0;
+  overflow: hidden;
+  position: relative;
  }
 
  #dna-strand-1 img, #dna-strand-2 img{
   position: absolute;
-  left: 100%;
-  animation: slide-left 3s linear infinite;
-  animation-play-state: paused;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-out;
  }
 
 @keyframes slide-left {
