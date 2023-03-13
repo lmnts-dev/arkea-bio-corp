@@ -263,7 +263,7 @@ a{
 /*DNA ANIMATION*/
  #dna-strand-1, #dna-strand-2{
   transform-style: preserve-3d;
-  animation: moving 5s infinite linear;
+  /* animation: moving 5s infinite linear; */
  }
 
  @keyframes moving {
