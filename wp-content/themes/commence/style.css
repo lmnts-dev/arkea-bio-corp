@@ -521,6 +521,10 @@ a{
   filter: none;
 }
 
+.ue-carousel-prev svg{
+  transform: rotateZ(180deg);
+}
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
