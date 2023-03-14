@@ -500,6 +500,11 @@ a{
   height: auto;
 }
 
+.uc-circle .innerCircleIcon{
+  height: 100%!important;
+  width: auto!important;
+}
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
