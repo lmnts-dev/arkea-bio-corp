@@ -152,7 +152,7 @@ a{
 }
 
 .elementor-social-icon{
-  justify-content: start;
+  justify-content: start!important;
 }
 
 
@@ -542,6 +542,14 @@ a{
   .social-icon-container h3{
     opacity: 1!important;
   }
+
+.accordion-hover-img-container{
+  position: relative;
+}
+
+.accordion-hover-img-wrapper{
+  margin: 40px auto;
+}
 
   .social-icon-container:hover{
     background: none!important;
