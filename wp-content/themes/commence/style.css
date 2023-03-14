@@ -588,6 +588,14 @@ a{
     height: 1.875rem;
   }
 
+  .team-accordion .elementor-tab-content p{
+    column-count: 1;
+  }
+
+  .text--underline--set::before {
+    height: 0.9rem;
+}
+
   .elementor-form .elementor-field-subgroup{
     flex-direction: column;
     flex-wrap: nowrap;
