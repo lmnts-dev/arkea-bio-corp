@@ -588,6 +588,11 @@ a{
     height: 1.875rem;
   }
 
+  .accordion-hover-img-wrapper{
+    width: 300px;
+    height: 354px;
+  }
+
   .team-accordion .elementor-tab-content p{
     column-count: 1;
   }
