@@ -476,6 +476,11 @@ a{
   padding-bottom: 0!important;
 }
 
+.share-btn--sticky svg{
+  width: 42px;
+  height: 42px;
+}
+
 
 @media (min-width: 1025px)
 {
