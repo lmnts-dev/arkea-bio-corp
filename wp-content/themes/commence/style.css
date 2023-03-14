@@ -409,7 +409,7 @@ a{
   clip-path: url('/wp-content/uploads/2023/03/blob.svg');
 }
 
-#problem .e-con-inner, #better-future .e-con-inner{
+#problem, #better-future{
   position: relative;
 }
 
