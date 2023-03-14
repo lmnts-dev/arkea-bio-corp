@@ -481,6 +481,10 @@ a{
   height: 42px;
 }
 
+.mobile-nav-share a{
+  padding: 0;
+}
+
 
 @media (min-width: 1025px)
 {
