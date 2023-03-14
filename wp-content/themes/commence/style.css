@@ -410,7 +410,7 @@ a{
 }
 
 #problem, #better-future{
-  position: relative;
+  position: relative!important;
 }
 
 #problem .e-con, #better-future .e-con{
