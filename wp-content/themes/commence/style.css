@@ -505,6 +505,14 @@ a{
   width: auto!important;
 }
 
+.uc-circle{
+  z-index: 1;
+}
+
+.uc-circle.uc-circle-selected{
+  z-index: 5;
+}
+
 .uc-circle .innerCircleIcon{
   filter: blur(3px);
 }
