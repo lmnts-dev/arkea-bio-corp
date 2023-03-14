@@ -417,6 +417,11 @@ a{
   position: initial;
 }
 
+.spiral-background, .spiral{
+  position: absolute;
+  left: 0;
+}
+
 .spiral-background{
   top: 0;
 }
@@ -425,9 +430,13 @@ a{
   top: 10%;
 }
 
-.spiral-background, .spiral{
+.spiral-background-2, .spiral-2{
   position: absolute;
-  left: 0;
+  right: 0;
+}
+
+.spiral-background-2{
+  top: 0;
 }
 
 .accordion-hover-img-container{
