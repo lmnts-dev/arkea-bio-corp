@@ -136,7 +136,7 @@ a{
   fill: transparent!important;
 }
 
-.elementor-button-link svg, .elementor-form .elementor-button-icon svg, .elementor-social-icon svg{
+.elementor-button-link svg, .elementor-form .elementor-button-icon svg, .elementor-social-icon svg, .ue-carousel-prev svg,  .ue-carousel-next svg{
   background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ a{
   border-radius: 50%;
 }
 
-.elementor-button-link:hover svg, .elementor-social-icon:hover svg, .elementor-form .elementor-button-icon:hover svg {
+.elementor-button-link:hover svg, .elementor-social-icon:hover svg, .elementor-form .elementor-button-icon:hover svg, .ue-carousel-prev svg,  .ue-carousel-next svg {
   background-size: 100% 100%;
 }
 
