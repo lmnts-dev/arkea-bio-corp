@@ -271,6 +271,10 @@ a{
   animation: slide 20s linear infinite;
 }
 
+.dna-container{
+  position: relative;
+}
+
 @keyframes slide {
   from {
     background-position: 0 0;
