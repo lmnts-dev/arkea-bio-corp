@@ -262,10 +262,6 @@ a{
   display: none;
 } 
 
-.elementor-active p img{
-  display: block;
-}
-
 /*DNA ANIMATION*/
 .activate{
   animation: slide 20s linear infinite;
@@ -413,7 +409,7 @@ a{
   clip-path: url('/wp-content/uploads/2023/03/blob.svg');
 }
 
-#problem, #better-future{
+#problem .e-con-inner, #better-future .e-con-inner{
   position: relative;
   overflow: hidden;
 }
@@ -556,6 +552,10 @@ a{
   .social-icon-container h3{
     opacity: 1!important;
   }
+
+  .elementor-active p img{
+  display: block;
+}
 
 .accordion-hover-img-container{
   position: relative;
