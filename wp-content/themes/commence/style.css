@@ -452,10 +452,6 @@ a{
   height: 454px;
 }
 
-#team{
-  overflow: hidden;
-}
-
 #team img{
   position: absolute;
   width: 100%;
@@ -557,7 +553,8 @@ a{
   }
 
   .elementor-active p img{
-  display: block;
+    display: block;
+    position: relative;
 }
 
 .accordion-hover-img-container{
@@ -595,6 +592,10 @@ a{
   .elementor-tab-content{
     display: block;
     margin-right: 0;
+  }
+
+  #team{
+    overflow: hidden;
   }
 }
 
