@@ -505,6 +505,14 @@ a{
   width: auto!important;
 }
 
+.uc-circle .innerCircleIcon{
+  filter: blur(3px);
+}
+
+.uc-circle.uc-circle-selected .innerCircleIcon{
+  filter: none;
+}
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
