@@ -495,7 +495,7 @@ a{
   text-align: start;
 }
 
-.ciclegraph .innerCircle .innerCircleIcon{
+.uc-circle .innerCircleIcon{
   width: 20vw;
   height: auto;
 }
