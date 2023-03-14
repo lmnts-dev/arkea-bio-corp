@@ -417,9 +417,16 @@ a{
   position: initial;
 }
 
+.spiral-background{
+  top: 0;
+}
+
+.spiral{
+  top: 10%;
+}
+
 .spiral-background, .spiral{
   position: absolute;
-  top: 0;
   left: 0;
 }
 
