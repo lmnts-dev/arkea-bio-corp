@@ -7,10 +7,10 @@ let spiral = document.querySelector('.spiral img');
 let spiral2 = document.querySelector('.spiral--future img');
 
  window.addEventListener("scroll", () => {
-   let top2 = window.pageYOffset / 2; 
-   let scrollPos = window.scrollY;
-  // spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
-  //  spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
+  let top2 = window.pageYOffset / 2; 
+  let scrollPos = window.scrollY;
+  spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
+  // spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
   
 
   //  strand1.classList.toggle('activate');
