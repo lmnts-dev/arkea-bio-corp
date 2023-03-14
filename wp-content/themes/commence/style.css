@@ -484,6 +484,12 @@ a{
   width: 100%;
   max-width: 540px;
   background-color: var(--e-global-color-accent );
+  border-radius: 29px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 1025px)
