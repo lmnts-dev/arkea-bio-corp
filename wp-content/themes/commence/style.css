@@ -526,6 +526,15 @@ a{
   transform: rotateZ(180deg);
 }
 
+.ue_btn_txt{
+  width: 180px;
+  text-align: center;
+}
+
+.uc-circle.uc-circle-selected .ue_btn_txt{
+  display: none;
+}
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
