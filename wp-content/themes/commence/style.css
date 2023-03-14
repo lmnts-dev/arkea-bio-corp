@@ -511,6 +511,7 @@ a{
 
 .uc-circle.uc-circle-selected img{
   z-index: 5!important;
+  width: 100%!important;
 }
 
 .uc-circle .innerCircleIcon{
