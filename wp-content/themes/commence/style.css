@@ -435,8 +435,9 @@ a{
 }
 
 .spiral--future{
-  right: -20%!important;
-  top: -20%!important;
+  top: -15%!important;
+  right: 2%!important;
+  left: auto!important;
 }
 
 .accordion-hover-img-container{
