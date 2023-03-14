@@ -73,6 +73,9 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define('WP_DEBUG', false);
 }
 
+define('WP_MEMORY_LIMIT','2048M');
+
+
 /* That's all, stop editing! Happy Pressing. */
 
 
