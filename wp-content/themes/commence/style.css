@@ -417,26 +417,10 @@ a{
   position: initial;
 }
 
-.spiral-back{
-  left: -5%;
-  top: 0%;
-}
-
-.spiral-back--future{
-  left: auto!important;
-  right: 0!important;
-  top: 0!important;
-}
-
-.spiral{
-  left: -11%;
-  top: -11%;
-}
-
-.spiral--future{
-  top: -15%!important;
-  right: 2%!important;
-  left: auto!important;
+.spiral-background, .spiral{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .accordion-hover-img-container{
