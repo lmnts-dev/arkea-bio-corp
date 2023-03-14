@@ -579,7 +579,7 @@ a{
     background-color: transparent!important;
   }
 
-  .elementor-sticky--active .mobile-nav-share .elementor-button-text{
+  .elementor-sticky--active .elementor-button-text{
     color: var(--e-global-color-primary)!important; 
   }  
 }
