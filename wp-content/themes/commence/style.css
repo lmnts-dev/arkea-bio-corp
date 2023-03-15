@@ -737,7 +737,7 @@ a{
     font-size: 15px;
   }
 
-  .elementor-nav-menu{
+  .elementor-nav-menu--dropdown{
     flex-direction: column;
   }
 
