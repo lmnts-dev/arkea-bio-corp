@@ -743,8 +743,8 @@ a{
     font-size: 15px;
   }
 
-  .elementor-nav-menu--dropdown{
-    flex-direction: column;
+  .elementor-location-footer .elementor-nav-menu--dropdown{
+    flex-direction: column!important;
   }
 
   .elementor-widget-theme-site-logo{
