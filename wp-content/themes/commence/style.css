@@ -693,7 +693,7 @@ a{
     column-count: 1;
   }
 
-  .text--underline--set::before, .elementor-accordion-title .elementor-active .text--underline::before {
+  .text--underline--set::before, .elementor-accordion-title .text--underline::before {
     height: 0.9rem;
 }
 
