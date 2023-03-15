@@ -9,11 +9,11 @@ let spiral2 = document.querySelector('.spiral-2 img');
 
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
-let title = document.querySelector('innerCircle');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  title.style.alignItems = 'center!important';
+  interactiveContainer.style.alignItems = 'center';
+  interactiveContainer.style.textAlign = 'center'
 }
 
 window.addEventListener("click", () => {
