@@ -410,10 +410,6 @@ a{
   position: relative!important;
 }
 
-#better-future, #infographic{
-  overflow-x: hidden;
-}
-
 #problem .e-con, #better-future .e-con{
   position: initial;
 }
