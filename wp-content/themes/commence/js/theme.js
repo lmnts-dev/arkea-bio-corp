@@ -13,8 +13,8 @@ let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  interactiveContainer.style.alignItems = 'center!important';
-  interactiveContainer.style.textAlign = 'center!important';
+  interactiveContainer.style.alignItems = 'center !important';
+  interactiveContainer.style.textAlign = 'center !important';
 }
 
 graphic.forEach(el => el.addEventListener('click', () => {
