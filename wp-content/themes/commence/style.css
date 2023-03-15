@@ -774,4 +774,8 @@ a{
     width: 30px!important;
     height: 30px!important;
   }
+
+  .interactive-btns{
+    left: auto!important;
+    top: auto!important;  }
 }
