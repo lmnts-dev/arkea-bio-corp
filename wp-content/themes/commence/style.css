@@ -743,7 +743,7 @@ a{
     font-size: 15px;
   }
 
-  .elementor-location-footer .elementor-nav-menu--dropdown{
+  .elementor-location-footer .elementor-nav-menu{
     flex-direction: column!important;
   }
 
