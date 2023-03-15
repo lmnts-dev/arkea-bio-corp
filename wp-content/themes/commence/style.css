@@ -536,8 +536,8 @@ a{
 }
 
 .interactive-btns{
-  left: 60vw;
-  top: 65%;
+  left: 60vw!important;
+  top: 65%!important;
 }
 
 @media (min-width: 1025px)
