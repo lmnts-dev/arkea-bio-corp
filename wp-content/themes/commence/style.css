@@ -438,7 +438,7 @@ a{
 
 .spiral-background-2{
   top: 0;
-  min-width: 30vw;
+  min-width: 30vw!important;
 }
 
 .accordion-hover-img-container{
