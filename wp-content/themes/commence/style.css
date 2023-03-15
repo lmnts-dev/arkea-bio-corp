@@ -665,6 +665,11 @@ a{
   .uc-circle .innerCircleIcon {
     width: 120px;
   }
+
+  #uc_interactive_circle_infographic_elementor15505 .innerCircle {
+    height: 350px;
+    width: 370px;
+  }
 }
 
 @media (max-width: 768px)
