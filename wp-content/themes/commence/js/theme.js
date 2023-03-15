@@ -14,4 +14,7 @@ console.log(active, 'active');
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
 }
+else {
+  // do nothing
+}
 
