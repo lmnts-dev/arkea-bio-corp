@@ -10,4 +10,5 @@ let spiral2 = document.querySelector('.spiral-2 img');
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 
+console.log(active, 'active');
 active ? interactiveContainer.style.backgroundColor = 'transparent': '';
