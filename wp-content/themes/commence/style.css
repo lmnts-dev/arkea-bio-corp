@@ -661,6 +661,10 @@ a{
   #team{
     overflow: hidden;
   }
+
+  .uc-circle .innerCircleIcon {
+    width: 120px;
+  }
 }
 
 @media (max-width: 768px)
