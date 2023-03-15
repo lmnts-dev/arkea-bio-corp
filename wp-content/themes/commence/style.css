@@ -19,7 +19,6 @@ html{
 
 section{
 	padding: 5%!important;
-  overflow-x: hidden!important;
 }
 
 /*MODAL*/
@@ -409,6 +408,10 @@ a{
 
 #problem, #better-future, .dna-container{
   position: relative!important;
+}
+
+#better-future{
+  overflow-x: hidden;
 }
 
 #problem .e-con, #better-future .e-con{
