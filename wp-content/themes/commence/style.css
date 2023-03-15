@@ -535,6 +535,10 @@ a{
   display: none!important;
 }
 
+.uc-circle{
+  background-color: transparent;
+}
+
 .interactive-btns{
   left: 56%!important;
   top: 65%!important;
