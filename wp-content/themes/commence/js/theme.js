@@ -7,6 +7,7 @@ let spiral2 = document.querySelector('.spiral-2 img');
   spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
  });
 
+let graphic = document.querySelectorAll('.uc-circle');
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 
@@ -16,8 +17,7 @@ if (active == null) {
   interactiveContainer.style.textAlign = 'center!important';
 }
 
-window.addEventListener("click", () => {
-  interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
-  title.style.alignItems = 'start!important'
-})
+graphic.forEach(el => el.click(
+  interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )'
+));
 
