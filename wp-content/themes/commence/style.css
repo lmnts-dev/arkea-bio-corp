@@ -532,7 +532,7 @@ a{
 }
 
 .uc-circle.uc-circle-selected .ue_btn_txt{
-  display: none;
+  display: none!important;
 }
 
 @media (min-width: 1025px)
