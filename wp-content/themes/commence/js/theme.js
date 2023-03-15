@@ -7,3 +7,7 @@ let spiral2 = document.querySelector('.spiral-2 img');
   spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
  });
 
+let active = document.querySelector('.uc-circle-selected');
+let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
+
+active ? interactiveContainer.style.backgroundColor = 'transparent': '';
