@@ -17,6 +17,10 @@ html{
   scroll-behavior: smooth;
 }
 
+.page-content{
+  overflow-x: hidden;
+}
+
 section{
 	padding: 5%!important;
 }
@@ -675,10 +679,6 @@ a{
 
 @media (max-width: 768px)
 {
-  .page-content{
-    overflow-x: hidden;
-  }
-  
   .card-btn svg{
     width: 1.875rem;
     height: 1.875rem;
