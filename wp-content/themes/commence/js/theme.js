@@ -17,7 +17,7 @@ if (active == null) {
   interactiveContainer.style.textAlign = 'center!important';
 }
 
-graphic.forEach(el => el.click(
-  interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )'
-));
+graphic.forEach(el => el.addEventListener('click', () => {
+  interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
+}));
 
