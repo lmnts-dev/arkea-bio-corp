@@ -537,7 +537,7 @@ a{
 }
 
 .uc-circle{
-  background-color: transparent;
+  background-color: transparent!important;
 }
 
 .interactive-btns{
