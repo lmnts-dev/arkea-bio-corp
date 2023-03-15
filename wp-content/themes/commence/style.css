@@ -434,6 +434,7 @@ a{
 
 .spiral-background-2{
   top: 0;
+  left: auto!important;
   min-width: 30vw!important;
 }
 
