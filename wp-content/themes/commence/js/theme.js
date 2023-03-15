@@ -10,11 +10,11 @@ let spiral2 = document.querySelector('.spiral-2 img');
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 
-console.log(active, 'active');
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
 }
-else {
-  // do nothing
-}
+
+window.addEventListener("click", () => {
+  interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
+})
 
