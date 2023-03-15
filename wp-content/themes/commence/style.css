@@ -535,6 +535,11 @@ a{
   display: none!important;
 }
 
+.interactive-btns{
+  left: 55vw;
+  top: 65%;
+}
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
