@@ -754,4 +754,9 @@ a{
     flex-direction: column;
     width: fit-content;
   }
+
+  .elementor-accordion-icon-opened svg, .elementor-accordion-icon-closed svg{
+    width: 30px!important;
+    height: 30px!important;
+  }
 }
