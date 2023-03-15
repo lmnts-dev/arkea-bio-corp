@@ -11,4 +11,7 @@ let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 
 console.log(active, 'active');
-active ? interactiveContainer.style.backgroundColor = 'transparent': '';
+if (active == null) { 
+  interactiveContainer.style.backgroundColor = 'transparent';
+}
+
