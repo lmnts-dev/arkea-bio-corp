@@ -12,8 +12,8 @@ let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  interactiveContainer.style.alignItems = 'center';
-  interactiveContainer.style.textAlign = 'center'
+  interactiveContainer.style.alignItems = 'center!important';
+  interactiveContainer.style.textAlign = 'center!important';
 }
 
 window.addEventListener("click", () => {
