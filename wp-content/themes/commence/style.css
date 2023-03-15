@@ -19,7 +19,7 @@ html{
 
 section{
 	padding: 5%!important;
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 
 /*MODAL*/
