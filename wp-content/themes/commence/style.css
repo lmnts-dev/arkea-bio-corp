@@ -274,6 +274,7 @@ a{
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: .5s;
+  max-width: 20%;
 } 
 
 
