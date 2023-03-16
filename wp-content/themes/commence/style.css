@@ -486,6 +486,7 @@ a{
 .spiral-column .elementor-widget-html{
   position: absolute;
   right: -20%;
+  top: 15%!important;
   left: auto!important;
   max-width: 50vw!important;
 }
