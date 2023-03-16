@@ -22,9 +22,9 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 
-let navToggle = document.querySelector('elementor-menu-toggle.elementor-active');
-let toggle = document.querySelector('elementor-menu-toggle');
-let mobileNav = document.querySelector('mobile-nav--sticky');
+let navToggle = document.querySelector('.elementor-menu-toggle.elementor-active');
+let toggle = document.querySelector('.elementor-menu-toggle');
+let mobileNav = document.querySelector('.mobile-nav--sticky');
 
 toggle.addEventListener("click", () => {
   console.log('clicked');
