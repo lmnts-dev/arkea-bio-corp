@@ -588,13 +588,13 @@ a{
   width: 100%!important;
 }
 
-.uc-circle .innerCircleIcon{
+/* .uc-circle .innerCircleIcon{
   filter: blur(3px);
-}
+} */
 
-.uc-circle.uc-circle-selected .innerCircleIcon{
+/* .uc-circle.uc-circle-selected .innerCircleIcon{
   filter: none;
-}
+} */
 
 .ue-carousel-prev svg{
   transform: rotateZ(180deg);
