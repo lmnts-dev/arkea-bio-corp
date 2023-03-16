@@ -788,6 +788,10 @@ a{
     justify-content: center;
   }
 
+  .owl-carousel{
+    position: relative;
+  }
+
   .ue-carousel-item img{
     margin-bottom: -50px;
     z-index: 7;
@@ -797,10 +801,11 @@ a{
     left: 50%;
     transform: translate(-50%);
     z-index: 10;
-    position: absolute;
-    max-width: 40vw;
+    max-width: 45vw;
     white-space: nowrap;
     margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
   }
   
   .owl-dot{
