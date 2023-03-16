@@ -804,6 +804,13 @@ a{
     height: auto!important;
   }
 
+  .ue-carousel-item {
+    background-image: url(https://dev-arkea-bio-corp.pantheonsite.io/wp-content/uploads/2023/03/interactive-line.png);
+    background-size: cover;
+    background-position: center 100px;
+    background-repeat: no-repeat;
+  }
+
   .owl-dots{
     left: 50%;
     transform: translate(-50%);
