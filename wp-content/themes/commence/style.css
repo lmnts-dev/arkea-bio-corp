@@ -700,6 +700,20 @@ a{
     height: 350px!important;
     width: 370px!important;
   }
+
+  .interactive-btns{
+    left: 60%!important;
+    top: 89%!important;
+    transform: translate(-60%, -89%);
+  }
+
+  .ue-carousel-nav-icon{
+    font-size: 1.75rem!important;
+  }
+
+  .ue-remote-carousel-navigation{
+    gap: 5px!important;
+  }
 }
 
 @media (max-width: 768px)
