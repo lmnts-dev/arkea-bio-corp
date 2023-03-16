@@ -783,7 +783,7 @@ a{
   .uc_classic_carousel_content{
     background-color: var(--e-global-color-accent );
     border-radius: 27px;
-    padding: 40px;
+    padding: 40px 30px!important;
     z-index: 6;
   }
 
