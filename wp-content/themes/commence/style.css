@@ -262,6 +262,15 @@ a{
   height: 42px!important;
 }
 
+.elementor-tab-content p img{
+  opacity: 0;
+} 
+
+.elementor-tab-content.elementor-active p img{
+  opacity: 1;
+  transition: all 1s;
+} 
+
 /*DNA ANIMATION*/
 .activate{
   animation: slide 20s linear infinite;
