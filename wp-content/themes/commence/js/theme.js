@@ -1,5 +1,5 @@
 let spiral = document.querySelector('.spiral img');
-let spiral2 = document.querySelector('.second-spiral img');
+let spiral2 = document.querySelector('.spiral-container .second-spiral');
 
  window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
