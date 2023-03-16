@@ -834,4 +834,8 @@ a{
   .owl-dot.active{
     opacity: 1;
   }
+
+  .atom svg{
+    max-width: 31px!important;
+  }
 }
