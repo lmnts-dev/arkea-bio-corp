@@ -1,4 +1,4 @@
-let spiral = document.querySelector('.spiral img');
+let spiral = document.querySelector('.spiral-container-2 .second-spiral');
 let spiral2 = document.querySelector('.spiral-container .second-spiral');
 
  window.addEventListener("scroll", () => {
