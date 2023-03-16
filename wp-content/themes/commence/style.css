@@ -486,7 +486,7 @@ a{
 .spiral-column .elementor-widget-html{
   position: absolute;
   right: -20%;
-  left: auto;
+  left: auto!important;
 }
 
 .accordion-hover-img-container{
