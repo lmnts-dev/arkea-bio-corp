@@ -1001,7 +1001,7 @@ a{
 }
 }
 
-@media (max-width: 768px)
+@media (max-width: 420px)
 {
   .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
   min-width: 70vw!important;
