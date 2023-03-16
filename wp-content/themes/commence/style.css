@@ -522,6 +522,10 @@ a{
   z-index: 1!important;
 }
 
+.uc-circle.uc-circle-selected{
+  z-index: 15!important;
+}
+
 .uc-circle.uc-circle-selected img{
   z-index: 11!important;
   width: 100%!important;
