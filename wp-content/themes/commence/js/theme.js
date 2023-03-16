@@ -4,7 +4,7 @@ let spiral2 = document.querySelector('.spiral-2 img');
  window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
-  spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
+  // spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
  });
 
 let graphic = document.querySelectorAll('.uc-circle');
@@ -23,10 +23,8 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
 
 let navToggle = document.querySelector('.elementor-menu-toggle.elementor-active');
-let toggle = document.querySelector('.elementor-menu-toggle__icon');
+let toggle = document.querySelector('.elementor-menu-toggle');
 let mobileNav = document.querySelector('.mobile-nav--sticky');
-
-console.log(typeof(toggle), 'toggle');
 
 toggle.addEventListener("click", () => {
   console.log('clicked');
