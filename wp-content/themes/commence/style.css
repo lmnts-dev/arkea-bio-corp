@@ -947,6 +947,10 @@ a{
     min-width: 500px;
     width: 100%;
   }
+  
+  .spiral-container .second-spiral{
+    top: 10%;
+}
 
   .spiral-column .elementor-widget-html{
     right: -20%!important;
