@@ -969,9 +969,12 @@ a{
     width: 100%;
   }
 
-  .spiral-container-2{
-    
-  }
+.first-spiral{
+      left: 0;
+    right: auto;
+
+}
+
   
   .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
     top: 10%;
