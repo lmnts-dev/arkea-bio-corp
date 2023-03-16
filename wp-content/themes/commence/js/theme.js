@@ -15,11 +15,13 @@ let infoBtns = document.querySelector('interactive-btns');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  infoBtns.style.display = 'block';
+  interactiveContainer.style.alignItems = 'center';
+  interactiveContainer.style.textAlign = 'center';
 }
 
 graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
+  infoBtns.style.display = 'block';
 }));
 
 
