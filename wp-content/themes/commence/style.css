@@ -794,9 +794,10 @@ a{
   }
 
   .owl-dots{
-    margin-top: -50px!important;
+    left: 50%;
+    transform: translate(-50%);
     z-index: 10;
-    position: relative;
+    position: absolute;
     max-width: 40vw;
     white-space: nowrap;
     margin: 0 auto;
