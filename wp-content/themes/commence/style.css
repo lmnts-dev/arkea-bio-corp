@@ -785,6 +785,7 @@ a{
     border-radius: 27px;
     padding: 40px 30px!important;
     z-index: 6;
+    justify-content: center;
   }
 
   .ue-carousel-item img{
@@ -793,9 +794,12 @@ a{
   }
 
   .owl-dots{
-    margin-top: -50px!important;
+    margin-top: -70px!important;
     z-index: 10;
     position: relative;
+    max-width: 70vw;
+    white-space: nowrap;
+    margin: 0 auto;
   }
   
   .owl-dot{
