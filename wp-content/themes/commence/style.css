@@ -262,13 +262,13 @@ a{
   height: 42px!important;
 }
 
-.elementor-tab-content p img{
+.elementor-tab-content p img, .elementor-tab-content .accordion-hover-img-container{
   opacity: 0;
   transition: all .15s;
   -webkit-transition: all .15s;
 } 
 
-.elementor-tab-content.elementor-active p img{
+.elementor-tab-content.elementor-active p img, .elementor-tab-content.elementor-active .accordion-hover-img-container{
   opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
