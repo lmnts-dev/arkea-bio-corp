@@ -558,8 +558,10 @@ a{
 }
 
 .interactive-btns{
-  left: 56%!important;
-  top: 65%!important;
+  position: absolute;
+  left: 60%!important;
+  top: 80%!important;
+  transform: translate(-60%, -80%);
 }
 
 @media (min-width: 1025px)
@@ -619,6 +621,10 @@ a{
   .social-hover-img{
     height: fit-content;
   }
+}
+
+#infographic .e-con-inner{
+  position: relative;
 }
 
 @media (max-width: 1492px)
