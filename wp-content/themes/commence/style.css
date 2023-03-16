@@ -791,4 +791,10 @@ a{
     margin-bottom: -50px;
     z-index: 7;
   }
+
+  .owl-dots{
+    margin-top: -50px;
+    z-index: 10;
+    position: relative;
+  }
 }
