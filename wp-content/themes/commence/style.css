@@ -777,5 +777,16 @@ a{
 
   .interactive-btns{
     left: auto!important;
-    top: auto!important;  }
+    top: auto!important;  
+  }
+
+  .uc_classic_carousel_content{
+    background-color: var(--e-global-color-accent );
+    border-radius: 27px;
+    padding: 40px;
+  }
+
+  .ue-carousel-item img{
+    margin-bottom: -50px;
+  }
 }
