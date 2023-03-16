@@ -760,7 +760,6 @@ a{
   }
 
   .spiral-column .elementor-widget-html{
-    position: absolute;
     right: -30%;
     top: 5%!important;
     left: auto!important;
