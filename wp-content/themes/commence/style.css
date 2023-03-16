@@ -676,9 +676,9 @@ a{
 
 
   .interactive-btns{
-    left: 60%!important;
-    top: 85%!important;
-    transform: translate(-60%, -85%);
+    left: 70%!important;
+    top: 86%!important;
+    transform: translate(-70%, -86%);
   }
 }
 
@@ -696,7 +696,7 @@ a{
     width: 120px;
   }
 
-  #uc_interactive_circle_infographic_elementor15505 .innerCircle {
+  .innerCircle {
     height: 350px;
     width: 370px;
   }
