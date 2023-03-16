@@ -692,6 +692,12 @@ a{
   }
 }
 
+@media (max-width: 1600px){
+  .spiral-container{
+     min-width: 650px;
+  }
+}
+
 @media (max-width: 1024px){
   .social-icon-container h3{
     opacity: 1!important;
