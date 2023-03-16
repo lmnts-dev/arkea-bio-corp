@@ -970,9 +970,12 @@ a{
   }
 
 .first-spiral{
-      left: 0;
-    right: auto;
+  left: 0!important;
+  right: auto;
+}
 
+.spiral-container-2{
+  min-width: 300px;
 }
 
   
