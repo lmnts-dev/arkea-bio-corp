@@ -10,7 +10,7 @@ let spiral2 = document.querySelector('.second-spiral img');
 let graphic = document.querySelectorAll('.uc-circle');
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
-let infoBtns = document.querySelector('interactive-btns');
+let infoBtns = document.querySelector('.interactive-btns');
 
 
 if (active == null) { 
