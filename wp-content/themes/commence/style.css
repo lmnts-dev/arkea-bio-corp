@@ -965,12 +965,15 @@ a{
   }
 
   .spiral-container{
-    min-width: 320px!important;
+    min-width: 500px;
     width: 100%;
   }
+
+  .spiral-container-2{
+    
+  }
   
-  
-  .spiral-container .second-spiral{
+  .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
     top: 10%;
 }
 
