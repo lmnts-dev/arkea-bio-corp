@@ -233,7 +233,11 @@ a{
   right: 0;
   bottom: 0;
   z-index: -1;
-  max-width: 20%!important;
+  max-width: 20%;
+}
+
+.accordion-hover-img--team{
+  max-width: 100%;
 }
 
 .elementor-active .text--underline::before {
