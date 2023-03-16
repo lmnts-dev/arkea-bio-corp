@@ -559,6 +559,12 @@ a{
   z-index: 10!important;
 }
 
+.ue_item_image{
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+
 .uc-circle .innerCircleIcon{
   width: 230px;
   height: auto;
