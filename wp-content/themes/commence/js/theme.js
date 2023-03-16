@@ -21,3 +21,11 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
 }));
 
+
+let navToggle = document.querySelector('elementor-menu-toggle.elementor-active');
+let mobileNav = document.querySelector('mobile-nav--sticky');
+
+if (navToggle != null) {
+  mobileNav.style.background = 'var(--e-global-color-a741065)!important';
+}
+
