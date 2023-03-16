@@ -562,6 +562,7 @@ a{
   left: 60%!important;
   top: 80%!important;
   transform: translate(-60%, -80%);
+  display: none;
 }
 
 @media (min-width: 1025px)

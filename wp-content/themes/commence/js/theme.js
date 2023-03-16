@@ -10,11 +10,12 @@ let spiral2 = document.querySelector('.second-spiral img');
 let graphic = document.querySelectorAll('.uc-circle');
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
+let infoBtns = document.querySelector('interactive-btns');
+
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  interactiveContainer.style.alignItems = 'center';
-  interactiveContainer.style.textAlign = 'center';
+  infoBtns.style.display = 'block';
 }
 
 graphic.forEach(el => el.addEventListener('click', () => {
@@ -22,13 +23,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 
-let navToggle = document.querySelector('.elementor-menu-toggle.elementor-active');
-let toggle = document.querySelector('.elementor-menu-toggle');
-let mobileNav = document.querySelector('.mobile-nav--sticky');
-
-toggle.addEventListener("click", () => {
-  console.log('clicked');
-});
 
 
 
