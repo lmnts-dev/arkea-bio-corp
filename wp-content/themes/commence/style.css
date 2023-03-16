@@ -437,12 +437,14 @@ a{
   top: 10%;
 }
 
-.spiral-2{
+.spiral-background-2, .spiral-2{
   position: absolute;
   right: 0;
 }
 
 .spiral-background-2{
+  top: 0;
+  left: auto!important;
   min-width: 30vw!important;
 }
 
