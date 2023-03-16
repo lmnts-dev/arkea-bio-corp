@@ -607,6 +607,13 @@ a{
   display: none;
 }
 
+@media (min-width: 1700px)
+{
+  .spiral-background img{
+    min-width: 700px;
+  }
+}
+
 @media (min-width: 1025px)
 {
   .social-icon-container{
