@@ -794,7 +794,7 @@ a{
   }
 
   .owl-dots{
-    margin-top: -70px!important;
+    margin-top: -50px!important;
     z-index: 10;
     position: relative;
     max-width: 70vw;
@@ -804,6 +804,14 @@ a{
   
   .owl-dot{
     opacity: 0.2;
+  }
+
+  .owl-next, .owl-prev{
+    border: 2px solid var(--e-global-color-primary)!important;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
   }
 
   .owl-dot.active{
