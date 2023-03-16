@@ -464,7 +464,7 @@ a{
 .spiral-container .second-spiral{
     position: absolute;
     top: 20%;
-    left: 5%!important;
+    left: 8%!important;
 }
 
 .spiral-background-2, .spiral-2{
@@ -783,7 +783,7 @@ a{
   }
 
   #better-practices .elementor-tab-content p:nth-last-child(2){
-    padding-bottom: 20px;
+    padding-bottom: 26px;
     margin-bottom: -20px;
     margin-right: 20px;
     background-color: var(--e-global-color-a741065)!important;
