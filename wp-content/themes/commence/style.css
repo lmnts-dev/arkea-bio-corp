@@ -784,9 +784,11 @@ a{
     background-color: var(--e-global-color-accent );
     border-radius: 27px;
     padding: 40px;
+    z-index: 6;
   }
 
   .ue-carousel-item img{
     margin-bottom: -50px;
+    z-index: 7;
   }
 }
