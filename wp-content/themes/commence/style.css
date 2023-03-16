@@ -457,6 +457,10 @@ a{
   top: 10%;
 }
 
+.spiral-container{
+  min-width: 700px;
+}
+
 .spiral-background-2, .spiral-2{
   position: absolute;
   right: 0;
