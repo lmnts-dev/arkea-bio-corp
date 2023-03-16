@@ -26,15 +26,15 @@ let navToggle = document.querySelector('.elementor-menu-toggle.elementor-active'
 let toggle = document.querySelector('.elementor-menu-toggle');
 let mobileNav = document.querySelector('.mobile-nav--sticky');
 
-console.log(toggle, 'toggle');
+console.log(typeof(toggle), 'toggle');
 
-toggle.onclick = function(){
+toggle.addEventListener("click", () => {
   console.log('clicked');
   if (navToggle != null) {
     console.log('should work');
     mobileNav.style.background = 'var(--e-global-color-a741065)';
   }
-}
+})
 
 
 
