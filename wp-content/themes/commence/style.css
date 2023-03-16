@@ -801,6 +801,7 @@ a{
   .ue-carousel-item img{
     margin-bottom: -50px;
     z-index: 7;
+    height: auto;
   }
 
   .owl-dots{
