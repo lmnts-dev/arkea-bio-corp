@@ -487,7 +487,7 @@ a{
   position: absolute;
   right: -20%;
   left: auto!important;
-  max-width: 50vw;
+  max-width: 50vw!important;
 }
 
 .accordion-hover-img-container{
