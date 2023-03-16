@@ -627,10 +627,6 @@ a{
   z-index: 3;
 }
 
-.uc-circle.uc-circle-selected .ue_btn_txt{
-  display: none!important;
-}
-
 .uc-circle{
   background-color: transparent!important;
 }
