@@ -380,6 +380,12 @@ a{
 .elementor-nav-menu--dropdown ul{
   display: flex;
   overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.elementor-nav-menu--dropdown ul::-webkit-scrollbar {
+    display: none;
 }
 
 .elementor-nav-menu--dropdown ul li{
