@@ -615,6 +615,11 @@ a{
   display: none;
 }
 
+.spiral-container-2 .second-spiral{
+  top: 5%!important;
+  min-width: 35vw!important;
+}
+
 @media (min-width: 1700px)
 {
   .spiral-background img{
