@@ -758,6 +758,14 @@ a{
   .ue-remote-carousel-navigation{
     gap: 5px!important;
   }
+
+  .spiral-column .elementor-widget-html{
+    position: absolute;
+    right: -30%;
+    top: 5%!important;
+    left: auto!important;
+    max-width: 80vw!important;
+  }
 }
 
 @media (max-width: 768px)
