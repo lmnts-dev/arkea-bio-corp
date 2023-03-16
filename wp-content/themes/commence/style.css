@@ -838,4 +838,9 @@ a{
   .atom svg{
     max-width: 31px!important;
   }
+  
+  .uc_classic_carousel_placeholder{
+    width: max-content;
+    margin: 0 auto;
+  }
 }
