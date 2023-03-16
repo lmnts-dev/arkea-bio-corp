@@ -697,8 +697,8 @@ a{
   }
 
   .innerCircle {
-    height: 350px;
-    width: 370px;
+    height: 350px!important;
+    width: 370px!important;
   }
 }
 
