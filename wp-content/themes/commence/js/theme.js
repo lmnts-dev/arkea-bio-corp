@@ -28,13 +28,13 @@ let mobileNav = document.querySelector('.mobile-nav--sticky');
 
 console.log(toggle, 'toggle');
 
-toggle.addEventListener("click", () => {
+toggle.onclick = function(){
   console.log('clicked');
   if (navToggle != null) {
     console.log('should work');
     mobileNav.style.background = 'var(--e-global-color-a741065)';
   }
-})
+}
 
 
 
