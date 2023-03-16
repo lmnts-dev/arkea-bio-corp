@@ -420,7 +420,7 @@ a{
   position: relative!important;
 }
 
-#problem .e-con, #better-future .e-con{
+#problem .e-con, #better-future .e-con,  #better-future .e-con-inner{
   position: initial;
 }
 
