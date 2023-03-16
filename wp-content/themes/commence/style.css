@@ -673,6 +673,13 @@ a{
   .elementor-sticky--active .elementor-button-text{
     color: var(--e-global-color-primary)!important; 
   }  
+
+
+  .interactive-btns{
+    left: 60%!important;
+    top: 85%!important;
+    transform: translate(-60%, -85%);
+  }
 }
 
 @media (max-width: 900px){
