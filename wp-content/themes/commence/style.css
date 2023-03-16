@@ -463,8 +463,9 @@ a{
 
 .spiral-container .second-spiral{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 8%!important;
+    width: 80%;
 }
 
 .spiral-background-2, .spiral-2{
