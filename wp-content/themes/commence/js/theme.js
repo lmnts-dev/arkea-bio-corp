@@ -25,6 +25,8 @@ graphic.forEach(el => el.addEventListener('click', () => {
 let navToggle = document.querySelector('elementor-menu-toggle.elementor-active');
 let mobileNav = document.querySelector('mobile-nav--sticky');
 
+console.log(navToggle, 'toggle');
+
 if (navToggle != null) {
   mobileNav.style.background = 'var(--e-global-color-a741065)!important';
 }
