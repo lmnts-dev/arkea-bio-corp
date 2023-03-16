@@ -505,6 +505,7 @@ a{
   padding: 103px 50px;
   align-items: start;
   text-align: start;
+  z-index: 10;
 }
 
 .uc-circle .innerCircleIcon{
@@ -522,7 +523,7 @@ a{
 }
 
 .uc-circle.uc-circle-selected img{
-  z-index: 5!important;
+  z-index: 11!important;
   width: 100%!important;
 }
 
