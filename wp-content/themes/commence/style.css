@@ -464,7 +464,7 @@ a{
 .spiral-container .second-spiral{
     position: absolute;
     top: 20%;
-    left: 5%;
+    left: 5%!important;
 }
 
 .spiral-background-2, .spiral-2{
@@ -780,6 +780,13 @@ a{
 
   .team-accordion .elementor-tab-content p{
     column-count: 1;
+  }
+
+  #better-practices .elementor-tab-content p:nth-last-child(2){
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    background-color: var(--e-global-color-a741065)!important;
   }
 
   .text--underline--set::before, .elementor-accordion-title .text--underline::before {
