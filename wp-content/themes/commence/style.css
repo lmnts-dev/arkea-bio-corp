@@ -992,11 +992,18 @@ a{
 }
 
   
-  .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
-    top: 10%;
+.spiral-container .second-spiral, .spiral-container-2 .second-spiral{
+  top: 10%!important;
 }
 
-  .spiral-column .elementor-widget-html{
-    right: -20%!important;
+.spiral-column .elementor-widget-html{
+  right: -20%!important;
+}
+}
+
+@media (max-width: 768px)
+{
+  .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
+  min-width: 70vw!important;
   }
 }
