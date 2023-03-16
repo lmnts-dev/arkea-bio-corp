@@ -262,10 +262,6 @@ a{
   height: 42px!important;
 }
 
-.elementor-tab-content p img{
-  display: none;
-} 
-
 /*DNA ANIMATION*/
 .activate{
   animation: slide 20s linear infinite;
