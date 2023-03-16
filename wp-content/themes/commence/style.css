@@ -479,6 +479,16 @@ a{
   min-width: 30vw!important;
 }
 
+.spiral-column{
+  position: initial;
+}
+
+.spiral-column .elementor-widget-html{
+  position: absolute;
+  right: -20%;
+  left: auto;
+}
+
 .accordion-hover-img-container{
   position: absolute;
   right: 0;
