@@ -472,7 +472,7 @@ a{
   position: absolute;
   left: 0;
   top: 0;
-  max-width: 35vw!important;
+  max-width: 40vw!important;
 }
 
 .spiral-background-2, .spiral-2{
@@ -690,6 +690,12 @@ a{
   position: relative;
 }
 
+@media (max-width: 1600px){
+  .spiral-container{
+     min-width: 650px;
+  }
+}
+
 @media (max-width: 1492px)
 {
   .elementor-form .elementor-field-subgroup{
@@ -697,10 +703,12 @@ a{
   }
 }
 
-@media (max-width: 1600px){
-  .spiral-container{
-     min-width: 650px;
-  }
+
+@media (max-width: 1366px){
+  .first-spiral{
+  max-width: 50vw!important;
+}
+
 }
 
 @media (max-width: 1024px){
