@@ -824,7 +824,6 @@ a{
     padding: 5px!important;
     width: 30px!important;
     height: 30px!important;
-    position: relative!important;
   }
 
   .fa-arrow-right:before, .fa-arrow-left:before {
