@@ -702,9 +702,9 @@ a{
   }
 
   .interactive-btns{
-    left: 60%!important;
+    left: 66%!important;
     top: 89%!important;
-    transform: translate(-60%, -89%);
+    transform: translate(-66%, -89%);
   }
 
   .ue-carousel-nav-icon{
