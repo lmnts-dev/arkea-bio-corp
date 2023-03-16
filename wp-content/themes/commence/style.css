@@ -541,6 +541,7 @@ a{
 .ue_btn_txt{
   width: 180px;
   text-align: center;
+  z-index: 3;
 }
 
 .uc-circle.uc-circle-selected .ue_btn_txt{
