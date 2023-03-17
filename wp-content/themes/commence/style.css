@@ -615,6 +615,10 @@ a{
 #graphic-close{
   cursor: pointer;
   position: absolute;
+  left: 65%!important;
+  top: 50%!important;
+  transform: translate(-65%, -50%);
+  display: none;
 }
 
 .elementor-widget-ucaddon_interactive_circle_infographic{
