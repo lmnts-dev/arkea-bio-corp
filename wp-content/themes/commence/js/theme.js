@@ -65,6 +65,16 @@ window.addEventListener("scroll", () => {
     }
   });
 
+});
+
+console.log('newspirals', newSpirals2);
+  
+window.addEventListener("scroll", () => {
+  let top3 = window.pageYOffset / 2;
+  let top5 = window.pageYOffset / 3; 
+  let top4 = (window.pageYOffset / 4) * -1; 
+  let top6 = window.pageYOffset / 5; 
+
   newSpirals2.map((spiral, idx) => {
     if (idx % 2 === 0) {
       spiral.style.transform = 'rotate(' + top3 + 'deg)';
@@ -81,6 +91,8 @@ window.addEventListener("scroll", () => {
   });
 
   });
+
+
 
 
 
