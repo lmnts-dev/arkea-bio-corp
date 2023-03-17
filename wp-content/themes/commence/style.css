@@ -602,7 +602,7 @@ a{
 
 
 .elementor-widget-ucaddon_interactive_circle_infographic{
-  position: initial;
+  position: relative;
 }
 
 .elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container::before{
