@@ -857,10 +857,15 @@ a{
   }  
 
 
+  #graphic-close{
+    left: 70%!important;
+  }
+
+
   .interactive-btns{
     left: 70%!important;
-    top: 86%!important;
-    transform: translate(-70%, -86%);
+    top: 73%!important;
+    transform: translate(-70%, -73%);
   }
 }
 
