@@ -25,8 +25,9 @@ let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
+let close = document.querySelector('#graphic-close');
 
-container.addEventListener("click", () => {
+close.addEventListener("click", () => {
   console.log('clicked');
 })
 
