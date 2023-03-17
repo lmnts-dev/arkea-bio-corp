@@ -621,7 +621,6 @@ a{
   position: absolute;
   left: 63%!important;
   top: 50%!important;
-  transform: translate(-63%, -50%);
   display: none;
 }
 
@@ -869,12 +868,21 @@ a{
   }
 }
 
+@media (max-width: 950px){
+  #graphic-close{
+    top: 52%!important;
+  }
+}
+
 @media (max-width: 900px){
   .elementor-tab-content{
     display: block;
     margin-right: 0;
   }
 
+ #graphic-close{
+    left: 65%!important;
+  }
 
   section{
 	  padding: 5%!important;
