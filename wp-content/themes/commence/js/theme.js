@@ -63,21 +63,21 @@ window.addEventListener("scroll", () => {
     else {
       spiral.style.transform = 'rotate(' + top6 + 'deg)';
     }
-  });
+  })
 
-  newSpirals2.map((spiral, idx) => {
-    console.log(spiral, `spiral ${idx} here`);
+  newSpirals2.map((newSpiral, idx) => {
+    console.log(newSpiral, `spiral ${idx} here`);
     if (idx % 2 === 0) {
-      spiral.style.transform = 'rotate(' + top3 + 'deg)';
+      newSpiral.style.transform = 'rotate(' + top3 + 'deg)';
     }
     else if (idx % 3 == 0) {
-      spiral.style.transform = 'rotate(' + top4 + 'deg)';
+      newSpiral.style.transform = 'rotate(' + top4 + 'deg)';
     }
     else if (idx % 5 == 0) {
-      spiral.style.transform = 'rotate(' + top5 + 'deg)';
+      newSpiral.style.transform = 'rotate(' + top5 + 'deg)';
     }
     else {
-      spiral.style.transform = 'rotate(' + top6 + 'deg)';
+      newSpiral.style.transform = 'rotate(' + top6 + 'deg)';
     }
   });
 
