@@ -2,7 +2,7 @@ let spiral = document.querySelector('.spiral-container-2 .second-spiral');
 let spiral2 = document.querySelector('.spiral-container .second-spiral');
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
-let circle = document.querySelector("#uc_interactive_circle_infographic_elementor24480 .circle");
+let circle = document.querySelector(".circle");
 
  window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
