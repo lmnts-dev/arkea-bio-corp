@@ -15,6 +15,9 @@ var lastScrollTop = 0;
    } 
  });
 
+
+ // INTERACTIVE GRAPHIC
+
 let graphic = document.querySelectorAll('.uc-circle');
 let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
