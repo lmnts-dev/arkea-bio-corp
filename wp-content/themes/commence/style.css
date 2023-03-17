@@ -1163,6 +1163,13 @@ a{
 
 }
 
+
+@media (max-width: 420px){
+#team img {
+    right: -50%;
+}
+}
+
 @media (max-width: 420px)
 {
   .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
