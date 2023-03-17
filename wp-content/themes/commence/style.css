@@ -652,12 +652,12 @@ a{
   display: none;
 }
 
-.spiral-container-2 .second-spiral{
+/* .spiral-container-2 .second-spiral{
   top: -10%!important;
   min-width: 35vw!important;
   position: absolute;
   right: 0;
-}
+} */
 
 .blobg-1{
   width: 100%;
