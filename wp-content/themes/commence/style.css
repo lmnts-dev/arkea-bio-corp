@@ -980,11 +980,12 @@ a{
     top: auto;
     right: 0;
     transform: none;
+    clip-path: none;
   }
 
   .accordion-hover-img-wrapper{
     height: 324px;
-    margin: 20px auto;
+    margin: 20px 0 40px 0;
   }
 
   .team-accordion .elementor-tab-content p{
