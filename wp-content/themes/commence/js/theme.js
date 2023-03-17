@@ -1,5 +1,6 @@
-let spiral = document.querySelector('.spiral-container-2 .second-spiral');
 let spirals = document.querySelectorAll('.spiral-container-2 .second-spiral path');
+let spirals2 = document.querySelector('.spiral-container-2 .second-spiral');
+
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
 let circle = document.querySelector(".circle");
@@ -62,6 +63,22 @@ window.addEventListener("scroll", () => {
       spiral.style.transform = 'rotate(' + top6 + 'deg)';
     }
   })
+
+  spirals2.map((spiral, idx) => {
+    if (idx % 2 === 0) {
+      spiral.style.transform = 'rotate(' + top3 + 'deg)';
+    }
+    else if (idx % 3 == 0 ) {
+      spiral.style.transform = 'rotate(' + top4 + 'deg)';
+    }
+    else if (idx % 5 == 0 ) {
+      spiral.style.transform = 'rotate(' + top5 + 'deg)';
+    }
+    else {
+      spiral.style.transform = 'rotate(' + top6 + 'deg)';
+    }
+  })
+
   });
 
 
