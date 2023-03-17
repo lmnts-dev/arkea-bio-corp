@@ -969,8 +969,22 @@ a{
     height: 1.875rem;
   }
 
+  .accordion-hover-img-container{
+    display: flex;
+    justify-content: end;
+  }
+
+  .accordion-hover-img--team{
+    position: relative;
+    border-radius: 27px;
+    top: auto;
+    right: 0;
+    transform: none;
+  }
+
   .accordion-hover-img-wrapper{
     height: 324px;
+    margin: 20px auto;
   }
 
   .team-accordion .elementor-tab-content p{
