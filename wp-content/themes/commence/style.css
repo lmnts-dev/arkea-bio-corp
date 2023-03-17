@@ -701,7 +701,7 @@ a{
   height: 100%;
 }
 
-.spiral-container-2 .second-spiral path{
+.spiral-container-2 .second-spiral path, .spiral-container .second-spiral path{
   transform-origin: center center;
   transform-style: preserve-3D;
 }
