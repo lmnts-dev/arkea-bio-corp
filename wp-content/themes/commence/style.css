@@ -810,6 +810,14 @@ a{
     opacity: 1!important;
   }
 
+  #problem{
+  padding-left: 5%!important;
+}
+
+  #applications .accordion-hover-img{
+  max-width: 100%!important;
+}
+
   .spiral-container-2{
   min-width: 300px;
   width: 55vw;
@@ -1124,13 +1132,6 @@ a{
   display: none!important;
 }
 
-#problem{
-  padding-left: 5%!important;
-}
-
-#applications .accordion-hover-img{
-  max-width: 100%!important;
-}
 }
 
 @media (max-width: 420px)
