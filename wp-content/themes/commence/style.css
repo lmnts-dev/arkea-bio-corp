@@ -599,6 +599,11 @@ a{
   z-index: 10;
 }
 
+#uc_interactive_circle_infographic_elementor28494.ciclegraph::before{
+  transform: translateZ(-50%);
+  transition: transform 0.5s ease-in-out;
+}
+
 .ue-carousel-prev svg{
   transform: rotateZ(180deg);
 }
