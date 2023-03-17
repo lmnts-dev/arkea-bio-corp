@@ -8,12 +8,7 @@ var lastScrollTop = 0;
 
 window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
-   
-  // spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
-     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
-   if (st > lastScrollTop) {
-    circle.style.transform = 'rotateZ(' + top2 + 'deg)';
-  } 
+  circle.style.transform = 'rotateZ(' + top2 + 'deg)';
  });
 
 
