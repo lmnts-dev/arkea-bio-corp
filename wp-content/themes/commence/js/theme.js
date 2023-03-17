@@ -24,8 +24,9 @@ let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
+let container = document.querySelector('.overlay .elementor-widget-container');
 
-
+console.log(container, 'container here');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -66,12 +67,8 @@ window.addEventListener("scroll", () => {
   })
 
   newSpirals2.map((newSpiral, idx) => {
-    console.log(newSpiral, `spiral ${idx} here`);
-          newSpiral.style.transform = 'rotate(' + top3 + 'deg)';
-
     if (idx % 2 === 0) {
       newSpiral.style.transform = 'rotate(' + top3 + 'deg)';
-          console.log(newSpiral, `2`);
     }
     else if (idx % 3 == 0) {
       newSpiral.style.transform = 'rotate(' + top4 + 'deg)';
