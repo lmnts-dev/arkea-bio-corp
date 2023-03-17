@@ -1,5 +1,5 @@
 let spirals = document.querySelectorAll('.spiral-container-2 .second-spiral path');
-let spirals2 = document.querySelector('.spiral-container-2 .second-spiral');
+let spirals2 = document.querySelectorAll('.spiral-container-2 .second-spiral path');
 
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
