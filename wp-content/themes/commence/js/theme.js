@@ -12,6 +12,10 @@ let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
+let overlay = document.querySelector('.elementor-widget-container::before');
+
+
+console.log(overlay, 'overlay');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
