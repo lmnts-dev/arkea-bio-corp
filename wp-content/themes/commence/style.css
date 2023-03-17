@@ -653,6 +653,7 @@ a{
 .spiral-container-2{
   position: absolute;
   max-height: 784px;
+  width: 690px;
 }
 
 .spiral-container-2 .second-spiral{
