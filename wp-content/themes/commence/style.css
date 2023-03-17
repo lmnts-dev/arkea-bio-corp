@@ -649,7 +649,7 @@ a{
   height: 100%;
   border: 100px solid transparent;
   border-image: url(/wp-content/uploads/2023/03/new-circle.png) 100 round;
-  transition: transform 1s;
+  transition: transform 2s;
 }
 
 .ue-carousel-prev svg{
