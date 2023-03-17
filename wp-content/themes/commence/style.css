@@ -867,6 +867,10 @@ a{
   #graphic-close{
     top: 52%!important;
   }
+
+   .uc-circle .innerCircleIcon {
+    width: 150px;
+  }
 }
 
 @media (max-width: 900px){
