@@ -470,6 +470,10 @@ a{
   position: relative!important;
 }
 
+#problem{
+  padding-left: 13.5%!important;
+}
+
 #problem .e-con, #better-future .e-con,  #better-future .e-con-inner{
   position: initial;
 }
