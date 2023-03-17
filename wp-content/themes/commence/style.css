@@ -816,6 +816,10 @@ a{
     opacity: 1!important;
   }
 
+  .uc-circle .innerCircleIcon {
+    width: 150px;
+  }
+
   #problem{
   padding-left: 5%!important;
 }
@@ -876,10 +880,6 @@ a{
 @media (max-width: 950px){
   #graphic-close{
     top: 52%!important;
-  }
-
-   .uc-circle .innerCircleIcon {
-    width: 150px;
   }
 }
 
