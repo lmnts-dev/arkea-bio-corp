@@ -831,6 +831,11 @@ a{
     margin-right: 0;
   }
 
+
+  section{
+	  padding: 5%!important;
+  }
+
   #team{
     overflow: hidden;
   }
