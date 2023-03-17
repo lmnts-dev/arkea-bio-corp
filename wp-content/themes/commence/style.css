@@ -475,6 +475,10 @@ a{
   padding-left: 13.5%!important;
 }
 
+#problem .elementor-widget-icon{
+  height: 0;
+}
+
 #problem, #our-mission{
   overflow-x: hidden!important;
 }
@@ -817,10 +821,6 @@ a{
 
 .accordion-hover-img-container{
   position: relative;
-}
-
-.accordion-hover-img-wrapper{
-  margin: 40px auto;
 }
 
   .social-icon-container:hover{
