@@ -651,8 +651,8 @@ a{
 .spiral-container-2 .second-spiral{
   top: 5%!important;
   min-width: 35vw!important;
-  perspective-origin: center center;
-  transform-origin:center;
+  transform-origin: center center;
+  transform-style: preserve-3D;
 }
 
 @media (min-width: 1700px)
