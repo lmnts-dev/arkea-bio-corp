@@ -494,6 +494,7 @@ a{
   height: 100%;
 	left: 0;
 	top: 0;
+  max-height: 784px;
 }
 
 .first-spiral{
