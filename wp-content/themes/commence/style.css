@@ -826,6 +826,12 @@ a{
 }
 }
 
+@media (max-width: 1240px){
+  .uc-circle .innerCircleIcon {
+    width: 150px;
+  }
+}
+
 @media (max-width: 1140px){
   #problem {
     padding-left: 5%!important;
@@ -836,10 +842,6 @@ a{
 @media (max-width: 1024px){
   .social-icon-container h3{
     opacity: 1!important;
-  }
-
-  .uc-circle .innerCircleIcon {
-    width: 150px;
   }
 
   #problem{
