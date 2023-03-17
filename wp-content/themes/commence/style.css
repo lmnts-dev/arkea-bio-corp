@@ -1102,6 +1102,7 @@ a{
 
 .spiral-container-2{
   min-width: 300px;
+  width: 85vw;
 }
 
   
@@ -1115,6 +1116,10 @@ a{
 
 #graphic-close{
   display: none!important;
+}
+
+#problem{
+  padding-left: 5%!important;
 }
 }
 
