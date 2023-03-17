@@ -1122,6 +1122,10 @@ a{
 .spiral-column .elementor-widget-html{
   right: -20%!important;
 }
+
+#graphic-close{
+  display: none!important;
+}
 }
 
 @media (max-width: 420px)
