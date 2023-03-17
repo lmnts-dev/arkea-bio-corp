@@ -489,10 +489,11 @@ a{
 }
 
 .spiral-container .second-spiral{
-    position: absolute;
-    top: 10%;
-    left: 8%!important;
-    width: 80%;
+	position: absolute;
+  width: 100%;
+  height: 100%;
+	left: 0;
+	top: 0;
 }
 
 .first-spiral{
@@ -655,6 +656,17 @@ a{
   min-width: 35vw!important;
   position: absolute;
   right: 0;
+}
+
+.blobg-1{
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+}
+
+.spiral-container-2{
+  max-width: 690px;
+	position: relative;
 }
 
 .spiral-container-2 .second-spiral path{
