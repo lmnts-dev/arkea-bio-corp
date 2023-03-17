@@ -48,10 +48,10 @@ window.addEventListener("scroll", () => {
 
   newSpirals.map((spiral, idx) => {
     if (idx % 2 === 0) {
-      spiral.style.transform = 'rotateZ(' + top3 + 'deg)';
+      spiral.style.transform = 'rotate3d(' + top3 + 'deg)';
     }
     else {
-      spiral.style.transform = 'rotateZ(' + top4 + 'deg)';
+      spiral.style.transform = 'rotate3d(' + top4 + 'deg)';
     }
   })
   });
