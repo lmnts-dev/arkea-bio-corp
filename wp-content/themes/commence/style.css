@@ -238,7 +238,7 @@ a{
   /* max-width: 20%!important; */
 }
 
-#better-practices .accordion-hover-img{
+#applications .accordion-hover-img{
   max-width: 20%!important;
 }
 
@@ -882,7 +882,7 @@ a{
     column-count: 1;
   }
 
-  #better-practices .elementor-tab-content p:nth-last-child(2){
+  #applications .elementor-tab-content p:nth-last-child(2){
     padding-bottom: 26px;
     margin-bottom: -20px;
     margin-right: 20px;
