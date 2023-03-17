@@ -236,6 +236,11 @@ a{
   /* max-width: 20%!important; */
 }
 
+#better-practices .accordion-hover-img{
+  max-width: 20%!important;
+}
+
+
 .accordion-hover-img--team{
   max-width: 100%!important;
 }
