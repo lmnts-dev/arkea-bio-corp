@@ -60,7 +60,7 @@ window.addEventListener("scroll", () => {
     else {
       spiral.style.transform = 'rotate(' + top6 + 'deg)';
     }
-  });
+  })
 
     newSpirals2.map((spiral, idx) => {
     if (idx % 2 === 0) {
@@ -75,7 +75,7 @@ window.addEventListener("scroll", () => {
     else {
       spiral.style.transform = 'rotate(' + top6 + 'deg)';
     }
-  });
+  })
   
   });
 
