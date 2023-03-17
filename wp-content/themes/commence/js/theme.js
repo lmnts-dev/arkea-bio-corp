@@ -39,6 +39,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
   ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
+  close.style.display = 'block';
 }));
 
 close.addEventListener("click", () => {

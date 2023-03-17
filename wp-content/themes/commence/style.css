@@ -625,6 +625,10 @@ a{
   display: none;
 }
 
+#graphic-close svg{
+  width: 22px;
+}
+
 .elementor-widget-ucaddon_interactive_circle_infographic{
   position: relative;
 }
