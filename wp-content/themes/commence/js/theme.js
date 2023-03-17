@@ -41,7 +41,9 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.textAlign = 'start';
 }));
 
- spirals.forEach(function (spiral, idx) {
+let newSpirals = Array.from(spirals);
+
+ newSpirals.forEach(function (spiral, idx) {
     console.log(spiral, 'spiral here');
     if (idx % 2 === 0) {
       spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
