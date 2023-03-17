@@ -974,7 +974,7 @@ a{
     justify-content: end;
   }
 
-  .accordion-hover-img--team{
+  #team img{
     position: relative;
     border-radius: 27px;
     top: auto;
