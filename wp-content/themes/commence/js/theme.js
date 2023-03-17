@@ -2,13 +2,15 @@ let spiral = document.querySelector('.spiral-container-2 .second-spiral');
 let spiral2 = document.querySelector('.spiral-container .second-spiral');
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
-
+let circle = document.querySelector("#uc_interactive_circle_infographic_elementor24480.ciclegraph");
 
  window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
   spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
    spiral2.style.transform = 'rotateZ(' + top2 + 'deg)';
-  document.querySelector(".elementor-widget-ucaddon_interactive_circle_infographic.overlay .elementor-widget-container::before").style.transform = rotateValue;
+
+   let beforeCircle = window.getComputedStyle(circle, "::before");
+   beforeCircle.transform = rotateValue;
  });
 
 let graphic = document.querySelectorAll('.uc-circle');
