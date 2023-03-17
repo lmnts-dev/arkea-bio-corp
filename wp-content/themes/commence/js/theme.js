@@ -42,6 +42,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 let newSpirals = Array.from(spirals);
+let newSpirals2 = Array.from(spirals2);
 
 window.addEventListener("scroll", () => {
   let top3 = window.pageYOffset / 2;
@@ -64,7 +65,7 @@ window.addEventListener("scroll", () => {
     }
   })
 
-  spirals2.map((spiral, idx) => {
+  newSpirals2.map((spiral, idx) => {
     if (idx % 2 === 0) {
       spiral.style.transform = 'rotate(' + top3 + 'deg)';
     }
