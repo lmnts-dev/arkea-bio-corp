@@ -317,6 +317,10 @@ a{
   position: relative;
 }
 
+.card-container .card-btn{
+  position: initial;
+}
+
 .card-container a::before{
   content: '';
   display: block;
