@@ -44,7 +44,7 @@ let newSpirals = Array.from(spirals);
 
 window.addEventListener("scroll", () => {
   let top3 = window.pageYOffset / 2; 
-  let top4 = window.pageYOffset / 10; 
+  let top4 = window.pageYOffset / 6; 
 
   newSpirals.map((spiral, idx) => {
     if (idx % 2 === 0) {
