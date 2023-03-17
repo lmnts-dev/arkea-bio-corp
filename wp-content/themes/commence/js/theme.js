@@ -20,7 +20,7 @@ if (active == null) {
 graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  // ineractiveDiv.style.position = 'relative';
+  ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
 }));

@@ -605,7 +605,7 @@ a{
   position: relative;
 }
 
-.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container::before{
+.elementor-widget-ucaddon_interactive_circle_infographic.overlay .elementor-widget-container::before{
   content: "";
   display: block;
   position: absolute;
