@@ -15,14 +15,14 @@ let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactiv
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  interactiveContainer.style.alignItems = 'start';
-  interactiveContainer.style.textAlign = 'start';
 }
 
 graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
   ineractiveDiv.style.position = 'relative';
+  interactiveContainer.style.alignItems = 'start';
+  interactiveContainer.style.textAlign = 'start';
 }));
 
 
