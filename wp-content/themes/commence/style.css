@@ -634,8 +634,8 @@ a{
 .interactive-btns{
   position: absolute;
   left: 60%!important;
-  top: 80%!important;
-  transform: translate(-60%, -80%);
+  top: 70%!important;
+  transform: translate(-60%, -70%);
   display: none;
 }
 
