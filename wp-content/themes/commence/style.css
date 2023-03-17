@@ -582,24 +582,6 @@ a{
 .uc-circle img{
   z-index: 1!important;
 }
-/* 
-.uc-circle.uc-circle-selected{
-  z-index: 15!important;
-}
-
-.uc-circle.uc-circle-selected img{
-  z-index: 11!important;
-  width: 100%!important;
-} */
-
-/* .uc-circle .innerCircleIcon{
-  filter: blur(3px);
-} */
-
-/* .uc-circle.uc-circle-selected .innerCircleIcon{
-  filter: none;
-} */
-
 
 .elementor-widget-ucaddon_interactive_circle_infographic{
   position: relative;
@@ -715,7 +697,7 @@ a{
 }
 
 #infographic{
-  position: initial;
+  position: relative;
 }
 
 @media (max-width: 1600px){
