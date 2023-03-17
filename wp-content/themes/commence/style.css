@@ -804,6 +804,12 @@ a{
 }
 }
 
+@media (max-width: 1140px){
+  #problem {
+    padding-left: 5%!important;
+  }
+}
+
 
 @media (max-width: 1024px){
   .social-icon-container h3{
