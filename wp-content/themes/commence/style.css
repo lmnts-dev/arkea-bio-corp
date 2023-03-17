@@ -799,8 +799,8 @@ a{
 
 
 @media (max-width: 1366px){
-  .first-spiral{
-  max-width: 50vw!important;
+  .spiral-container-2{
+  max-width: 40vw!important;
 }
 }
 
