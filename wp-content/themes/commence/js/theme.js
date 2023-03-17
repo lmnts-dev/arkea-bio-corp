@@ -27,9 +27,7 @@ let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactiv
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
 let close = document.querySelector('#graphic-close');
 
-close.addEventListener("click", () => {
-  console.log('clicked');
-})
+
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -42,6 +40,10 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
 }));
+
+close.addEventListener("click", () => {
+  ineractiveDiv.classList.remove('overlay');
+})
 
 //SPIRALS ANIMATIONS
 
