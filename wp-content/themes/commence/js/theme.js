@@ -15,16 +15,6 @@ window.addEventListener("scroll", () => {
    if (st > lastScrollTop) {
     circle.style.transform = 'rotateZ(' + top2 + 'deg)';
   } 
-  
-  spirals.forEach(function (spiral, idx) {
-    console.log(spiral, 'spiral here');
-    if (idx % 2 === 0) {
-      spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
-    }
-    else {
-      spiral.style.transform = 'rotateZ(' - top1 + 'deg)';
-    }
-})
  });
 
 
@@ -50,7 +40,15 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.textAlign = 'start';
 }));
 
-
+ spirals.forEach(function (spiral, idx) {
+    console.log(spiral, 'spiral here');
+    if (idx % 2 === 0) {
+      spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
+    }
+    else {
+      spiral.style.transform = 'rotateZ(' - top1 + 'deg)';
+    }
+})
 
 
 
