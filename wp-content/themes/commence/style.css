@@ -602,7 +602,7 @@ a{
 
 
 .elementor-widget-ucaddon_interactive_circle_infographic{
-  position: relative;
+  position: initial;
 }
 
 .elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container::before{
@@ -712,6 +712,10 @@ a{
 
 #infographic .e-con-inner{
   position: relative;
+}
+
+#infographic{
+  position: initial;
 }
 
 @media (max-width: 1600px){
