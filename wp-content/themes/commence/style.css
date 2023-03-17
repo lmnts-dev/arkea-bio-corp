@@ -612,12 +612,16 @@ a{
   z-index: 1!important;
 }
 
+.graphic-close-btn{
+  position: initial;
+}
+
 #graphic-close{
   cursor: pointer;
   position: absolute;
-  left: 65%!important;
+  left: 63%!important;
   top: 50%!important;
-  transform: translate(-65%, -50%);
+  transform: translate(-63%, -50%);
   display: none;
 }
 
