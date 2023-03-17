@@ -612,6 +612,11 @@ a{
   z-index: 1!important;
 }
 
+#graphic-close{
+  cursor: pointer;
+  position: absolute;
+}
+
 .elementor-widget-ucaddon_interactive_circle_infographic{
   position: relative;
 }
