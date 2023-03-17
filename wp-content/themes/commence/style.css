@@ -659,7 +659,7 @@ a{
   border-radius: 50%;
   border: 100px solid transparent;
   background: url(https://dev-arkea-bio-corp.pantheonsite.io/wp-content/uploads/2023/03/new-circle.png) center/100% 100% border-box;
-  transition: transform 2s ease-in-out;
+  transition: 700ms linear all;
 }
 
 .ue-carousel-prev svg{
