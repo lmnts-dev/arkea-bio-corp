@@ -67,8 +67,11 @@ window.addEventListener("scroll", () => {
 
   newSpirals2.map((newSpiral, idx) => {
     console.log(newSpiral, `spiral ${idx} here`);
+          newSpiral.style.transform = 'rotate(' + top3 + 'deg)';
+
     if (idx % 2 === 0) {
       newSpiral.style.transform = 'rotate(' + top3 + 'deg)';
+          console.log(newSpiral, `2`);
     }
     else if (idx % 3 == 0) {
       newSpiral.style.transform = 'rotate(' + top4 + 'deg)';
