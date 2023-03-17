@@ -475,6 +475,10 @@ a{
   padding-left: 13.5%!important;
 }
 
+#problem, #our-mission{
+  overflow-x: hidden!important;
+}
+
 #problem .e-con, #better-future .e-con,  #better-future .e-con-inner{
   position: initial;
 }
