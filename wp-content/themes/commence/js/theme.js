@@ -1,5 +1,5 @@
 let spirals = document.querySelectorAll('.spiral-container-2 .second-spiral path');
-let spirals2 = document.querySelectorAll('.spiral-container-2 .second-spiral path');
+let spirals2 = document.querySelectorAll('.spiral-container .second-spiral path');
 
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
@@ -56,20 +56,20 @@ window.addEventListener("scroll", () => {
   let top4 = (window.pageYOffset / 4) * -1; 
   let top6 = window.pageYOffset / 5; 
 
-  // newSpirals.map((spiral, idx) => {
-  //   if (idx % 2 === 0) {
-  //     spiral.style.transform = 'rotate(' + top3 + 'deg)';
-  //   }
-  //   else if (idx % 3 == 0) {
-  //     spiral.style.transform = 'rotate(' + top4 + 'deg)';
-  //   }
-  //   else if (idx % 5 == 0) {
-  //     spiral.style.transform = 'rotate(' + top5 + 'deg)';
-  //   }
-  //   else {
-  //     spiral.style.transform = 'rotate(' + top6 + 'deg)';
-  //   }
-  // })
+  newSpirals.map((spiral, idx) => {
+    if (idx % 2 === 0) {
+      spiral.style.transform = 'rotate(' + top3 + 'deg)';
+    }
+    else if (idx % 3 == 0) {
+      spiral.style.transform = 'rotate(' + top4 + 'deg)';
+    }
+    else if (idx % 5 == 0) {
+      spiral.style.transform = 'rotate(' + top5 + 'deg)';
+    }
+    else {
+      spiral.style.transform = 'rotate(' + top6 + 'deg)';
+    }
+  })
 
   newSpirals2.map((newSpiral, idx) => {
     if (idx % 2 === 0) {
