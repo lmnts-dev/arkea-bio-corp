@@ -4,7 +4,6 @@ var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
 let circle = document.querySelector(".circle");
 var lastScrollTop = 0;
-  let top2 = window.pageYOffset / 2; 
 
 window.addEventListener("scroll", () => {
   let top1 = window.pageYOffset / 5; 
@@ -43,11 +42,13 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
 let newSpirals = Array.from(spirals);
 
+window.addEventListener("scroll", () => {
+  let top3 = window.pageYOffset / 2; 
+
 newSpirals.map((spiral, idx) => {
-  window.addEventListener("scroll", () => {
-    spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
-  });
+    spiral.style.transform = 'rotateZ(' + top3 + 'deg)';
   })
+  });
 
 
 
