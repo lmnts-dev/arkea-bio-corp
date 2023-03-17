@@ -706,6 +706,13 @@ a{
   transform-style: preserve-3D;
 }
 
+@media (min-width: 2200px)
+{
+ #problem{
+  padding-left: 5%!important;
+ }
+}
+
 @media (min-width: 1700px)
 {
   .spiral-background img{
