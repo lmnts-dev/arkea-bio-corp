@@ -1121,6 +1121,10 @@ a{
 #problem{
   padding-left: 5%!important;
 }
+
+#applications .accordion-hover-img{
+  max-width: 100%!important;
+}
 }
 
 @media (max-width: 420px)
