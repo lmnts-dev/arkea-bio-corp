@@ -774,22 +774,6 @@ a{
   h1{
     font-size: 4vw!important;
   }
-
-  #the-problem h2{
-      font-size: 5.5vw!important;
-    }
-
-  h3{
-    font-size: 3vw;
-  }
-
-  h4{
-    font-size: 2vw;
-  }
-
-  h5{
-    font-size: 1vw;
-  }
 }
 
 #infographic .e-con-inner{
@@ -818,8 +802,8 @@ a{
   .first-spiral{
   max-width: 50vw!important;
 }
-
 }
+
 
 @media (max-width: 1024px){
   .social-icon-container h3{
