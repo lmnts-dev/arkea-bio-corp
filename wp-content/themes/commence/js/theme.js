@@ -3,6 +3,7 @@ let spiral2 = document.querySelector('.spiral-container .second-spiral');
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
 let circle = document.querySelector(".circle");
+var lastScrollTop = 0;
 
  window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
