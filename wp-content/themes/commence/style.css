@@ -814,6 +814,11 @@ a{
     opacity: 1!important;
   }
 
+  .spiral-container-2{
+  min-width: 300px;
+  width: 55vw;
+}
+
   .elementor-active p img{
     display: block;
     position: relative;
@@ -1098,11 +1103,6 @@ a{
 .first-spiral{
   left: -5%!important;
   right: auto;
-}
-
-.spiral-container-2{
-  min-width: 300px;
-  width: 75vw;
 }
 
   
