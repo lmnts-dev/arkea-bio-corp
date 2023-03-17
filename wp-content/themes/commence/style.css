@@ -653,7 +653,7 @@ a{
   display: none;
 }
 
-.spiral-container-2{
+.spiral-container-2, .spiral-container{
   position: relative;
   max-height: 784px;
   width: 690px;
