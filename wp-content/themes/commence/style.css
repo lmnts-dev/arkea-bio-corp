@@ -651,6 +651,9 @@ a{
 .spiral-container-2 .second-spiral{
   top: 5%!important;
   min-width: 35vw!important;
+}
+
+.spiral-container-2 .second-spiral path{
   transform-origin: center center;
   transform-style: preserve-3D;
 }
