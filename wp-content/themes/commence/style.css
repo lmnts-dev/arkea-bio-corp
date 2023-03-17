@@ -604,6 +604,8 @@ a{
   height: 100%;
   border: 100px solid transparent;
   border-image: url(/wp-content/uploads/2023/03/new-circle.png) 100 round;
+  transition-timing-function: linear;
+  transition: transform .5s;
 }
 
 .ue-carousel-prev svg{
