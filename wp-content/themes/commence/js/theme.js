@@ -45,8 +45,13 @@ let newSpirals = Array.from(spirals);
 window.addEventListener("scroll", () => {
   let top3 = window.pageYOffset / 2; 
 
-newSpirals.map((spiral, idx) => {
-    spiral.style.transform = 'rotateZ(' + top3 + 'deg)';
+  newSpirals.map((spiral, idx) => {
+    if (index % 2 === 0) {
+      spiral.style.transform = 'rotateZ(' + top3 + 'deg)';
+    }
+    else {
+      spiral.style.transform = 'rotateZ(' - top3 + 'deg)';
+    }
   })
   });
 
