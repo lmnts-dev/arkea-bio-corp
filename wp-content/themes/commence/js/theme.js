@@ -43,11 +43,11 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
 let newSpirals = Array.from(spirals);
 
+newSpirals.map((spiral, idx) => {
   window.addEventListener("scroll", () => {
-    newSpirals.map((spiral,idx) => {
-      spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
-  })
+    spiral.style.transform = 'rotateZ(' + top2 + 'deg)';
   });
+  })
 
 
 
