@@ -43,6 +43,9 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
 let newSpirals = Array.from(spirals);
 
+console.log(spirals, 'spirals here');
+console.log(newSpirals, 'new here');
+
  newSpirals.forEach(function (spiral, idx) {
     console.log(spiral, 'spiral here');
     if (idx % 2 === 0) {
