@@ -1,9 +1,11 @@
 let spiral = document.querySelector('.spiral-container-2 .second-spiral');
-let spiral2 = document.querySelector('.spiral-container .second-spiral');
+let spirals = document.querySelectorAll('.spiral-container .second-spiral path');
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
 let circle = document.querySelector(".circle");
 var lastScrollTop = 0;
+
+console.log(spirals, 'spirals');
 
  window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
