@@ -479,10 +479,6 @@ a{
   height: 0;
 }
 
-#problem, #our-mission{
-  overflow-x: hidden!important;
-}
-
 #problem .e-con, #better-future .e-con,  #better-future .e-con-inner{
   position: initial;
 }
@@ -919,6 +915,12 @@ a{
     top: 5%!important;
     left: auto!important;
     max-width: 80vw!important;
+  }
+}
+
+@media (max-width: 820px){
+  .uc-circle .innerCircleIcon {
+    width: 100px;
   }
 }
 
