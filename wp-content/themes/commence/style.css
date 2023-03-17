@@ -32,7 +32,7 @@ section{
 }
 
 #our-mission h2, #contact h3, #problem h3{
-  font-size: 4vw!important;
+  font-size: 5vw!important;
 }
 
 /*MODAL*/
@@ -686,7 +686,7 @@ a{
 
 .spiral-container-2, .spiral-container{
   position: relative;
-  max-height: 784px;
+  max-height: 734px;
   width: 690px;
   left: -15%;
 }
