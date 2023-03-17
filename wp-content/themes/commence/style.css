@@ -31,6 +31,10 @@ section{
   margin: 0 auto;
 }
 
+#our-mission h2, #contact h3, #problem h3{
+  font-size: 4vw!important;
+}
+
 /*MODAL*/
 .dialog-lightbox-widget-content{ 
   width: 60%!important;
