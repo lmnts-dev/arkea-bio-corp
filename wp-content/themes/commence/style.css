@@ -1113,7 +1113,7 @@ a{
 
   
 .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
-  top: 10%!important;
+  top: 0%!important;
 }
 
 .spiral-column .elementor-widget-html{
