@@ -491,13 +491,6 @@ a{
   min-width: 700px;
 }
 
-.spiral-container .second-spiral{
-    position: absolute;
-    top: 10%;
-    left: 8%!important;
-    width: 80%;
-}
-
 .first-spiral{
   position: absolute;
   left: 0;
