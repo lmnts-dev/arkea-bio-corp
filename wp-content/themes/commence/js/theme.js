@@ -43,6 +43,9 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 close.addEventListener("click", () => {
+  interactiveContainer.style.display = 'none';
+  infoBtns.style.display = 'none';
+  close.style.display = 'none';
   ineractiveDiv.classList.remove('overlay');
 })
 
