@@ -15,8 +15,8 @@ let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactiv
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
-  interactiveContainer.style.alignItems = 'center';
-  interactiveContainer.style.textAlign = 'center';
+  interactiveContainer.style.alignItems = 'start';
+  interactiveContainer.style.textAlign = 'start';
 }
 
 graphic.forEach(el => el.addEventListener('click', () => {
