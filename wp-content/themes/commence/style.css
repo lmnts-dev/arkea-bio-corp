@@ -984,8 +984,7 @@ a{
   }
 
   .accordion-hover-img-wrapper{
-    height: 324px;
-    margin: 0 0 40px 0;
+    height: auto;
   }
 
   .team-accordion .elementor-tab-content p{
