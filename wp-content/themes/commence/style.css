@@ -798,6 +798,10 @@ a{
   #our-mission h2, #contact h2, #problem h2{
     font-size: 100px!important;
   }
+
+  #problem{
+    padding-left: 9%!important;
+  }
 }
 
 #infographic .e-con-inner{
