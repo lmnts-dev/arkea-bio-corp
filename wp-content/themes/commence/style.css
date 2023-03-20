@@ -795,7 +795,7 @@ a{
     font-size: 4vw!important;
   }
 
-   #problem h2{
+   #problem h2, #our-mission h2{
     font-size: 5.5vw!important;
    }
 }
