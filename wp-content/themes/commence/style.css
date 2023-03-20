@@ -802,6 +802,10 @@ a{
   #problem{
     padding-left: 9%!important;
   }
+
+  section{
+    padding: 5%!important;
+  }
 }
 
 #infographic .e-con-inner{
