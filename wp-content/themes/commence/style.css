@@ -799,14 +799,18 @@ a{
     font-size: 100px!important;
   }
 
-  #problem{
-    padding-left: 9%!important;
-  }
 
   section{
     padding: 5%!important;
   }
 }
+
+@media (min-width: 1903px){
+ #problem{
+    padding-left: 9%!important;
+  }
+}
+
 
 #infographic .e-con-inner{
   position: relative;
