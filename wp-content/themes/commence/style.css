@@ -720,8 +720,8 @@ a{
  }
 }
 
-@media (max-width: 2000px){
-  #our-mission h2, #contact h3, #problem h3{
+@media (min-width: 2000px){
+  #our-mission h2, #contact h2, #problem h2{
     font-size: 100px!important;
   }
 }
@@ -794,6 +794,10 @@ a{
   h1{
     font-size: 4vw!important;
   }
+
+   #problem h2{
+    font-size: 5.5vw!important;
+   }
 }
 
 #infographic .e-con-inner{
