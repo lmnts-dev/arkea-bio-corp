@@ -720,12 +720,6 @@ a{
  }
 }
 
-@media (min-width: 2000px){
-  #our-mission h2, #contact h2, #problem h2{
-    font-size: 100px!important;
-  }
-}
-
 @media (min-width: 1700px)
 {
   .spiral-background img{
@@ -798,6 +792,12 @@ a{
    #problem h2, #our-mission h2{
     font-size: 5.5vw!important;
    }
+}
+
+@media (min-width: 2000px){
+  #our-mission h2, #contact h2, #problem h2{
+    font-size: 100px!important;
+  }
 }
 
 #infographic .e-con-inner{
