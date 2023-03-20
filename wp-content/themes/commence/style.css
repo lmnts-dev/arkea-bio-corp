@@ -31,9 +31,6 @@ section{
   margin: 0 auto;
 }
 
-#our-mission h2, #contact h3, #problem h3{
-  font-size: 5vw!important;
-}
 
 /*MODAL*/
 .dialog-lightbox-widget-content{ 
@@ -718,9 +715,15 @@ a{
 
 @media (min-width: 2200px)
 {
- #problem{
-  padding-left: 5%!important;
+ .interactive-btns{
+  top: 68%!important;
  }
+}
+
+@media (max-width: 2000px){
+  #our-mission h2, #contact h3, #problem h3{
+    font-size: 100px!important;
+  }
 }
 
 @media (min-width: 1700px)
@@ -844,10 +847,6 @@ a{
   .social-icon-container h3{
     opacity: 1!important;
   }
-
-  #problem{
-  padding-left: 5%!important;
-}
 
   #applications .accordion-hover-img{
   max-width: 100%!important;
@@ -1184,7 +1183,7 @@ a{
 
 }
 
-@media (max-width: 420px)
+@media (max-width: 424px)
 {
   .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
   min-width: 70vw!important;
