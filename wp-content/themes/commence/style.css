@@ -475,6 +475,10 @@ a{
   column-gap: 46px;
 }
 
+.team-accordion .elementor-accordion-item{
+  position: relative;
+}
+
 .team-accordion .elementor-active .text--underline::before{
   height: 1rem;
 }
