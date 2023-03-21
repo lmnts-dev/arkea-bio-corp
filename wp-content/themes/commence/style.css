@@ -416,7 +416,8 @@ a{
   cursor: pointer;
 }
 
-.elementor-form .elementor-field-subgroup{
+.elementor-widget-formidable .frm_opt_container{
+  display: flex;
   justify-content: space-between;
 }
 
