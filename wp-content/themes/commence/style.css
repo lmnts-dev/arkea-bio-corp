@@ -74,10 +74,6 @@ section{
  width: 100%!important;
 }
 
-.elementor-sticky--active{
-  background: var(--e-global-color-a741065)!important;
-}
-
 .elementor-sticky--active .elementor-menu-toggle{
   color: var(--e-global-color-primary)!important;
 }
@@ -419,6 +415,27 @@ a{
 .elementor-widget-formidable .frm_opt_container{
   display: flex;
   justify-content: space-between;
+}
+
+.frm_primary_label{
+  font-weight: 600;
+  line-height: 27px;
+  padding: 28px 0px 9px 10px !important;
+  color: var(--e-global-color-primary );
+  font-size: 20px;
+}
+
+#frm_field_1_container{
+  margin-right: 10px;
+}
+
+#frm_field_2_container{
+  margin-left:10px;
+}
+
+.frm_submit{
+  display: flex;  
+  justify-content: end;
 }
 
 .elementor-form .elementor-field-type-radio span{
