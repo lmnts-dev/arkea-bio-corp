@@ -393,7 +393,7 @@ a{
 .elementor-widget-formidable .frm_radio {
   margin-bottom: 10px!important;
   margin-right: 13px;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 .elementor-widget-formidable .frm_radio input[type="radio"] {
@@ -1070,6 +1070,14 @@ a{
 
 @media (max-width: 768px)
 {
+  #frm_field_1_container{
+  margin-right: 0;
+}
+
+#frm_field_2_container{
+  margin-left: 0;
+}
+
   .card-btn svg{
     width: 1.875rem;
     height: 1.875rem;
