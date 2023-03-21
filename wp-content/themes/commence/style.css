@@ -1078,6 +1078,10 @@ a{
   margin-left: 0;
 }
 
+.frm_form_field #placeholder{
+  font-size: 16px!important;
+}
+
   .card-btn svg{
     width: 1.875rem;
     height: 1.875rem;
