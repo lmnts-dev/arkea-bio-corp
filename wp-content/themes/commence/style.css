@@ -1092,13 +1092,13 @@ a{
     height: 0.9rem;
 }
 
-  .elementor-form .elementor-field-subgroup{
+  .elementor-widget-formidable .frm_opt_container{
     flex-direction: column;
     flex-wrap: nowrap;
     flex-basis: auto!important;
   }
 
-  .elementor-form .elementor-field-subgroup label{
+  .elementor-widget-formidable label{
     width: 100%;
   }
 
