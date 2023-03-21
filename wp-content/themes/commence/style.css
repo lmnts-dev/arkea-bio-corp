@@ -442,7 +442,7 @@ a{
 
 .frm_submit button{
     position: relative;
-    padding-right: 60px;
+    padding-right: 60px!important;
 }
 
 .frm_submit button::after{
