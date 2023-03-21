@@ -440,6 +440,15 @@ a{
   justify-content: end;
 }
 
+.frm_submit button{
+    position: relative;
+}
+
+.frm_submit button::after{
+    content: "/wp-content/uploads/2023/03/External-Arrow-cropped.svg";
+    position: absolute;
+}
+
 .elementor-form .elementor-field-type-radio span{
   display: inline-flex;
   margin-bottom: 10px;
