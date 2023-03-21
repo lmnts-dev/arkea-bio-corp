@@ -31,6 +31,10 @@ section{
   margin: 0 auto;
 }
 
+  .atom{
+    z-index: -1000!important;
+  }
+
 
 /*MODAL*/
 .dialog-lightbox-widget-content{ 
@@ -1186,7 +1190,6 @@ a{
 
   .atom{
     max-width: 31px!important;
-    z-index: -10000000000!important;
   }
   
   .uc_classic_carousel_placeholder{
