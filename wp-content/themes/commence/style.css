@@ -422,6 +422,7 @@ a{
 .elementor-widget-formidable .frm_opt_container{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .frm_primary_label{
