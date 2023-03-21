@@ -382,6 +382,7 @@ a{
   opacity: 1!important;
 }
 
+
 .elementor-form input{
   padding: 28px 0 13px 10px!important;
 }
@@ -1078,8 +1079,9 @@ a{
   margin-left: 0;
 }
 
-.frm_form_field #placeholder{
+.frm_form_field  input::placeholder, .frm_form_field  textarea::placeholder{
   font-size: 16px!important;
+  opacity: 1!important;
 }
 
   .card-btn svg{
