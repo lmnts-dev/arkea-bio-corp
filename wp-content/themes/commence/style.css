@@ -442,6 +442,7 @@ a{
 
 .frm_submit button{
     position: relative;
+    padding-right: 60px;
 }
 
 .frm_submit button::after{
@@ -452,6 +453,17 @@ a{
     top: 50%;
     transform: translate(0,-50%);
     right: 0;
+    background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    will-change: background;
+    transition: background 0.25s ease 0s;
+    overflow: hidden;
+}
+
+.frm_submit button:hover .frm_submit button::after{
+  background-size: 100% 100%;
 }
 
 .elementor-form .elementor-field-type-radio span{
