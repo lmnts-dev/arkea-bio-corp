@@ -425,7 +425,7 @@ a{
   margin-bottom: 10px;
 }
 
-.elementor-form input[type="radio"]:checked + label {
+.elementor-widget-formidable .frm_radio input[type="radio"]:checked + label {
   background-color: var(--e-global-color-primary );
   color: var(--e-global-color-accent );
 } 
