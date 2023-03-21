@@ -460,10 +460,11 @@ a{
     will-change: background;
     transition: background 0.25s ease 0s;
     overflow: hidden;
-}
+    border-radius: 50%;
+  }
 
 .frm_submit button:hover .frm_submit button::after{
-  background-size: 100% 100%;
+  background-size: 100% 100%!important;
 }
 
 .elementor-form .elementor-field-type-radio span{
