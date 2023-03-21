@@ -404,6 +404,8 @@ a{
   width: 100%;
   text-align: center;
   font-weight: 600;
+  padding-left: 50px!important;
+  text-indent: none!important;
 }
 
 .elementor-widget-formidable .frm_radio label:hover {
