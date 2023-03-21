@@ -377,7 +377,7 @@ a{
   font-size: 2rem;
 }
 
-.elementor-form input::placeholder, .elementor-form textarea::placeholder{
+.frm_form_field  input::placeholder, .frm_form_field  textarea::placeholder{
   font-size: 1.25rem;
   opacity: 1!important;
 }
