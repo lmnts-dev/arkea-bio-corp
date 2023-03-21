@@ -393,6 +393,7 @@ a{
 .elementor-widget-formidable .frm_radio {
   margin-bottom: 10px!important;
   margin-right: 13px;
+  max-width: 50%;
 }
 
 .elementor-widget-formidable .frm_radio input[type="radio"] {
