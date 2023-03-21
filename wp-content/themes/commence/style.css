@@ -879,6 +879,15 @@ a{
     opacity: 1!important;
   }
 
+   #team img{
+    position: relative;
+    border-radius: 27px;
+    top: auto;
+    right: 0;
+    transform: none;
+    clip-path: none;
+  }
+
   .mobile-strand{
     left: -20vw;
   }
@@ -1006,15 +1015,6 @@ a{
   .accordion-hover-img-container{
     display: flex;
     justify-content: end;
-  }
-
-  #team img{
-    position: relative;
-    border-radius: 27px;
-    top: auto;
-    right: 0;
-    transform: none;
-    clip-path: none;
   }
 
   .accordion-hover-img-wrapper{
@@ -1184,8 +1184,9 @@ a{
     opacity: 1;
   }
 
-  .atom svg{
+  .atom{
     max-width: 31px!important;
+    z-index: -10000000000!important;
   }
   
   .uc_classic_carousel_placeholder{
