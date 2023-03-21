@@ -476,7 +476,7 @@ a{
   position: relative!important;
 }
 
-.dna-container .e-con{
+.dna-container .e-con, .dna-container-2 .e-con{
   left: -20vw;
 }
 
