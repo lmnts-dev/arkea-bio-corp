@@ -405,7 +405,7 @@ a{
   text-align: center;
   font-weight: 600;
   padding-left: 50px!important;
-  text-indent: none!important;
+  text-indent: 0!important;
 }
 
 .elementor-widget-formidable .frm_radio label:hover {
@@ -449,7 +449,8 @@ a{
     position: absolute;
     width: 42px;
     height: 42px;
-    top: 0;
+    top: 50%;
+    transform: translate(0,-50%);
     right: 0;
 }
 
@@ -1065,14 +1066,14 @@ a{
     padding-bottom: 26px;
     margin-bottom: -20px;
     margin-right: 20px;
-    background-color: var(--e-global-color-a741065)!important;
+    background-color: #fff!important;
 }
 
   #applications .elementor-tab-content p:nth-last-child(2){
     padding-bottom: 26px;
     margin-bottom: -20px;
     margin-right: 20px;
-    background-color: var(--e-global-color-a741065)!important;
+    background-color: #fff!important;
   }
 
   .text--underline--set::before, .elementor-accordion-title .text--underline::before {
