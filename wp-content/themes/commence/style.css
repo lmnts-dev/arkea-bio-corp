@@ -476,6 +476,10 @@ a{
   position: relative!important;
 }
 
+.dna-container .e-con{
+  left: -20vw;
+}
+
 #problem{
   padding-left: 13.5%!important;
 }
