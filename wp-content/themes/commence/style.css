@@ -406,6 +406,7 @@ a{
   left: 0;
   top: 0;
   z-index: 100;
+  cursor: pointer;
 }
 
 .elementor-widget-formidable .frm_radio label {
