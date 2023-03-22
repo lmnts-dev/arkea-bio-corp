@@ -472,7 +472,8 @@ a{
     border-radius: 50%;
   }
 
-.frm_submit button:hover .frm_submit button::after{
+.frm_submit button:hover .frm_submit{
+  background: red;
   background-size: 100% 100%!important;
 }
 
