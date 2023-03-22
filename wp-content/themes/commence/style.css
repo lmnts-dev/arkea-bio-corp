@@ -630,7 +630,7 @@ a{
   height: 454px;
 }
 
-#team .accordion-hover-img-wrapper:first-of-type{
+#team .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper{
   width: 300px;
   height: 354px;
 }
