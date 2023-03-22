@@ -88,6 +88,8 @@ window.addEventListener("scroll", () => {
 
 });
 
+//FOR STYLING CHECKED BUTTONS IN ELEMENTOR FORM
+
 let form = document.querySelector( ".frm_pro_form" );
 
 form.addEventListener( "change", ( evt ) => {
