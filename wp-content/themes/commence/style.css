@@ -931,6 +931,11 @@ a{
   .elementor-form .elementor-field-subgroup{
     justify-content: flex-start;
   }
+  
+  .elementor-item-anchor{
+    margin-inline-end: 12px;
+    margin-inline-start: 12px;  
+  }
 }
 
 
@@ -957,7 +962,7 @@ a{
 
     .elementor-item-anchor{
     font-size: 12px!important;
-    margin-right: 15px;
+    
   }
 }
 
