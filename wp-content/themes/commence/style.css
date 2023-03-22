@@ -472,7 +472,7 @@ a{
     border-radius: 50%;
   }
 
-.frm_button_submit:hover .frm_button_submit::after{
+.frm_submit button:hover .frm_submit button::after{
   background-size: 100% 100%!important;
 }
 

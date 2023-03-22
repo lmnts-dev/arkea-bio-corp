@@ -88,6 +88,26 @@ window.addEventListener("scroll", () => {
 
 });
 
+let form = document.querySelector( ".frm_pro_form" );
+
+form.addEventListener( "change", ( evt ) => {
+  let trg = evt.target,
+      trg_par = trg.parentElement;
+  
+  if ( trg.type === "radio" && trg_par &&
+       trg_par.tagName.toLowerCase() === "label" ) {
+    
+    let prior = form.querySelector( 'label.checked input[name="' +
+                                    trg.name + '"]' );
+    
+    if ( prior ) {
+      prior.parentElement.classList.remove( "checked" );
+    }
+    
+    trg_par.classList.add( "checked" );
+    
+  }
+}, false );
 
 
 
