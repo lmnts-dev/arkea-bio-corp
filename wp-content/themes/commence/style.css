@@ -247,7 +247,8 @@ a{
 }
 
 #applications .accordion-hover-img{
-  max-width: 20%!important;
+  max-width: 30%!important;
+  border-radius: 27px;
 }
 
 
