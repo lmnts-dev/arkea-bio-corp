@@ -954,6 +954,11 @@ a{
   .uc-circle .innerCircleIcon {
     width: 150px;
   }
+
+    .elementor-item-anchor{
+    font-size: 12px!important;
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 1140px){
