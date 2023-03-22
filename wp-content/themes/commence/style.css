@@ -13,10 +13,6 @@
 
 /*THEME*/
 
-html, body{
-    scroll-behavior: smooth!important;
-}
-
 .page-content{
   overflow-x: hidden;
   margin: 0 auto;
