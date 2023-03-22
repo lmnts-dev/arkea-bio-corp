@@ -921,7 +921,7 @@ a{
   }
 
   .elementor-324 .elementor-element.elementor-element-ffbb981 .elementor-nav-menu .elementor-item, .elementor-324 .elementor-element.elementor-element-c701e6f .elementor-nav-menu--main .elementor-item{
-    font-size: 14px;
+    font-size: 14px!important;
     margin-right: 15px;
   }
 }
