@@ -920,9 +920,8 @@ a{
     max-width: 150px;
   }
 
-  .elementor-324 .elementor-element.elementor-element-ffbb981 .elementor-nav-menu .elementor-item{
+  .elementor-324 .elementor-element.elementor-element-ffbb981 .elementor-nav-menu .elementor-item, .elementor-324 .elementor-element.elementor-element-c701e6f .elementor-nav-menu--main .elementor-item{
     font-size: 14px;
-    margin-left: 15px;
     margin-right: 15px;
   }
 }
