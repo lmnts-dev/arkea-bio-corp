@@ -630,6 +630,11 @@ a{
   height: 454px;
 }
 
+#team .accordion-hover-img-wrapper:first-of-type{
+  width: 300px;
+  height: 354px;
+}
+
 #team img{
   position: absolute;
   width: 100%;
