@@ -635,6 +635,10 @@ a{
   height: 354px;
 }
 
+#team .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper #team img{
+  right: -85%;
+}
+
 #team img{
   position: absolute;
   width: 100%;
