@@ -472,7 +472,7 @@ a{
     border-radius: 50%;
   }
 
-.frm_submit button:hover .frm_submit button::after{
+.frm_style_arkea.with_frm_style .frm_submit button:hover::after{
   background-size: 100% 100%!important;
 }
 
