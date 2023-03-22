@@ -933,8 +933,8 @@ a{
   }
 
   .elementor-item-anchor{
-    margin-inline-end: 12px;
-    margin-inline-start: 12px;  
+    margin-inline-end: 12px!important;
+    margin-inline-start: 12px!important;  
   }
 }
 
@@ -962,7 +962,6 @@ a{
 
     .elementor-item-anchor{
     font-size: 12px!important;
-    margin-right: 15px;
   }
 }
 
