@@ -727,7 +727,7 @@ a{
   position: initial;
 }
 
-.innerCircleTitle.hide{
+.innerCircleTitle.static{
   position: absolute;
   top: 50%;
   right: 50%;
