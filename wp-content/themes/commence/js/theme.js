@@ -8,7 +8,7 @@ var lastScrollTop = 0;
 
 window.addEventListener("scroll", () => {
   let top2 = window.pageYOffset / 2; 
-  circle.style.transform = 'rotateZ(' + top2 / 20 + 'deg)';
+  circle.style.transform = 'rotateZ(' + top2 / 30 + 'deg)';
  });
 
 
