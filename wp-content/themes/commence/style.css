@@ -798,6 +798,11 @@ a{
   transform-style: preserve-3D;
 }
 
+.member-title{
+  padding-left: 30px;
+  line-height: 1;
+}
+
 @media (min-width: 2200px)
 {
  .interactive-btns{
