@@ -23,7 +23,6 @@ let container = document.querySelector('.elementor-widget-ucaddon_interactive_ci
 let close = document.querySelector('#graphic-close');
 
 
-
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
 }
@@ -43,6 +42,7 @@ close.addEventListener("click", () => {
   infoBtns.style.display = 'none';
   close.style.display = 'none';
   ineractiveDiv.classList.remove('overlay');
+
 })
 
 //SPIRALS ANIMATIONS
