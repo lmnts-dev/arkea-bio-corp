@@ -990,7 +990,8 @@ a{
 @media (max-width: 1024px){
 
   /*HIDE BEHIND TEXT*/
-.elementor-tab-content p:last-of-type, #our-mission .white-background span, #our-mission .white-background h2, #our-mission .white-background p {
+.elementor-tab-content p:last-of-type, #our-mission .white-background span, #our-mission .white-background h2, #our-mission .white-background p,
+#problem .white-background p {
   background:none!important;
 }
   .social-icon-container h3{
