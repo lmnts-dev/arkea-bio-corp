@@ -242,7 +242,7 @@ a{
 .accordion-hover-img{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 20%;
   z-index: -1;
 }
 
