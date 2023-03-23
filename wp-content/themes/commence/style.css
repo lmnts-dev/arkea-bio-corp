@@ -36,6 +36,11 @@ section{
   background: rgba(255, 255, 255, 0.8);
 }
 
+#how-we-do-it h3{
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,255,255,.8) 59%, rgba(255,255,255,.8) 100%)!important;
+}
+
+
 .elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:hover{
   color: var(--e-global-color-accent )!important;
 }
