@@ -988,6 +988,11 @@ a{
 
 
 @media (max-width: 1024px){
+
+  /*HIDE BEHIND TEXT*/
+.elementor-tab-content p:last-of-type{
+  background:none!important;
+}
   .social-icon-container h3{
     opacity: 1!important;
   }
