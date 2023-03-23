@@ -31,6 +31,11 @@ section{
   z-index: -1000!important;
 }
 
+/*HIDE BEHIND TEXT*/
+p,h2,h3,h4,h5,h6, span{
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:hover{
   color: var(--e-global-color-accent )!important;
 }
