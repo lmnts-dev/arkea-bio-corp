@@ -32,7 +32,7 @@ section{
 }
 
 /*HIDE BEHIND TEXT*/
-.white-background p,h2,h3,h4,h5,h6,span,a{
+.white-background > p,h2,h3,h4,h5,h6,span,a{
   background: rgba(255, 255, 255, 0.8);
 }
 
