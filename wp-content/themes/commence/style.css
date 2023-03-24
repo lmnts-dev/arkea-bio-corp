@@ -1024,6 +1024,14 @@ a{
     opacity: 1!important;
   }
 
+  .menu-item .menu-item-type-custom a{
+    text-align: center;
+  }
+
+  .elementor-nav-menu--dropdown .elementor-item:hover{
+    color: var(--e-global-color-primary)!important; 
+  }
+
    #team img{
     position: relative;
     border-radius: 27px;
