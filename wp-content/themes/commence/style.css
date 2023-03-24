@@ -1029,7 +1029,7 @@ a{
   }
 
   .elementor-nav-menu--dropdown .elementor-item:hover{
-    color: var(--e-global-color-primary)!important; 
+    background-color: var(--e-global-color-primary)!important; 
   }
 
    #team img{
