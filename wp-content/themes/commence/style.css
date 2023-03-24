@@ -1024,7 +1024,7 @@ a{
     opacity: 1!important;
   }
 
-  .menu-item .menu-item-type-custom a{
+  .menu-item.menu-item-type-custom a{
     text-align: center!important;
   }
 
