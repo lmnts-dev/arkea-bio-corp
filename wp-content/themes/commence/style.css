@@ -994,6 +994,11 @@ a{
   .spiral-column .elementor-widget-html{
     top: 25%!important;
   }
+
+  .member-title{
+    display:inline-block;
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 1240px){
