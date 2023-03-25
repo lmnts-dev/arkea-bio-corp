@@ -1414,3 +1414,10 @@ a{
   min-width: 70vw!important;
   }
 }
+
+@media (max-width: 352px)
+{
+  .uc_classic_carousel_content{
+    padding: 30px!important;
+  }
+}
