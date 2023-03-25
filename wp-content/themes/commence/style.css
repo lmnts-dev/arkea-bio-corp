@@ -24,6 +24,7 @@ html, body{
 
 section{
 	padding: 5% 9%!important;
+  scroll-margin-top: 20px;
 }
 
 .max-width{
