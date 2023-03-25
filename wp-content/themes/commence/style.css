@@ -996,9 +996,7 @@ a{
   }
 
   .member-title{
-    line-height: 1.5;
     white-space: nowrap;
-    padding-left: 0;
   }
 }
 
@@ -1010,6 +1008,13 @@ a{
     .elementor-item-anchor{
     font-size: 12px!important;
   }
+}
+
+@media (max-width: 1173px){
+    .member-title{
+      padding-left: 0;
+      display: block;
+    }
 }
 
 @media (max-width: 1140px){
