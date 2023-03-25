@@ -26,10 +26,6 @@ section{
 	padding: 5% 9%!important;
 }
 
-#ps2id-dummy-offset{
-  height: 80px!important;
-}
-
 .max-width{
   max-width: 1680px!important;
   margin: 0 auto;
@@ -1024,6 +1020,10 @@ a{
 #problem .white-background p {
   background:none!important;
 }
+
+#ps2id-dummy-offset{
+  height: 97px!important;
+}
   .social-icon-container h3{
     opacity: 1!important;
   }
@@ -1166,6 +1166,10 @@ a{
 {
   #frm_field_1_container{
   margin-right: 0;
+}
+
+#ps2id-dummy-offset{
+  height: 75px!important;
 }
 
 #frm_field_2_container{
