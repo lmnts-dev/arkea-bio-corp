@@ -996,7 +996,8 @@ a{
   }
 
   .member-title{
-    display:inline-block;
+    line-height: 1.5;
+    white-space: nowrap;
     padding-left: 0;
   }
 }
