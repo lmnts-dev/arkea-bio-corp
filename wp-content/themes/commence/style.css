@@ -24,7 +24,10 @@ html, body{
 
 section{
 	padding: 5% 9%!important;
-  scroll-margin-top: 5%!important;
+}
+
+#ps2id-dummy-offset{
+  height: 80px!important;
 }
 
 .max-width{
