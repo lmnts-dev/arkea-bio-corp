@@ -1420,4 +1420,8 @@ a{
   .uc_classic_carousel_content{
     padding: 30px!important;
   }
+
+  .card_carousel_text{
+    margin-top: 0;
+  }
 }
