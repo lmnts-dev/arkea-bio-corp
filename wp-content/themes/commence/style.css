@@ -39,9 +39,10 @@ section{
   background: #fff!important;
 }
 
-#page-id-3685 .elementor-sticky--active , #page-id-3685 .elementor-location-footer{
+.page-id-3685 .elementor-sticky--active , .page-id-3685 .elementor-location-footer{
   background: #fff!important;
 }
+
 
 /*HIDE BEHIND TEXT*/
 .white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a{
@@ -50,6 +51,10 @@ section{
 
 #how-we-do-it h3{
   background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(244, 245, 248,.8) 59%, rgba(244, 245, 248,.8) 100%)!important;
+}
+
+.page-id-3685 #how-we-do-it h3{
+  background: #fff!important
 }
 
 
