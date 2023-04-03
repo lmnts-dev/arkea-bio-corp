@@ -35,6 +35,14 @@ section{
   z-index: -1000!important;
 }
 
+.post-3685{
+  background: #fff!important;
+}
+
+#page-id-3685 .elementor-sticky--active , #page-id-3685 .elementor-location-footer{
+  background: #fff!important;
+}
+
 /*HIDE BEHIND TEXT*/
 .white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a{
   background: rgba(244, 245, 248, 0.8);
