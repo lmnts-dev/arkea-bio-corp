@@ -295,6 +295,7 @@ a{
   max-width: 100%!important;
 }
 
+
 .elementor-active .text--underline::before {
   width: 95%!important;
 }
@@ -1042,10 +1043,14 @@ a{
 
 @media (max-width: 1024px){
 
-  /*HIDE BEHIND TEXT*/
+/*HIDE BEHIND TEXT*/
 .elementor-tab-content p:last-of-type, #our-mission .white-background span, #our-mission .white-background h2, #our-mission .white-background p,
 #problem .white-background p {
   background:none!important;
+}
+
+.name{
+  font-size: 2rem;
 }
 
 #ps2id-dummy-offset{
@@ -1194,6 +1199,10 @@ a{
 {
   #frm_field_1_container{
   margin-right: 0;
+}
+
+.name{
+  font-size: 1.25rem;
 }
 
 #ps2id-dummy-offset{
