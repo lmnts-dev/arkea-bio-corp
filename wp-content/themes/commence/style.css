@@ -1309,6 +1309,7 @@ a{
 
   .elementor-location-footer .elementor-nav-menu{
     flex-direction: column!important;
+    margin: 0 auto;
   }
 
   .elementor-widget-theme-site-logo{
