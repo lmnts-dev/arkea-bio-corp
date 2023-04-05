@@ -562,11 +562,6 @@ a{
   justify-content: start;
 }
 
-.team-accordion .elementor-tab-content p{
-  column-count: 2;
-  column-gap: 46px;
-}
-
 .team-accordion .elementor-accordion-item{
   position: relative;
 }
@@ -1234,10 +1229,6 @@ a{
 
   .accordion-hover-img-wrapper{
     height: auto;
-  }
-
-  .team-accordion .elementor-tab-content p{
-    column-count: 1;
   }
 
   .team-accordion .elementor-tab-content p:nth-last-child(2) {
