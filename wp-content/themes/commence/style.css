@@ -1072,7 +1072,7 @@ a{
    #team img{
     position: relative;
     border-radius: 27px;
-    top: auto;
+    top: 0;
     right: 0;
     transform: none;
     clip-path: none;
