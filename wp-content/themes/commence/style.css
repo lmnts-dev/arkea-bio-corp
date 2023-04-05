@@ -1048,6 +1048,11 @@ a{
   justify-content: start;
 }
 
+.accordion-hover-img-wrapper{
+  height: auto;
+  width: 100%;
+}
+
 .name{
   font-size: 2rem;
 }
