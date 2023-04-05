@@ -1048,7 +1048,7 @@ a{
   justify-content: start;
 }
 
-.accordion-hover-img-wrapper{
+#team .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper{
   height: auto;
   width: 100%;
 }
