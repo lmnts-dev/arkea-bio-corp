@@ -1039,7 +1039,7 @@ a{
 @media (max-width: 1024px){
 
 /*HIDE BEHIND TEXT*/
-.elementor-tab-content p:last-of-type, #our-mission .white-background span, #our-mission .white-background h2, #our-mission .white-background p,
+.elementor-tab-content p:last-of-type:not(#team .white-background p), #our-mission .white-background span, #our-mission .white-background h2, #our-mission .white-background p,
 #problem .white-background p, .white-background-full {
   background:none!important;
 }
