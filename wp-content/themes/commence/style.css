@@ -1044,6 +1044,10 @@ a{
   background:none!important;
 }
 
+.team-accordion .elementor-accordion-title{
+  display: inline-block!important;
+}
+
 .accordion-hover-img-container {
   justify-content: start;
 }
