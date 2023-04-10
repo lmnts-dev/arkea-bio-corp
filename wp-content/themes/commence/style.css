@@ -45,7 +45,7 @@ section{
 
 
 /*HIDE BEHIND TEXT*/
-.white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a, .white-background-full{
+.white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a, .white-background-full, .white-background .elementor-widget-theme-site-logo{
   background: rgba(244, 245, 248, 0.8);
 }
 
