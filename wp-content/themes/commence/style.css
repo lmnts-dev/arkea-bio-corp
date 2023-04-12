@@ -45,13 +45,10 @@ section{
 
 
 /*HIDE BEHIND TEXT*/
-.white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a, .white-background-full, .white-background .elementor-widget-theme-site-logo{
+.white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a, .white-background-full, .white-background .elementor-widget-theme-site-logo, #how-we-do-it h3{
   background: rgba(244, 245, 248);
 }
 
-#how-we-do-it h3{
-  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(244, 245, 248) 59%, rgba(244, 245, 248) 100%)!important;
-}
 
 .page-id-3685 #how-we-do-it h3{
   background: #fff!important
@@ -989,6 +986,10 @@ a{
     margin-inline-end: 12px!important;
     margin-inline-start: 12px!important;  
   }
+
+  #how-we-do-it{
+    margin-top: 50px;
+  }
 }
 
 
@@ -1047,6 +1048,11 @@ a{
 .team-accordion .elementor-accordion-title{
   display: inline-block!important;
 }
+
+  #how-we-do-it{
+    margin-top: 0;
+  }
+
 
 .accordion-hover-img-container {
   justify-content: start;
