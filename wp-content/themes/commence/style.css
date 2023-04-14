@@ -681,7 +681,8 @@ a{
 }
 
 .atom svg{
-  width: 60%;
+  width: 30px;
+  height: 50px;
 }
 
 #how-we-do-it{
@@ -1042,11 +1043,6 @@ a{
 /*HIDE BEHIND TEXT*/
 #problem .white-background p, #our-mission .white-background p,  #our-mission .white-background span, #our-mission .white-background h2, .white-background-full,  #applications.white-background .elementor-tab-content p:last-of-type {
   background:none!important;
-}
-
-.atom svg{
-  width: 50px!important;
-  height: auto;
 }
 
 .team-accordion .elementor-accordion-title{
