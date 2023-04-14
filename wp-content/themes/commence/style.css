@@ -1044,6 +1044,11 @@ a{
   background:none!important;
 }
 
+.atom svg{
+  width: 50px!important;
+  height: auto;
+}
+
 .team-accordion .elementor-accordion-title{
   display: inline-block!important;
 }
