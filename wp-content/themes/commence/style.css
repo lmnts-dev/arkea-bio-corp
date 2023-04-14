@@ -1040,10 +1040,7 @@ a{
 @media (max-width: 1024px){
 
 /*HIDE BEHIND TEXT*/
-#our-mission .white-background span, #our-mission .white-background h2, #our-mission .white-background p,
-#problem .white-background p, .white-background-full, #applications.white-background .elementor-tab-content p:last-of-type  {
-  background:none!important;
-}
+
 
 .team-accordion .elementor-accordion-title{
   display: inline-block!important;
