@@ -1044,6 +1044,10 @@ a{
   background:none!important;
 }
 
+.atom img{
+  width: 60%;
+}
+
 .team-accordion .elementor-accordion-title{
   display: inline-block!important;
 }
