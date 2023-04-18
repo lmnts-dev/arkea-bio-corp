@@ -1044,6 +1044,10 @@ a{
   background:none!important;
 }
 
+.elementor-background-video-container{
+  z-index: 10;
+}
+
 .atom img{
   width: 60%;
 }
