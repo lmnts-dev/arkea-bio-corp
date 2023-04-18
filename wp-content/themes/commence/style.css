@@ -1045,7 +1045,7 @@ a{
 }
 
 .elementor-background-video-container{
-  z-index: 1;
+  z-index: 1!important;
 }
 
 .atom img{
