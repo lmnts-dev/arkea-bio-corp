@@ -41,7 +41,7 @@ section{
 
 
 /*HIDE BEHIND TEXT*/
-.white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a, .white-background-full, .white-background .elementor-widget-theme-site-logo, #how-we-do-it h3{
+/* .white-background p, .white-background h2,.white-background h3,.white-background h4,.white-background h5,.white-background h6,.white-background span,.white-background a, .white-background-full, .white-background .elementor-widget-theme-site-logo, #how-we-do-it h3{
   background: rgba(244, 245, 248);
 }
 
@@ -56,7 +56,7 @@ section{
 
 .elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:hover{
   color: var(--e-global-color-accent )!important;
-}
+} */
 
 
 /*MODAL*/
@@ -1035,9 +1035,9 @@ a{
 @media (max-width: 1024px){
 
 /*HIDE BEHIND TEXT*/
-#problem .white-background p, #our-mission .white-background p,  #our-mission .white-background span, #our-mission .white-background h2, .white-background-full,  #applications.white-background .elementor-tab-content p:last-of-type {
+/* #problem .white-background p, #our-mission .white-background p,  #our-mission .white-background span, #our-mission .white-background h2, .white-background-full,  #applications.white-background .elementor-tab-content p:last-of-type {
   background:none!important;
-}
+} */
 
 .elementor-background-video-container{
   z-index: 1!important;
