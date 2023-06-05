@@ -262,6 +262,10 @@ a{
   position: initial;
 }
 
+.team-accordion .elementor-accordion-title{
+  line-height: 1.2;
+}
+
 .accordion-hover-img{
   position: absolute;
   right: 0;
@@ -834,7 +838,6 @@ a{
 }
 
 .member-title{
-  padding-left: 30px;
   line-height: 1;
 }
 
