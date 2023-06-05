@@ -657,17 +657,17 @@ a{
   height: 454px;
 }
 
-#team .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper{
+#our-arkeabio .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper{
   width: 300px;
   height: 354px;
 }
 
-#team .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper #team img{
+#our-arkeabio .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper #our-arkeabio img{
   right: -85%;
   filter: brightness(1.15);
 }
 
-#team img{
+#our-arkeabio img{
   position: absolute;
   width: 100%;
   top: 50%;
@@ -1055,7 +1055,7 @@ a{
   justify-content: start;
 }
 
-#team .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper{
+#our-arkeabio .elementor-accordion-item:first-of-type .accordion-hover-img-wrapper{
   height: auto;
   width: 100%;
 }
@@ -1080,7 +1080,7 @@ a{
     color: #fff!important;
   }
 
-   #team img{
+   #our-arkeabio img{
     position: relative;
     border-radius: 27px;
     top: 0;
@@ -1166,7 +1166,7 @@ a{
 	  padding: 5%!important;
   }
 
-  #team{
+  #our-arkeabio{
     overflow: hidden;
   }
 
