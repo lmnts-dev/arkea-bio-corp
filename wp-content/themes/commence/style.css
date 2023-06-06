@@ -706,9 +706,9 @@ a{
 /*Interactive Feature*/
 .ciclegraph .innerCircle{
   height: 100%;
-  max-height: 406px;
+  max-height: 306px;
   width: 100%;
-  max-width: 540px;
+  max-width: 440px;
   background-color: var(--e-global-color-accent );
   border-radius: 29px;
   margin: 0 auto;
