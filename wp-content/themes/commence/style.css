@@ -76,6 +76,8 @@ section{
   border: solid 1px;
   font-weight: 300;
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 .dialog-close-button i{
