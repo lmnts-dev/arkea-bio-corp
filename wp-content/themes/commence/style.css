@@ -80,12 +80,9 @@ section{
   justify-content: center;
 }
 
-.dialog-close-button i{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-size: 43px;
-  align-items: center;
+.dialog-close-button svg{
+  width: 43px;
+  height: 43px;
 }
 
 
