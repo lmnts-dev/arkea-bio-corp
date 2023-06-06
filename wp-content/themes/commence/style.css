@@ -811,6 +811,7 @@ a{
   width: 180px;
   text-align: center;
   z-index: 3;
+  background: rgba(242, 245, 248, .05);
 }
 
 .uc-circle{
