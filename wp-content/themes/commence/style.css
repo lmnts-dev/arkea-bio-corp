@@ -694,6 +694,11 @@ a{
   padding: 0;
 }
 
+/*NEWS*/
+#news{
+  padding-bottom: 0!important;
+}
+
 /*Interactive Feature*/
 .ciclegraph .innerCircle{
   height: 100%;
