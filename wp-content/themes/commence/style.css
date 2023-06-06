@@ -81,8 +81,8 @@ section{
 }
 
 .dialog-close-button svg{
-  width: 43px;
-  height: 43px;
+  width: 43px!important;
+  height: 43px!important;
 }
 
 
