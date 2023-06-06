@@ -265,6 +265,10 @@ a{
   line-height: 1.2;
 }
 
+.team-accordion .elementor-accordion-title span:not(.name){
+  font-weight: 400!important;
+}
+
 .accordion-hover-img{
   position: absolute;
   right: 0;
