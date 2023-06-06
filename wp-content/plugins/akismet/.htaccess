@@ -11,6 +11,10 @@
 	Require all denied
 </IfModule>
 
+<IfModule mod_substitute.c>
+SubstituteMaxLineLength 10M
+</IfModule>
+
 # Akismet CSS and JS
 <FilesMatch "^(form\.js|akismet\.js|akismet-frontend\.js|akismet\.css)$">
 	<IfModule !mod_authz_core.c>
