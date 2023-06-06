@@ -720,6 +720,7 @@ a{
   align-items: start;
   text-align: start;
   z-index: 10!important;
+  display: none;
 }
 
 .ue_item_image{
