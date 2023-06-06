@@ -983,6 +983,10 @@ a{
     font-size: 14px!important;
     margin-right: 15px;
   }
+
+  #footer-menu li a{
+    font-size: 14px!important;
+  }
 }
 
 @media (max-width: 1492px)
@@ -1027,7 +1031,7 @@ a{
     width: 150px;
   }
 
-    .elementor-item-anchor{
+  .elementor-item-anchor, #footer-menu li a{
     font-size: 12px!important;
   }
 }
