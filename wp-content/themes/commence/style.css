@@ -265,7 +265,7 @@ a{
   line-height: 1.2;
 }
 
-.team-accordion .elementor-accordion-title span:not(.name){
+.team-accordion .elementor-accordion-title .member-title{
   font-weight: 400!important;
 }
 
