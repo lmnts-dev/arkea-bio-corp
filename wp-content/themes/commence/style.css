@@ -754,7 +754,7 @@ a{
   top: 50%;
   right: 50%;
   position: absolute;
-  top: 50%;
+  top: 47.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: auto;
@@ -1094,6 +1094,10 @@ a{
 
 .accordion-hover-img--team{
   max-width: 400px!important;
+}
+
+.innerCircleTitle.static{
+  top: 47.3%;
 }
 
 .team-accordion .elementor-accordion-title{
