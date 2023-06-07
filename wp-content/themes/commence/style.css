@@ -801,7 +801,7 @@ a{
 .elementor-widget-ucaddon_interactive_circle_infographic.overlay .elementor-widget-container::before{
   content: "";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
