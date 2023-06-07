@@ -42,7 +42,7 @@ close.addEventListener("click", () => {
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
   close.style.display = 'none';
-  body.classList.remove('overlay');
+  content.classList.remove('overlay');
 
 })
 
