@@ -19,7 +19,7 @@ let active = document.querySelector('.uc-circle-selected');
 let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
-let body = document.querySelector(body);
+let content = document.querySelector('#content');
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
 let close = document.querySelector('#graphic-close');
 
@@ -31,7 +31,7 @@ if (active == null) {
 graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  body.classList.add('overlay');
+  content.classList.add('overlay');
   interactiveContainer.style.display = 'block';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
