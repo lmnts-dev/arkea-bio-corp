@@ -644,7 +644,7 @@ a{
 .spiral-column .elementor-widget-html{
   position: absolute;
   right: -20%;
-  top: 20%!important;
+  top: 5%!important;
   left: auto!important;
   max-width: 50vw!important;
 }
@@ -968,6 +968,9 @@ a{
   .spiral-container{
      min-width: 650px;
   }
+  .spiral-column .elementor-widget-html{
+    top: 5%!important;
+  }
 }
 
 @media (max-width: 1553px){
@@ -1008,18 +1011,18 @@ a{
 
 @media (max-width: 1366px){
   .spiral-container-2{
-  max-width: 40vw!important;
-}
+    max-width: 40vw!important;  
+  }
+  .blob-1{
+    max-height: 600px;
+    width: auto;
+  }
 }
 
 @media (max-width: 1201px){
   .spiral-container-2{
   max-width: 47vw!important;
 }
-
-  .spiral-column .elementor-widget-html{
-    top: 25%!important;
-  }
 
   .member-title{
     white-space: nowrap;
