@@ -802,7 +802,7 @@ a{
   z-index: 100!important;
 }
 
-.body.overlay body::before{
+body.overlay body::before{
   content: "";
   display: block;
   position: fixed;
