@@ -794,8 +794,8 @@ a{
   z-index: 10;
 }
 
-.uc-circle .innerCircleIcon{
-  transform: all .25s ease;
+.uc-circle .innerCircleIcon .uc-svg-image{
+  transition: all .25s ease;
 }
 
 .uc-circle .innerCircleIcon:hover .uc-svg-image{
