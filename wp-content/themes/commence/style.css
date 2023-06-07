@@ -710,14 +710,14 @@ a{
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100vw;
   right: 0;
   bottom: 0;
   z-index: -1;
   background-image: url(/wp-content/uploads/2023/03/green-strand-2.png);
   background-size: contain;
   background-position: center;
-  width: 100vw;
+  width: 200vw;
   background-repeat: no-repeat;
 }
 
@@ -1299,6 +1299,10 @@ a{
   .interactive-btns{
     left: auto!important;
     top: auto!important;  
+  }
+
+  #resource-links:before{
+    content: none;
   }
 
   #graphic-close{
