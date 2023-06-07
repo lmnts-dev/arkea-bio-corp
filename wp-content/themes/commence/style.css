@@ -704,7 +704,6 @@ a{
 #resource-links{
   padding-top: 3%!important;
   position: relative; /* Make the section a positioned container */
-  overflow: hidden;
 }
 
 #resource-links:before {
@@ -715,9 +714,11 @@ a{
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url('/wp-content/uploads/2023/03/green-strand-2.png');
-  background-size: contain; 
-  background-position: center; 
+  background-image: url(/wp-content/uploads/2023/03/green-strand-2.png);
+  background-size: contain;
+  background-position: center;
+  width: 100vw;
+  background-repeat: no-repeat;
 }
 
 /*Interactive Feature*/
