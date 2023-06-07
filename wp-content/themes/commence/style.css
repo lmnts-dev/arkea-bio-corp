@@ -749,6 +749,10 @@ a{
   position: initial;
 }
 
+.innerCircleTitle{
+  display: none!important;
+}
+
 .innerCircleTitle.static{
   position: absolute;
   right: 50%;
