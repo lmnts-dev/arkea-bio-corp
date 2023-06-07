@@ -1059,6 +1059,10 @@ a{
     flex-direction: column;
   }
 
+  #graphic-close{
+    left: 61%!important;
+  }
+
   .interactive-btns{
     left: 60.5%!important;
   }
@@ -1093,15 +1097,24 @@ a{
     margin-inline-start: 12px!important;  
   }
 
+    #graphic-close{
+    left: 61.5%!important;
+  }
+
   #how-we-do-it{
     margin-top: 50px;
   }
 }
 
-@media (max-width: 1380px){
+@media (max-width: 1379px){
   .interactive-btns{
     left: 61.5%!important;
     top: 70.5%!important;
+  }
+
+  #graphic-close{
+    left: 61.5%!important;
+    top: 52%!important;
   }
 }
 
@@ -1128,7 +1141,7 @@ a{
 @media (max-width: 1310px){
   .interactive-btns{
     left: 62%!important;
-    top: 71%!important;
+    top: 70.5%!important;
   }
 }
 
@@ -1143,6 +1156,10 @@ a{
   .interactive-btns{
     top: 70.5%!important;
     left: 63%!important;
+  }
+
+  #graphic-close {
+    left: 64%!important;
   }
 }
 
@@ -1342,10 +1359,6 @@ a{
 
 
 @media (max-width: 935px){
-  #graphic-close{
-    top: 57%!important;
-  }
-
   .interactive-btns{
     left: 67%!important;
     top: 74%!important;  
@@ -1400,15 +1413,13 @@ a{
   }
 }
 
-@media (max-width: 875px){
- .interactive-btns{
-    left: 65%!important;
-  }
-}
-
 @media (max-width: 852px){
  .interactive-btns{
     top: 74.5%!important;
+  }
+
+  #graphic-close{
+    top: 56.5%!important;
   }
 }
 
