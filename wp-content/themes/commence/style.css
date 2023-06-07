@@ -749,10 +749,6 @@ a{
   position: initial;
 }
 
-.innerCircleTitle.static{
-  display: none!important;
-}
-
 .ciclegraph{
   position: relative;
 }
@@ -1062,6 +1058,12 @@ a{
 
   .interactive-btns{
     top: 71%!important;
+  }
+}
+
+@media (max-width: 1089px){
+  #graphic-close{
+    top: 55%!important;
   }
 }
 
