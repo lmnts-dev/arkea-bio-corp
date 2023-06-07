@@ -802,6 +802,10 @@ a{
   z-index: 100!important;
 }
 
+#content{
+  position: relative;
+}
+
 #content.overlay #content::before{
   content: "";
   display: block;
