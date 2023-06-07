@@ -1063,6 +1063,10 @@ a{
   z-index: 1!important;
 }
 
+.accordion-hover-img--team{
+  max-width: 60%!important;
+}
+
 .team-accordion .elementor-accordion-title{
   display: inline-block!important;
 }
@@ -1081,6 +1085,10 @@ a{
   width: 100%;
 }
 
+.accordion-hover-img-container{
+  margin-top: 20px;
+}
+
 .name{
   font-size: 2rem;
 }
@@ -1088,31 +1096,31 @@ a{
 #ps2id-dummy-offset{
   height: 97px!important;
 }
-  .social-icon-container h3{
-    opacity: 1!important;
-  }
+.social-icon-container h3{
+  opacity: 1!important;
+}
 
-  .menu-item.menu-item-type-custom a{
-    text-align: center!important;
-  }
+.menu-item.menu-item-type-custom a{
+  text-align: center!important;
+}
 
-  .elementor-nav-menu--dropdown .elementor-item:hover{
-    background-color: var(--e-global-color-primary)!important; 
-    color: #fff!important;
-  }
+.elementor-nav-menu--dropdown .elementor-item:hover{
+  background-color: var(--e-global-color-primary)!important; 
+  color: #fff!important;
+}
 
-   #our-arkeabio img{
-    position: relative;
-    border-radius: 27px;
-    top: 0;
-    right: 0;
-    transform: none;
-    clip-path: none;
-  }
+  #our-arkeabio img{
+  position: relative;
+  border-radius: 27px;
+  top: 0;
+  right: 0;
+  transform: none;
+  clip-path: none;
+}
 
-  .mobile-strand{
-    left: -20vw;
-  }
+.mobile-strand{
+  left: -20vw;
+}
 
   #applications .accordion-hover-img{
   max-width: 100%!important;
@@ -1229,8 +1237,12 @@ a{
 
 @media (max-width: 768px)
 {
-  #frm_field_1_container{
+#frm_field_1_container{
   margin-right: 0;
+}
+
+.accordion-hover-img--team{
+  max-width: 100%!important;
 }
 
 .name{
