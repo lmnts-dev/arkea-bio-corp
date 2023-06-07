@@ -799,11 +799,11 @@ a{
 }
 
 .circle{
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   transition: transform 0.3s ease;
   border: 100px solid transparent;
-  background: url(/wp-content/uploads/2023/06/info-circle.png) center/100% 100% border-box;
+  background: url(/wp-content/uploads/2023/06/arrow-border.png) center/100% 100% border-box;
 }
 
 .ue-carousel-prev svg{
