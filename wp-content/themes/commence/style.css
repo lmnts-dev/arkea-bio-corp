@@ -844,7 +844,7 @@ a{
 .interactive-btns{
   position: absolute;
   left: 59.5%!important;
-  top: 68.5%!important;
+  top: 68%!important;
   transform: translate(-59.5%, -68.5%);
   display: none;
 }
@@ -882,7 +882,7 @@ a{
 @media (min-width: 2200px)
 {
  .interactive-btns{
-  top: 67.5%!important;
+  top: 67%!important;
  }
 }
 
@@ -965,7 +965,6 @@ a{
     font-size: 100px!important;
   }
 
-
   section{
     padding: 5%!important;
   }
@@ -986,10 +985,41 @@ a{
   position: relative;
 }
 
+@media (max-width: 2675px){
+  .interactive-btns {
+    top: 67.5%!important;
+  }
+}
+
+@media (max-width: 2500px){
+  .interactive-btns {
+    top: 67.75%!important;
+  }
+}
+
+@media (max-width: 2000px){
+  .interactive-btns{
+    top: 68.5%!important;
+  }
+}
+
+
 @media (max-width: 1800px){
   .blob-1{
     max-height: 734px;
     width: auto;
+  }
+}
+
+@media (max-width: 1750px){
+  .interactive-btns{
+    top: 69%!important;
+  }
+}
+
+@media (max-width: 1660px){
+  .interactive-btns{
+    left: 59.75%!important;
   }
 }
 
@@ -1000,11 +1030,25 @@ a{
   .spiral-column .elementor-widget-html{
     top: 5%!important;
   }
+
+  .interactive-btns{
+    left: 60%!important;
+  }
+}
+
+@media (max-width: 1570px){
+  .interactive-btns{
+    left: 60.25%!important;
+  }
 }
 
 @media (max-width: 1553px){
   .frm_opt_container{
     flex-direction: column;
+  }
+
+  .interactive-btns{
+    left: 60.5%!important;
   }
 
   .elementor-324 .elementor-element.elementor-element-0e91dbf img{
@@ -1025,6 +1069,10 @@ a{
 {
   .elementor-form .elementor-field-subgroup{
     justify-content: flex-start;
+  }
+
+  .interactive-btns{
+    left: 61%!important;
   }
 
   .elementor-item-anchor{
