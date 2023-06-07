@@ -578,9 +578,9 @@ a{
   position: relative!important;
 }
 
-/* .dna-container .e-con, .dna-container-2 .elementor-widget-image{
+.dna-container .e-con, .dna-container-2 .elementor-widget-image{
   left: -20vw!important;
-} */
+}
 
 #problem{
   padding-left: 13.5%!important;
