@@ -345,6 +345,10 @@ a{
   animation: slide 20s linear infinite;
 }
 
+.mobile-strand{
+  left: -100vw;
+}
+
 
 @keyframes slide {
   from {
