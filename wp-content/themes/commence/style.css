@@ -818,6 +818,10 @@ a{
   transition: all .25s ease;
 }
 
+.uc-circle .innerCircleIcon .ue_btn_txt{
+  margin-top: -10px;
+}
+
 .uc-circle .innerCircleIcon:hover .uc-svg-image{
   scale: 1.1;
 }
