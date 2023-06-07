@@ -815,7 +815,7 @@ a{
 .interactive-btns{
   position: absolute;
   left: 60%!important;
-  top: 68%!important;
+  top: 69%!important;
   transform: translate(-60%, -68%);
   display: none;
 }
@@ -853,7 +853,7 @@ a{
 @media (min-width: 2200px)
 {
  .interactive-btns{
-  top: 68%!important;
+  top: 67.5%!important;
  }
 }
 
@@ -960,6 +960,7 @@ a{
 @media (max-width: 1800px){
   .blob-1{
     max-height: 734px;
+    width: auto;
   }
 }
 
@@ -1128,7 +1129,7 @@ a{
   width: 55vw;
 }
 
-  .elementor-active p img{
+.elementor-active p img{
     display: block;
     position: relative;
 }
@@ -1166,9 +1167,9 @@ a{
 
 
   .interactive-btns{
-    left: 70%!important;
+    left: 68%!important;
     top: 73%!important;
-    transform: translate(-70%, -73%);
+    transform: translate(-68%, -73%);
   }
 }
 
