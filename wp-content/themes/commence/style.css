@@ -749,20 +749,8 @@ a{
   position: initial;
 }
 
-.innerCircleTitle{
-  display: none!important;
-}
-
 .innerCircleTitle.static{
-  position: absolute;
-  right: 50%;
-  position: absolute;
-  top: 47.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: auto;
-  min-width: 250px;
-  text-align: center;
+  display: none!important;
 }
 
 .ciclegraph{
@@ -967,6 +955,12 @@ a{
 
 #infographic{
   position: relative;
+}
+
+@media (max-width: 1800px){
+  .blob-1{
+    max-height: 734px;
+  }
 }
 
 @media (max-width: 1600px){
