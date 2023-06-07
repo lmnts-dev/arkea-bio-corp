@@ -799,8 +799,8 @@ a{
 }
 
 .circle{
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   transition: transform 0.3s ease;
   border: 100px solid transparent;
   background: url(/wp-content/uploads/2023/06/arrow-border.png) center/100% 100% border-box;
