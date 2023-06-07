@@ -13,10 +13,6 @@
 
 /*THEME*/
 
-html, body{
-  scroll-behavior: smooth;
-}
-
 .page-content{
   overflow-x: hidden;
   margin: 0 auto;
@@ -792,6 +788,10 @@ a{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
+}
+
+.uc-circle .innerCircleIcon{
+  transform: all .25s ease;
 }
 
 .uc-circle .innerCircleIcon:hover .uc-svg-image{
