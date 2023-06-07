@@ -126,6 +126,10 @@ section{
   text-decoration: none;
 }
 
+.copyright{
+  margin-top: 15px;
+}
+
 .no-link a::after{
   height: 0!important;
 }
