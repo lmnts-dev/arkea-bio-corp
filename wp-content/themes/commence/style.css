@@ -496,7 +496,7 @@ a{
 }
 
 .frm_submit button::after{
-    content: url("/wp-content/uploads/2023/03/External-Arrow-cropped.svg");
+    content: url(/wp-content/uploads/2023/03/External-Arrow-cropped.svg);
     position: absolute;
     width: 42px;
     height: 42px;
