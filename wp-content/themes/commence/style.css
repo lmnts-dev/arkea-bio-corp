@@ -834,7 +834,7 @@ a{
   background: url(/wp-content/uploads/2023/06/arrow-border.png) center/100% 100% border-box;
 }
 
-.ue-carousel-prev svg{
+.ue-carousel-prev svg, .ue-carousel-prev img{
   transform: rotateZ(180deg);
 }
 
