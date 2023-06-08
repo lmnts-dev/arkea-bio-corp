@@ -802,7 +802,7 @@ a{
   z-index: 100!important;
 }
 
-#content{
+body{
   position: relative;
 }
 
