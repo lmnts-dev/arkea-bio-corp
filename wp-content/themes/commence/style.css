@@ -1158,10 +1158,10 @@ a{
   }
 }
 
-@media (max-width: 1260){
+@media (max-width: 1260px){
   .interactive-btns{
     top: 70.5%!important;
-    left: 62.5%!important;
+    left: 63.5%!important;
   }
 
   #graphic-close{
