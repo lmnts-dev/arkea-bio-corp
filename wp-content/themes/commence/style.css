@@ -1152,7 +1152,7 @@ a{
 }
 
 @media (max-width: 1310px){
-  .graphic-close{
+  #graphic-close{
     left: 62.5%!important;
     top: 52.5%!important;
   }
