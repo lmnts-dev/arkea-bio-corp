@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
   let infoBtns = document.querySelector('.interactive-btns');
   let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
-  let content = document.querySelector('#content');
+  let body = document.querySelector(body);
   let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
   let close = document.querySelector('#graphic-close');
 
