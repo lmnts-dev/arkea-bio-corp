@@ -857,6 +857,11 @@ a{
   display: none;
 }
 
+.interactive-btns .ue-carousel-nav-icon img{
+  width: 32px;
+  height: 32px;
+}
+
 .spiral-container-2, .spiral-container{
   position: relative;
   max-height: 734px;
