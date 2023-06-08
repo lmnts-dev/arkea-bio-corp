@@ -1110,7 +1110,7 @@ a{
     margin-inline-start: 12px!important;  
   }
 
-    #graphic-close{
+  #graphic-close{
     left: 61.5%!important;
   }
 
@@ -1162,6 +1162,10 @@ a{
   .interactive-btns{
     top: 70.5%!important;
     left: 62.5%!important;
+  }
+
+  #graphic-close{
+    left: 63%!important;
   }
 }
 
