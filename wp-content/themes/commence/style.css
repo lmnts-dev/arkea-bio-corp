@@ -802,11 +802,7 @@ a{
   z-index: 100!important;
 }
 
-body{
-  position: relative;
-}
-
-body.overlay::before{
+.elementor-widget-ucaddon_interactive_circle_infographic.overlay::before{
   content: "";
   display: block;
   position: fixed;
@@ -815,7 +811,7 @@ body.overlay::before{
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 100;
+  z-index: 10;
 }
 
 .uc-circle .innerCircleIcon .uc-svg-image{
