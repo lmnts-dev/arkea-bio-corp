@@ -13,38 +13,39 @@ window.addEventListener("scroll", () => {
 
 
  // INTERACTIVE GRAPHIC
+document.addEventListener("DOMContentLoaded", function () {
+  let graphic = document.querySelectorAll('.uc-circle');
+  let active = document.querySelector('.uc-circle-selected');
+  let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
+  let infoBtns = document.querySelector('.interactive-btns');
+  let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
+  let content = document.querySelector('#content');
+  let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
+  let close = document.querySelector('#graphic-close');
 
-let graphic = document.querySelectorAll('.uc-circle');
-let active = document.querySelector('.uc-circle-selected');
-let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
-let infoBtns = document.querySelector('.interactive-btns');
-let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
-let content = document.querySelector('#content');
-let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
-let close = document.querySelector('#graphic-close');
 
+  if (active == null) {
+    interactiveContainer.style.backgroundColor = 'transparent';
+  }
 
-if (active == null) { 
-  interactiveContainer.style.backgroundColor = 'transparent';
-}
+  graphic.forEach(el => el.addEventListener('click', () => {
+    interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
+    infoBtns.style.display = 'block';
+    content.classList.add('overlay');
+    interactiveContainer.style.display = 'block';
+    interactiveContainer.style.alignItems = 'start';
+    interactiveContainer.style.textAlign = 'start';
+    close.style.display = 'block';
+  }));
 
-graphic.forEach(el => el.addEventListener('click', () => {
-  interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
-  infoBtns.style.display = 'block';
-  content.classList.add('overlay');
-  interactiveContainer.style.display = 'block';
-  interactiveContainer.style.alignItems = 'start';
-  interactiveContainer.style.textAlign = 'start';
-  close.style.display = 'block';
-}));
+  close.addEventListener("click", () => {
+    interactiveContainer.style.display = 'none';
+    infoBtns.style.display = 'none';
+    close.style.display = 'none';
+    content.classList.remove('overlay');
 
-close.addEventListener("click", () => {
-  interactiveContainer.style.display = 'none';
-  infoBtns.style.display = 'none';
-  close.style.display = 'none';
-  content.classList.remove('overlay');
-
-})
+  })
+});
 
 //SPIRALS ANIMATIONS
 

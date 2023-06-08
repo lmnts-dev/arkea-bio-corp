@@ -806,7 +806,7 @@ a{
   position: relative;
 }
 
-#content.overlay::before{
+body.overlay body::before{
   content: "";
   display: block;
   position: fixed;
