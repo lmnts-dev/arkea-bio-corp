@@ -1152,9 +1152,9 @@ a{
 }
 
 @media (max-width: 1310px){
-  .interactive-btns{
-    left: 62%!important;
-    top: 70.5%!important;
+  .graphic-close{
+    left: 62.5%!important;
+    top: 52.5%!important;
   }
 }
 
@@ -1204,6 +1204,11 @@ a{
 
   .interactive-btns{
     left: 63.5%!important;
+  }
+
+  .graphic-close{
+    left: 63.5%!important;
+    top: 52.5%!important;
   }
 }
 
@@ -1373,8 +1378,8 @@ a{
 
 @media (max-width: 935px){
   .interactive-btns{
-    left: 67%!important;
-    top: 74%!important;  
+    left: 68%!important;
+    top: 57%!important;
   }
 }
 
@@ -1386,6 +1391,7 @@ a{
 
  #graphic-close{
     left: 65%!important;
+    top: 55%!important;
   }
 
   section{
