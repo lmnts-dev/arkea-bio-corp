@@ -1225,6 +1225,11 @@ a{
     top: 71%!important;
     left: 64%!important;
   }
+
+   #graphic-close{
+    left: 64.5%!important;
+    top: 52.5%!important;
+  }
 }
 
 @media (max-width: 1089px){
