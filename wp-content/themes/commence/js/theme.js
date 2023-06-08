@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
   graphic.forEach(el => el.addEventListener('click', () => {
     interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
     infoBtns.style.display = 'block';
-    content.classList.add('overlay');
+    body.classList.add('overlay');
     interactiveContainer.style.display = 'block';
     interactiveContainer.style.alignItems = 'start';
     interactiveContainer.style.textAlign = 'start';
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     interactiveContainer.style.display = 'none';
     infoBtns.style.display = 'none';
     close.style.display = 'none';
-    content.classList.remove('overlay');
+    body.classList.remove('overlay');
 
   })
 });
