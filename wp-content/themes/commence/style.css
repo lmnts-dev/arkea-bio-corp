@@ -1381,6 +1381,11 @@ a{
     left: 68%!important;
     top: 74%!important;
   }
+
+  #graphic-close {
+    left: 68%!important;
+    top: 56%!important;
+  }
 }
 
 @media (max-width: 900px){
