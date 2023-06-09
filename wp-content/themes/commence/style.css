@@ -400,6 +400,12 @@ a{
   overflow: visible;
 }
 
+/*FORM*/
+
+.form-column {
+  height: fit-content;
+}
+
 .elementor-form button svg{
   width: 2.8rem;
   height: 2.8rem;
@@ -1233,13 +1239,15 @@ a{
 }
 
 @media (max-width: 1089px){
-  #graphic-close{
-    top: 55%!important;
-  }
-
   .interactive-btns{
     left: 64.5%!important;
     top: 72%!important;
+  }
+}
+
+@media (max-width: 1088px){
+  #graphic-close{
+    top: 55%!important;
   }
 }
 
