@@ -38,6 +38,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 close.addEventListener("click", () => {
+  console.log('clicked');
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
   close.style.display = 'none';
