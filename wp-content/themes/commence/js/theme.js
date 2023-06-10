@@ -38,13 +38,13 @@ graphic.forEach(el => el.addEventListener('click', () => {
   close.style.display = 'block';
 }));
 
-close.addEventListener("click", () => {
+close.forEach(el => el.addEventListener("click", () => {
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
   close.style.display = 'none';
   ineractiveDiv.classList.remove('overlay');
 
-})
+}));
 
 //SPIRALS ANIMATIONS
 
