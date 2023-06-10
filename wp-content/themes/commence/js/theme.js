@@ -20,10 +20,9 @@ let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
-let close = document.querySelector('#graphic-close');
+let close = document.querySelectorAll('.graphic-close');
 
-
-console.log(close, 'close is here');
+console.log(close, 'close here');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -40,7 +39,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 close.addEventListener("click", () => {
-  console.log('clicked');
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
   close.style.display = 'none';
