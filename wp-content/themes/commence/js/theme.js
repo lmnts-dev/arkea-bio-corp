@@ -23,6 +23,8 @@ let container = document.querySelector('.elementor-widget-ucaddon_interactive_ci
 let close = document.querySelector('#graphic-close');
 
 
+console.log(close, 'close is here');
+
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
 }
