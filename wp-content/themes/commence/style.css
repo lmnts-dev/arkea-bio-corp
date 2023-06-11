@@ -791,6 +791,9 @@ a{
 .graphic-close{
   cursor: pointer;
   display: none;
+  position: absolute;
+  right: 15px;
+  top: 35px;
 }
 
 .graphic-close svg{
