@@ -21,3 +21,8 @@ function  my_theme_enqueue_scripts() {
     wp_enqueue_script('custom', get_stylesheet_directory_uri().'/js/theme.js', 
     array(), false, true);
 }
+
+function disable_smooth_scroll() {
+    wp_enqueue_script('disable-smooth-scroll', get_stylesheet_directory_uri() . '/js/disable-smooth-scroll.js', array('jquery'), '1.0', true);
+}
+add_action('wp_enqueue_scripts', 'disable_smooth_scroll');
