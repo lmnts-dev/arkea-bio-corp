@@ -20,11 +20,9 @@ let interactiveContainer = document.querySelector('.ciclegraph .innerCircle');
 let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
-let close = document.querySelectorAll('.graphic-close');
+let close = document.querySelector('.innerCircle .graphic-close');
 
-let closeBtns = Array.from(close);
-
-console.log(closeBtns, 'btns here');
+console.log(close, 'close here');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -37,14 +35,14 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.display = 'block';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
-  closeBtns.forEach((el) => el.style.display = 'block');
+  close.style.display = 'block';
 }));
 
 closeBtns.forEach(el => el.addEventListener("click", () => {
   console.log(el, 'element is working');
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
-  closeBtns.forEach((el) => el.style.display = 'none');
+  close.style.display = 'none';
   ineractiveDiv.classList.remove('overlay');
 
 }));
