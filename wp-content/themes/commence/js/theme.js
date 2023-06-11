@@ -24,6 +24,8 @@ let close = document.querySelectorAll('.graphic-close');
 
 let closeBtns = Array.from(close);
 
+console.log(closeBtns, 'btns here');
+
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
 }
