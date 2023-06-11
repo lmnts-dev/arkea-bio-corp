@@ -857,9 +857,10 @@ a{
 
 .interactive-btns{
   position: absolute;
-  left: 59.5%!important;
-  top: 68%!important;
-  transform: translate(-59.5%, -68.5%);
+  right: 50%!important;
+  margin-left: 20px;
+  top: 50%!important;
+  margin-top: 155px;
   display: none;
 }
 
@@ -896,13 +897,6 @@ a{
 
 .member-title{
   line-height: 1;
-}
-
-@media (min-width: 2200px)
-{
- .interactive-btns{
-  top: 67%!important;
- }
 }
 
 @media (min-width: 1700px)
@@ -1004,53 +998,10 @@ a{
   position: relative;
 }
 
-@media (max-width: 2675px){
-  .interactive-btns {
-    top: 67.5%!important;
-  }
-}
-
-@media (max-width: 2500px){
-  .interactive-btns {
-    top: 67.75%!important;
-  }
-}
-
-@media (max-width: 2000px){
-  .interactive-btns{
-    top: 68.5%!important;
-  }
-}
-
-
 @media (max-width: 1800px){
   .blob-1{
     max-height: 734px;
     width: auto;
-  }
-}
-
-@media (max-width: 1705px){
-  .interactive-btns{
-    top: 68.75%!important;
-  }
-}
-
-@media (max-width: 1675px){
-  .interactive-btns{
-    left: 59.5%!important;
-  }
-}
-
-@media (max-width: 1660px){
-  .interactive-btns{
-    left: 59.75%!important;
-  }
-}
-
-@media (max-width: 1625px){
-  .interactive-btns{
-    left: 60%!important;
   }
 }
 
@@ -1061,25 +1012,11 @@ a{
   .spiral-column .elementor-widget-html{
     top: 5%!important;
   }
-
-  .interactive-btns{
-    left: 60%!important;
-  }
-}
-
-@media (max-width: 1570px){
-  .interactive-btns{
-    left: 60.25%!important;
-  }
 }
 
 @media (max-width: 1553px){
   .frm_opt_container{
     flex-direction: column;
-  }
-
-  .interactive-btns{
-    left: 60.5%!important;
   }
 
   .elementor-324 .elementor-element.elementor-element-0e91dbf img{
@@ -1102,11 +1039,6 @@ a{
     justify-content: flex-start;
   }
 
-  .interactive-btns{
-    left: 61%!important;
-    top: 69%!important;
-  }
-
   .elementor-item-anchor{
     margin-inline-end: 12px!important;
     margin-inline-start: 12px!important;  
@@ -1117,14 +1049,6 @@ a{
   }
 }
 
-@media (max-width: 1379px){
-  .interactive-btns{
-    left: 61.5%!important;
-    top: 70.5%!important;
-  }
-}
-
-
 @media (max-width: 1366px){
   .spiral-container-2{
     max-width: 40vw!important;  
@@ -1132,25 +1056,6 @@ a{
   .blob-1{
     max-height: 600px;
     width: auto;
-  }
-
-  .interactive-btns{
-    top: 70%!important;
-  }
-}
-
-
-@media (max-width: 1260px){
-  .interactive-btns{
-    top: 70.5%!important;
-    left: 63.5%!important;
-  }
-}
-
-@media (max-width: 1220){
-  .interactive-btns{
-    top: 70.5%!important;
-    left: 63%!important;
   }
 }
 
@@ -1179,33 +1084,11 @@ a{
       padding-left: 0;
       display: block;
     }
-
-  .interactive-btns{
-    left: 63.5%!important;
-  }
 }
 
 @media (max-width: 1140px){
   #problem {
     padding-left: 5%!important;
-  }
-
-  .interactive-btns{
-    top: 71%!important;
-    left: 64%!important;
-  }
-}
-
-@media (max-width: 1089px){
-  .interactive-btns{
-    left: 64.5%!important;
-    top: 72%!important;
-  }
-}
-
-@media (max-width: 1041px){
-  .interactive-btns{
-    left: 65%!important;
   }
 }
 
@@ -1323,26 +1206,6 @@ a{
   .elementor-sticky--active .elementor-button-text{
     color: var(--e-global-color-primary)!important; 
   } 
-
-  .interactive-btns{
-    left: 65.5%!important;
-    top: 73%!important;
-    transform: translate(-65%, -73%);
-  }
-}
-
-@media (max-width: 985px){
-   .interactive-btns{
-    left: 66.5%!important;
-  }
-}
-
-
-@media (max-width: 935px){
-  .interactive-btns{
-    left: 68%!important;
-    top: 74%!important;
-  }
 }
 
 @media (max-width: 900px){
@@ -1368,11 +1231,6 @@ a{
     width: 370px!important;
   }
 
-  .interactive-btns{
-    left: 64.5%!important;
-    top: 73.5%!important;
-  }
-
   .ue-carousel-nav-icon{
     font-size: 1.75rem!important;
   }
@@ -1389,25 +1247,9 @@ a{
   }
 }
 
-@media (max-width: 852px){
- .interactive-btns{
-    top: 74.5%!important;
-  }
-}
-
 @media (max-width: 820px){
   .uc-circle .innerCircleIcon {
     width: 100px;
-  }
-
-   .interactive-btns{
-    left: 66%!important;
-  }
-}
-
-@media (max-width: 780px){
-   .interactive-btns{
-    left: 67%!important;
   }
 }
 
@@ -1643,14 +1485,6 @@ a{
   right: -20%!important;
 }
 
-}
-
-@media (max-width: 767px)
-{
-  .interactive-btns{
-    left: auto!important;
-    top: auto!important;  
-  }
 }
 
 @media (max-width: 424px)

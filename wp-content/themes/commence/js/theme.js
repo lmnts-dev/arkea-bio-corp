@@ -35,7 +35,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
   close.style.display = 'block';
 
   close.addEventListener("click", () => {
-    console.log(el, 'element is working');
     interactiveContainer.style.display = 'none';
     infoBtns.style.display = 'none';
     close.style.display = 'none';
