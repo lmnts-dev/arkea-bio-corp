@@ -42,7 +42,7 @@ close.addEventListener("click", () => {
   close.style.display = 'none';
   ineractiveDiv.classList.remove('overlay');
 
-}));
+});
 
 //SPIRALS ANIMATIONS
 
