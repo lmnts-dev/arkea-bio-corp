@@ -3,13 +3,12 @@ let spirals2 = document.querySelectorAll('.spiral-container .second-spiral path'
 
 var scrollPosition = window.scrollY;
 let rotateValue = "rotate(" + scrollPosition + "deg)";
-let circle = document.querySelector(".circle");
 var lastScrollTop = 0;
 
-window.addEventListener("scroll", () => {
-  let top2 = window.pageYOffset / 2; 
-  circle.style.transform = 'rotateZ(' + top2 / 30 + 'deg)';
- });
+// window.addEventListener("scroll", () => {
+//   let top2 = window.pageYOffset / 2; 
+//   circle.style.transform = 'rotateZ(' + top2 / 30 + 'deg)';
+//  });
 
 
  // INTERACTIVE GRAPHIC
@@ -36,7 +35,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
   close.style.display = 'block';
 }));
 
-closeBtns.forEach(el => el.addEventListener("click", () => {
+close.addEventListener("click", () => {
   console.log(el, 'element is working');
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
