@@ -33,16 +33,17 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.textAlign = 'start';
   let close = document.querySelector('.innerCircle .graphic-close');
   close.style.display = 'block';
+
+  close.addEventListener("click", () => {
+    console.log(el, 'element is working');
+    interactiveContainer.style.display = 'none';
+    infoBtns.style.display = 'none';
+    close.style.display = 'none';
+    ineractiveDiv.classList.remove('overlay');
+  });
 }));
 
-close.addEventListener("click", () => {
-  console.log(el, 'element is working');
-  interactiveContainer.style.display = 'none';
-  infoBtns.style.display = 'none';
-  close.style.display = 'none';
-  ineractiveDiv.classList.remove('overlay');
 
-});
 
 //SPIRALS ANIMATIONS
 
