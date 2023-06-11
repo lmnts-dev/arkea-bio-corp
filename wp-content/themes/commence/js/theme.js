@@ -22,7 +22,7 @@ let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactiv
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
 let close = document.querySelectorAll('.graphic-close');
 
-console.log(close, 'close here');
+let closeBtns = Array.from(close);
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -35,14 +35,14 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.display = 'block';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
-  close.forEach((el) => el.style.display = 'block');
+  closeBtns.forEach((el) => el.style.display = 'block');
 }));
 
-close.forEach(el => el.addEventListener("click", () => {
+closeBtns.forEach(el => el.addEventListener("click", () => {
   console.log(el, 'element is working');
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
-  close.forEach((el) => el.style.display = 'none');
+  closeBtns.forEach((el) => el.style.display = 'none');
   ineractiveDiv.classList.remove('overlay');
 
 }));
