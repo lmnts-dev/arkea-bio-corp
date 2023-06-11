@@ -788,11 +788,8 @@ a{
   position: relative;
 }
 
-#graphic-close{
+.graphic-close{
   cursor: pointer;
-  position: absolute;
-  left: 60%!important;
-  top: 51%!important;
   display: none;
 }
 
