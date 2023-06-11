@@ -35,13 +35,13 @@ graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.display = 'block';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
-  close.style.display = 'block';
+  close.map((el) => el.style.display = 'block');
 }));
 
 close.forEach(el => el.addEventListener("click", () => {
   interactiveContainer.style.display = 'none';
   infoBtns.style.display = 'none';
-  close.style.display = 'none';
+  close.map((el) => el.style.display = 'none');
   ineractiveDiv.classList.remove('overlay');
 
 }));
