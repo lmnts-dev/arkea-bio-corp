@@ -259,6 +259,10 @@ a{
   position: initial;
 }
 
+#kristin img{
+  height: 330px;
+}
+
 .team-accordion .elementor-accordion-title{
   line-height: 1.2;
 }
