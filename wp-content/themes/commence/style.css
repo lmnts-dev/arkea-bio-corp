@@ -751,8 +751,8 @@ a{
   display: none;
 }
 
-.ciclegraph .innerCircle .innerCircleTitle{
-  margin-bottom: 15px;
+.ciclegraph .innerCircle .innerCircleText{
+  margin-top: 15px;
 }
 
 #graphic-arrow-2{
