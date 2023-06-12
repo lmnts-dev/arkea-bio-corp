@@ -267,6 +267,16 @@ a{
   height: 330px;
 }
 
+#jim .accordion-hover-img-wrapper {
+  width: 300px;
+  height: 400px;
+}
+
+#jim img{
+  height: 400px;
+  width: 400px;
+}
+
 .team-accordion .elementor-accordion-title{
   line-height: 1.2;
 }
