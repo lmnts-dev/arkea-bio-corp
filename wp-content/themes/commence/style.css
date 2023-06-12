@@ -858,8 +858,10 @@ a{
 .interactive-btns{
   position: absolute;
   right: 50%!important;
+  left: 50%!important;
   margin-left: 20px;
   top: 50%!important;
+  margin-left: 150px;
   margin-top: 155px;
   display: none;
 }
