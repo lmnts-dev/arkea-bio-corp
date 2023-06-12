@@ -593,10 +593,6 @@ a{
   left: -20vw!important;
 }
 
-#problem{
-  padding-left: 9%!important;
-}
-
 #problem .elementor-widget-icon{
   height: 0;
 }
@@ -1002,12 +998,6 @@ a{
 
   section{
     padding: 5%!important;
-  }
-}
-
-@media (min-width: 1903px){
- #problem{
-    padding-left: 9%!important;
   }
 }
 
