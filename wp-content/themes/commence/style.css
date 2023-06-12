@@ -503,6 +503,7 @@ a{
 .frm_submit button{
     position: relative;
     padding-right: 60px!important;
+    font-size: 1.25em;
 }
 
 .frm_submit button::after{
