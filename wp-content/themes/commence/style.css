@@ -1106,6 +1106,10 @@ a{
   z-index: 1!important;
 }
 
+.interactive-btns{
+  margin-left: 135px;
+}
+
 .accordion-hover-img--team{
   max-width: 400px!important;
 }
