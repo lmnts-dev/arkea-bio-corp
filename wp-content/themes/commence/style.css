@@ -921,6 +921,12 @@ a{
   line-height: 1;
 }
 
+@media (min-width: 769px){
+  .elementor-item-anchor, #footer-menu li a{
+    margin-right: 10px!important;
+  }
+}
+
 @media (min-width: 1700px)
 {
   .spiral-background img{
