@@ -1073,10 +1073,6 @@ a{
 }
 
 @media (max-width: 1240px){
-  .uc-circle .innerCircleIcon {
-    width: 150px;
-  }
-
   .elementor-item-anchor, #footer-menu li a{
     font-size: 12px!important;
   }
