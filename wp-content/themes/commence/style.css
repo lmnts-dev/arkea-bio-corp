@@ -992,9 +992,13 @@ a{
 }
 
 @media (min-width: 2000px){
-  #our-mission h2, #contact h2, #problem h2{
+  #our-mission h2, #problem h2{
     font-size: 48px!important;
   }
+
+   #contact h3{
+    font-size: 72px!important;
+   }
 
   section{
     padding: 5%!important;
