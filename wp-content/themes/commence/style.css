@@ -799,6 +799,7 @@ a{
   height: auto;
   min-width: 250px;
   text-align: center;
+  display: none;
 }
 
 .ciclegraph{
