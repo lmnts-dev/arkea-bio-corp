@@ -747,6 +747,15 @@ a{
   display: none;
 }
 
+#graphic-arrow-2{
+  margin-right: -380px;
+}
+
+#graphic-arrow-3{
+  left: 50%;
+  margin-left: -380px;
+}
+
 .ue_item_image{
   position: absolute;
   top: -150px;
