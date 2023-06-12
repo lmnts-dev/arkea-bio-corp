@@ -84,6 +84,10 @@ section{
 
 /*NAV*/
 
+.privacy-policy .header--transparent a, .page-id-4824 .header--transparent a{
+  color: var(--e-global-color-secondary )!important;
+}
+
 .header--sticky {
  transform: translatey(-110px);
  -moz-transition: all .3s ease!important;
