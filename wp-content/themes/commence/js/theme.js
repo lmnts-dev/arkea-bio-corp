@@ -20,6 +20,7 @@ let infoBtns = document.querySelector('.interactive-btns');
 let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic');
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
 let title = document.querySelector('.innerCircleTitle.static');
+let startBtn = document.querySelector('.explore-btn');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -43,6 +44,10 @@ graphic.forEach(el => el.addEventListener('click', () => {
     ineractiveDiv.classList.remove('overlay');
   });
 }));
+
+startBtn.addEventListener("click", () => { 
+  console.log('start clicked');
+})
 
 
 
