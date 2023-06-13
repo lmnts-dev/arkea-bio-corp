@@ -272,6 +272,11 @@ a{
   height: 400px;
 }
 
+#tom .accordion-hover-img-wrapper{
+  width: 310px;
+  height: 554px;
+}
+
 #jim img{
   height: 400px;
   width: 400px;
