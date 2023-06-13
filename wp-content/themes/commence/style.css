@@ -835,6 +835,24 @@ a{
   width: 22px;
 }
 
+.first-item{
+  color: #1F9E71;
+}
+
+
+.explore-btn-container{
+  right: 50%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  height: auto;
+  min-width: 250px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 100;
+}
+
 .elementor-widget-ucaddon_interactive_circle_infographic{
   position: relative;
 }
