@@ -36,17 +36,19 @@ graphic.forEach(el => el.addEventListener('click', () => {
   let close = document.querySelector('.innerCircle .graphic-close');
   close.style.display = 'block';
   title.style.display = 'block';
+  startBtn.style.display = 'none';
 
   close.addEventListener("click", () => {
     interactiveContainer.style.display = 'none';
     infoBtns.style.display = 'none';
     close.style.display = 'none';
     ineractiveDiv.classList.remove('overlay');
+    startBtn.style.display = 'block';
   });
 }));
 
 startBtn.addEventListener("click", () => { 
-  console.log('start clicked');
+  
 })
 
 
