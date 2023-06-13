@@ -36,7 +36,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
   let close = document.querySelector('.innerCircle .graphic-close');
   close.style.display = 'block';
   title.style.display = 'block';
-  startBtn.style.display = 'none';
 
   close.addEventListener("click", () => {
     interactiveContainer.style.display = 'none';
@@ -48,12 +47,8 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 startBtn.addEventListener("click", () => { 
-  infoBtns.style.display = 'block';
-  interactiveContainer.style.display = 'block';
-  ineractiveDiv.classList.add('overlay');
-  close.style.display = 'block';
-  title.style.display = 'block';
-  startBtn.style.display = 'none';
+  interactiveContainer.style.opacity = 1;
+  infoBtns.style.opacity = 1;
 })
 
 
