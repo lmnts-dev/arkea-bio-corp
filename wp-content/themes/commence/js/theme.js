@@ -53,6 +53,7 @@ startBtn.addEventListener("click", () => {
   ineractiveDiv.classList.add('overlay');
   close.style.display = 'block';
   title.style.display = 'block';
+  startBtn.style.display = 'none';
 })
 
 

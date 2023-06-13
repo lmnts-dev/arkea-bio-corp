@@ -764,7 +764,8 @@ a{
   align-items: start;
   text-align: start;
   z-index: 10!important;
-  display: none;
+  display: none!important;
+  opacity: 0;
 }
 
 .ciclegraph .innerCircle .innerCircleText{
@@ -863,7 +864,7 @@ a{
 
 .elementor-widget-ucaddon_interactive_circle_infographic.overlay .elementor-widget-container::before{
   content: "";
-  display: block;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -917,6 +918,7 @@ a{
   margin-left: 150px;
   margin-top: 125px;
   display: none;
+  opacity: 0;
 }
 
 .interactive-btns .ue-carousel-nav-icon img{
