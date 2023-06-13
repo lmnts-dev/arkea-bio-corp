@@ -39,7 +39,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
   close.addEventListener("click", () => {
     interactiveContainer.style.opacity = '0';
-    infoBtns.style.display = '0';
+    infoBtns.style.opacity = '0';
     close.style.display = '0';
     ineractiveDiv.classList.remove('overlay');
     startBtn.style.display = 'block'
@@ -49,7 +49,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
 startBtn.addEventListener("click", () => { 
   interactiveContainer.style.opacity = 1;
   infoBtns.style.opacity = 1;
-  startBtn.style.display = none;
+  startBtn.style.display = 'none';
 })
 
 
