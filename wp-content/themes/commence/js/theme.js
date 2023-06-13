@@ -43,12 +43,16 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.display = 'none';
     close.style.display = 'none';
     ineractiveDiv.classList.remove('overlay');
-    startBtn.style.display = 'block';
+    startBtn.style.display = 'block'
   });
 }));
 
 startBtn.addEventListener("click", () => { 
-  
+  infoBtns.style.display = 'block';
+  interactiveContainer.style.display = 'block';
+  ineractiveDiv.classList.add('overlay');
+  close.style.display = 'block';
+  title.style.display = 'block';
 })
 
 
