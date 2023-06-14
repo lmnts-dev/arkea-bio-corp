@@ -22,8 +22,6 @@ let container = document.querySelector('.elementor-widget-ucaddon_interactive_ci
 let title = document.querySelector('.innerCircleTitle.static');
 let startBtn = document.querySelector('.explore-btn');
 
-ineractiveDiv.classList.remove('overlay');
-
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -32,7 +30,7 @@ if (active == null) {
 graphic.forEach(el => el.addEventListener('click', () => {
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  ineractiveDiv.classList.add('overlay');
+  // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.display = 'block';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
@@ -44,7 +42,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     interactiveContainer.style.opacity = '0';
     infoBtns.style.opacity = '0';
     close.style.display = '0';
-    ineractiveDiv.classList.remove('overlay');
+    // ineractiveDiv.classList.remove('overlay');
     startBtn.style.display = 'block'
   });
 }));
