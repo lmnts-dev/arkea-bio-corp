@@ -272,12 +272,17 @@ a{
 }
 
 .content-card::after{
+  content: '';
   background-image: url(/wp-content/uploads/2023/06/or-icon.png);
   position: absolute;
   background-size: 67px 66px;
   height: 67px;
   width: 66px;
   right: 0;
+}
+
+.content-card .ue-title{
+  margin-bottom: 0;
 }
 
 /*ACCORDIONS*/
@@ -740,6 +745,10 @@ a{
 /*NEWS*/
 #news{
   padding-bottom: 0!important;
+}
+
+.news-item{
+  border-bottom: 1px solid var(--e-global-color-primary);
 }
 
 #resource-links{
