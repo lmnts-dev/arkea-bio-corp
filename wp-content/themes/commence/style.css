@@ -19,7 +19,7 @@
 }
 
 section{
-	padding: 5% 9%!important;
+	padding: 4% 9%!important;
 }
 
 .max-width{
@@ -1091,7 +1091,7 @@ a{
 
 @media (min-width: 2000px){
   section{
-    padding: 5%!important;
+    padding: 4% 5%!important;
   }
 }
 
