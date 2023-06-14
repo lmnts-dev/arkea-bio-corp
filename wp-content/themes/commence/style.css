@@ -278,7 +278,9 @@ a{
   background-size: 67px 66px;
   height: 67px;
   width: 66px;
-  right: 0;
+  right: -18%;
+  top: 10%;
+  z-index: 10;
 }
 
 .content-card .ue-title{
@@ -749,6 +751,7 @@ a{
 
 .news-item{
   border-bottom: 1px solid var(--e-global-color-primary);
+  padding-bottom: 24px;
 }
 
 #resource-links{
