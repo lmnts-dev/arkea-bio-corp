@@ -363,14 +363,6 @@ a{
 	}
 }
 
-/*DNA ANIMATION*/
-.activate{
-  animation: slide 20s linear infinite;
-}
-
-.mobile-strand{
-  left: -100vw;
-}
 
 
 @keyframes slide {
@@ -1034,23 +1026,9 @@ a{
   h1{
     font-size: 4vw!important;
   }
-
-   #problem h2, #our-mission h2, #our-arkeabio h2{
-    font-size: 48px!important;
-   }
-
-    #contact h3{
-      font-size: 72px;
-    }
 }
 
 @media (min-width: 2000px){
-  #our-mission h2, #problem h2, #our-arkeabio h2{
-    font-size: 72px!important;
-  }
-
- 
-
   section{
     padding: 5%!important;
   }
@@ -1228,10 +1206,6 @@ a{
   right: 0;
   transform: none;
   clip-path: none;
-}
-
-.mobile-strand{
-  left: -20vw;
 }
 
   #applications .accordion-hover-img{
