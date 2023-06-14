@@ -939,7 +939,7 @@ a{
   opacity: 0;
 }
 
-.interactive-btns .ue-carousel-nav-icon img{
+.interactive-btns .ue-carousel-nav-icon svg{
   width: 32px;
   height: 32px;
 }
