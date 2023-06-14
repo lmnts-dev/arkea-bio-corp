@@ -852,6 +852,20 @@ a{
   font-weight: 700;
   border: solid 2px var(--e-global-color-primary); 
   border-radius: 29px;
+  padding: 9px 18px;
+}
+
+.explore-btn::after{
+  background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  will-change: background;
+  transition: background 0.25s ease 0s;
+}
+
+.explore-btn:hover::after{
+  background-size: 100% 100%!important;
 }
 
 .elementor-widget-ucaddon_interactive_circle_infographic{
