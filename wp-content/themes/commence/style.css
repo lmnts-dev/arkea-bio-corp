@@ -862,6 +862,10 @@ a{
   z-index: 100!important;
 }
 
+.elementor-widget-ucaddon_interactive_circle_infographic.overlay .elementor-widget-container{
+  transform: none;
+}
+
 .elementor-widget-ucaddon_interactive_circle_infographic.overlay .elementor-widget-container::before{
   content: "";
   display: block;
