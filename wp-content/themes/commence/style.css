@@ -415,6 +415,14 @@ a{
   position: relative;
 }
 
+.card-container .ue-title{
+  margin-bottom: 0;
+}
+
+.card-container .ue-text{
+  margin-top: 0;
+}
+
 .card-container .card-btn{
   position: initial;
 }
