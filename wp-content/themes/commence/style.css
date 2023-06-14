@@ -272,10 +272,12 @@ a{
 }
 
 .content-card::after{
-  content: url(/wp-content/uploads/2023/06/or-icon.png);
+  background-image: url(/wp-content/uploads/2023/06/or-icon.png);
   position: absolute;
+  background-size: 67px 66px;
   height: 67px;
   width: 66px;
+  right: 0;
 }
 
 /*ACCORDIONS*/
