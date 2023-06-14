@@ -32,11 +32,14 @@ graphic.forEach(el => el.addEventListener('click', () => {
   infoBtns.style.display = 'block';
   // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.display = 'block';
+  interactiveContainer.style.opacity = '1';
+  startBtn.style.display = 'none';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
   let close = document.querySelector('.innerCircle .graphic-close');
   close.style.display = 'block';
   title.style.display = 'block';
+  infoBtns.style.opacity = '1';
 
   close.addEventListener("click", () => {
     interactiveContainer.style.opacity = '0';
