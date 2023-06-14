@@ -32,7 +32,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
   infoBtns.style.display = 'block';
   // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.display = 'block';
-  interactiveContainer.style.opacity = '1';
+  // interactiveContainer.style.opacity = '1';
   startBtn.style.display = 'none';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
