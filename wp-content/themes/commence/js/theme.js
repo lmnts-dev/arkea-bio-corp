@@ -46,7 +46,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.opacity = '0';
     close.style.display = '0';
     // ineractiveDiv.classList.remove('overlay');
-    startBtn.style.display = 'block'
   });
 }));
 
