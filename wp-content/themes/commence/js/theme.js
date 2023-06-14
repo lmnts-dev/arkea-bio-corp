@@ -22,6 +22,9 @@ let container = document.querySelector('.elementor-widget-ucaddon_interactive_ci
 let title = document.querySelector('.innerCircleTitle.static');
 let startBtn = document.querySelector('.explore-btn');
 
+ineractiveDiv.classList.remove('overlay');
+
+
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
 }
