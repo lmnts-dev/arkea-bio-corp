@@ -266,6 +266,18 @@ a{
   width: 95%;
 }
 
+/*CARDS*/
+.content-card{
+  position: relative;
+}
+
+.content-card::after{
+  content: url(/wp-content/uploads/2023/06/or-icon.png);
+  position: absolute;
+  height: 67px;
+  width: 66px;
+}
+
 /*ACCORDIONS*/
 
 .elementor-widget-accordion{
