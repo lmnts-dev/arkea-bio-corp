@@ -700,8 +700,8 @@ a{
 
 .first-spiral{
   position: absolute;
-  left: 0;
-  top: 0;
+  left: -20%!important;
+  top: -20%;
   max-width: 40vw!important;
 }
 
