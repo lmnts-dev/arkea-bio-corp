@@ -82,7 +82,7 @@ startBtn.addEventListener("click", () => {
 })
 
  function simulateClick() {
-   var button = document.querySelector('.ue-remote-arrow.ue-carousel-prev .ue-carousel-nav-icon');
+   var button = document.querySelector('.ue-remote-arrow.ue-carousel-prev .ue-carousel-nav-icon svg');
    button.click();
    console.log('clicked on', button);
  }
