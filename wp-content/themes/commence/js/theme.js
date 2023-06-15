@@ -37,7 +37,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
   let close = document.querySelector('.innerCircle .graphic-close');
   if (clickCount > 1) {
     let mainImage = document.querySelector('.innerCircle .ue_item_image');
-    console.log(mainImage);
     mainImage.style.display = 'block';
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
@@ -76,6 +75,9 @@ startBtn.addEventListener("click", () => {
   infoBtns.style.zIndex = '100';
   startBtn.style.display = 'none';
   ineractiveDiv.classList.add('overlay');
+  let mainImage = document.querySelector('.innerCircle .ue_item_image');
+  mainImage.style.display = 'block';
+
 })
 
 
