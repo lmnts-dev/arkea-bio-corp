@@ -1509,7 +1509,7 @@ a{
 }
 
 #second-spiral {
-    left: -30%!important;
+    left: -15%!important;
 }
 
 .first-spiral {
@@ -1740,6 +1740,24 @@ a{
 }
 
 }
+
+@media (max-width: 580px){
+  #second-spiral {
+    left: -25%!important;
+    top: -4%!important;
+  }
+
+  #second-spiral .spiral-container-2{
+    max-width: 70vw!important;
+  }
+}
+
+@media (max-width: 470px){
+  #second-spiral .spiral-container-2{
+    max-width: 70vw!important;
+  }
+}
+
 
 @media (max-width: 424px)
 {
