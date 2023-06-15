@@ -1273,9 +1273,6 @@ a{
 }
 
 @media (max-width: 1366px){
-  .spiral-container-2{
-    max-width: 40vw!important;  
-  }
   .blob-1{
     max-height: 600px;
     width: auto;
@@ -1284,9 +1281,12 @@ a{
 
 @media (max-width: 1201px){
   .spiral-container-2{
-  max-width: 47vw!important;
+  max-width: 40vw!important;
 }
 
+.first-spiral {
+    top: -10%!important;
+}
   .member-title{
     white-space: nowrap;
   }
@@ -1485,6 +1485,10 @@ a{
 {
 #frm_field_1_container{
   margin-right: 0;
+}
+
+.first-spiral {
+  top: -5%!important;
 }
 
 .content-card::after{
