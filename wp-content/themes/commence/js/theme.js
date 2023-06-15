@@ -51,6 +51,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
 startBtn.addEventListener("click", () => { 
   interactiveContainer.style.opacity = 1;
+  interactiveContainer.style.zIndex = 10;
   infoBtns.style.opacity = 1;
   startBtn.style.display = 'none';
 })
