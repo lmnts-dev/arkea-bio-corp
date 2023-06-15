@@ -1294,7 +1294,7 @@ a{
 
 @media (max-width: 1201px){
   .spiral-container-2{
-  max-width: 40vw!important;
+    max-width: 70vw!important;
 }
 
 #second-spiral .spiral-container-2{
@@ -1405,9 +1405,8 @@ a{
   max-width: 100%!important;
 }
 
-  .spiral-container-2{
+.spiral-container-2{
   min-width: 300px;
-  width: 55vw;
 }
 
 .elementor-active p img{
