@@ -906,9 +906,16 @@ a{
   border: solid 2px var(--e-global-color-primary); 
   border-radius: 29px;
   padding: 9px 18px;
+  position: relative;
 }
 
 .explore-btn::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: linear-gradient(to right, var(--e-global-color-baa2b97) ,var(--e-global-color-baa2b97 ));
   background-size: 0 100%;
   background-repeat: no-repeat;
