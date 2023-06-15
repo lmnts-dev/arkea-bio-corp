@@ -41,6 +41,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.opacity = '1';
     startBtn.style.display = 'none'
     close.style.zIndex = '100';
+    infoBtns.style.zIndex = '100';
     interactiveContainer.style.display = 'block';
     interactiveContainer.style.zIndex = '100';
     console.log('more than once');
