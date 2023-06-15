@@ -308,14 +308,14 @@ a{
   height: 400px;
 }
 
-#tom .accordion-hover-img-wrapper{
-  width: 310px;
-  height: 450px;
-}
-
 #jim img{
   height: 400px;
   width: 400px;
+}
+
+#tom .accordion-hover-img-wrapper{
+  width: 310px;
+  height: 450px;
 }
 
 .team-accordion .elementor-accordion-title{
@@ -571,7 +571,7 @@ a{
 .frm_submit button{
     position: relative;
     padding-right: 60px!important;
-    font-size: 1.25em;
+    font-size: 24px!important;
 }
 
 .frm_submit button::after{
