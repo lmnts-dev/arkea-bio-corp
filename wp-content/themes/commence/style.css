@@ -288,6 +288,7 @@ a{
   height: 67px;
   width: 66px;
   right: -18%;
+  transform: translate(18%, -10%);
   top: 10%;
   z-index: 10;
 }
@@ -1615,7 +1616,7 @@ a{
 
   .accordion-hover-img-container{
     display: flex;
-    justify-content: end;
+    justify-content: start;
   }
 
   .accordion-hover-img-wrapper{
@@ -1811,9 +1812,25 @@ a{
   }
 }
 
+  @media (max-width: 530px){
+  #kristin img{
+    height: auto;
+    }
+  }
+
 @media (max-width: 470px){
   #second-spiral .spiral-container-2{
     max-width: 80vw!important;
+  }
+
+  #jim .accordion-hover-img-wrapper {
+  width: auto;
+  height: auto;
+  }
+
+  #jim img{
+  height: auto;
+  width: auto;
   }
 }
 
