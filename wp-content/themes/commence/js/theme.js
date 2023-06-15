@@ -37,6 +37,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
   handleClick();
   let close = document.querySelector('.innerCircle .graphic-close');
   if (clickCount > 1) {
+    console.log(mainImage, 'main');
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
     startBtn.style.display = 'none'
