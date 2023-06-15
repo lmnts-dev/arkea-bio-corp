@@ -706,7 +706,7 @@ a{
 }
 
 #second-spiral{
-  left: -15%!important;
+  left: -10%!important;
   top: -15%!important;
 }
 
@@ -1295,6 +1295,10 @@ a{
 @media (max-width: 1201px){
   .spiral-container-2{
   max-width: 40vw!important;
+}
+
+#second-spiral .spiral-container-2{
+  max-width: max-content!important;
 }
 
 .first-spiral {
