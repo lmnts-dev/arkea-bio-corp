@@ -80,7 +80,15 @@ startBtn.addEventListener("click", () => {
 
 })
 
-
+ function simulateClick() {
+    var button = document.querySelector('.uc-circle:nth-of-type(8) .innerCircleIcon');
+   button.click();
+   console.log('clicked');
+ }
+  
+   window.addEventListener('DOMContentLoaded', function() {
+      simulateClick();
+    });
 
 //SPIRALS ANIMATIONS
 
