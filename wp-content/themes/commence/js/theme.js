@@ -40,6 +40,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.opacity = '1';
     startBtn.style.display = 'none'
     close.style.zIndex = '100';
+    mainImage.style.display = 'block';
   }
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
@@ -70,6 +71,7 @@ startBtn.addEventListener("click", () => {
   interactiveContainer.style.zIndex = '10';
   infoBtns.style.opacity = '1';
   startBtn.style.display = 'none';
+  mainImage.style.display = 'block';
 })
 
 
