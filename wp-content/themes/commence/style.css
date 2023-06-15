@@ -886,8 +886,8 @@ a{
 }
 
 .uc-circle:nth-of-type(3) .innerCircleIcon::after {
-  left: -50px;
-  top: 70px;
+  left: -60px;
+  top: 75px;
   transform: rotate(180deg);
 }
 
