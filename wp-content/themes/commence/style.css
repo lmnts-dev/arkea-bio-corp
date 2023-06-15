@@ -435,7 +435,11 @@ a{
 }
 
 .card-container .card-btn, .news-item .card-btn{
-  position: initial;
+  position: initial!important;
+}
+
+.news-item .card-btn{
+  margin-top: -50px!important;
 }
 
 .card-container a::before{
