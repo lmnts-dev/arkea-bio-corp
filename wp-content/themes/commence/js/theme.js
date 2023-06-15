@@ -52,7 +52,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
 
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  interactiveContainer.style.zIndex = '1';
+  // interactiveContainer.style.zIndex = '1';
   // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
