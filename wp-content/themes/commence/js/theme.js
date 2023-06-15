@@ -44,16 +44,11 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.zIndex = '100';
     interactiveContainer.style.display = 'block';
     interactiveContainer.style.zIndex = '100';
-    console.log('more than once');
-  }
-  else {
-    console.log('first');
+    ineractiveDiv.classList.add('overlay');
   }
 
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  // interactiveContainer.style.zIndex = '1';
-  // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
   close.style.display = 'block';
@@ -66,7 +61,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     interactiveContainer.style.opacity = '0';
     infoBtns.style.opacity = '0';
     close.style.display = '0';
-    // ineractiveDiv.classList.remove('overlay');
+    ineractiveDiv.classList.remove('overlay');
     startBtn.style.display = 'none'
     interactiveContainer.style.zIndex = 1;
   });
@@ -77,6 +72,7 @@ startBtn.addEventListener("click", () => {
   interactiveContainer.style.zIndex = '10';
   infoBtns.style.opacity = '1';
   startBtn.style.display = 'none';
+  ineractiveDiv.classList.add('overlay');
 })
 
 
