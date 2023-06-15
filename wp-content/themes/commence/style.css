@@ -1507,6 +1507,10 @@ a{
   margin-right: 0;
 }
 
+.member-title{
+  font-size: 14px;
+}
+
 #second-spiral {
     left: -15%!important;
 }
