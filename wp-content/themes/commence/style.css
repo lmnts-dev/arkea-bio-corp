@@ -648,7 +648,7 @@ a{
   clip-path: url('/wp-content/uploads/2023/03/blob.svg');
 }
 
-#problem, #better-future, .dna-container{
+#our-opportunity, #better-future, .dna-container{
   position: relative!important;
 }
 
@@ -656,11 +656,11 @@ a{
   left: -20vw!important;
 }
 
-#problem .elementor-widget-icon{
+#our-opportunity .elementor-widget-icon{
   height: 0;
 }
 
-#problem .e-con, #better-future .e-con,  #better-future .e-con-inner{
+#our-opportunity .e-con, #better-future .e-con,  #better-future .e-con-inner{
   position: initial;
 }
 
@@ -1223,7 +1223,7 @@ a{
 }
 
 @media (max-width: 1140px){
-  #problem {
+  #our-opportunity {
     padding-left: 5%!important;
   }
 }

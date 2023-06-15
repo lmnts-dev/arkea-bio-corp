@@ -58,6 +58,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     close.style.display = '0';
     // ineractiveDiv.classList.remove('overlay');
     startBtn.style.display = 'none'
+    interactiveContainer.style.zIndex = 1;
   });
 }));
 
