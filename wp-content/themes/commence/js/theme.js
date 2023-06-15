@@ -43,7 +43,12 @@ graphic.forEach(el => el.addEventListener('click', () => {
     close.style.zIndex = '100';
     interactiveContainer.style.display = 'block';
     interactiveContainer.style.zIndex = '100';
+    console.log('more than once');
   }
+  else {
+    console.log('first');
+  }
+
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
   interactiveContainer.style.zIndex = '1';
