@@ -852,10 +852,16 @@ a{
   background-position: center 100px;
 }
 
+.uc-circle:nth-of-type(0) .innerCircleIcon::after {
+  left: 140px;
+  top: 90px;
+  transform: rotate(101deg);
+}
+
 .uc-circle:nth-of-type(1) .innerCircleIcon::after {
-  right: 40px;
-  top: 140px;
-  transform: rotate(148deg);
+  left: 140px;
+  top: 90px;
+  transform: rotate(112deg);
 }
 
 .uc-circle:nth-of-type(2) .innerCircleIcon::after {
@@ -889,8 +895,8 @@ a{
 }
 
 .uc-circle:nth-of-type(7) .innerCircleIcon::after {
-  bottom: 100px;
-  left: 120px;
+  bottom: 120px;
+  left: 110px;
   transform: rotate(345deg);
 }
 
@@ -1484,6 +1490,14 @@ a{
 {
 #frm_field_1_container{
   margin-right: 0;
+}
+
+.content-card::after{
+  right: 50%;
+  left: 50%;
+  bottom: -40px;
+  top: auto;
+  transform: translateX(-50%);
 }
 
 .accordion-hover-img--team{
