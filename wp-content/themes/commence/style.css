@@ -494,6 +494,10 @@ a{
   position: relative!important;
 }
 
+.elementor-widget-formidable input{
+  padding: 17px 5px!important;
+}
+
 .frm_style_arkea.with_frm_style .form-field:not(:nth-child(-n+2)){
   margin-bottom: 17px;
 }
