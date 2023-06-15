@@ -163,11 +163,15 @@ a{
   width: 100%;
   height: 1px;
   background-color: var(--e-global-color-primary)!important;
-  bottom: 5px;
+  bottom: -15%;
   left: 0px;
   border-radius: 7px;
   transition: all 0.25s ease 0s;
   opacity: 1!important;
+}
+
+.elementor-location-footer .elementor-nav-menu .menu-item a::after{
+  bottom: 5px!important;
 }
 
 .elementor-widget-text-editor a:hover::after,  .elementor-location-footer .elementor-nav-menu .menu-item a:hover::after {
