@@ -1524,6 +1524,10 @@ a{
   margin-right: 0;
 }
 
+.interactive-btns{
+  display: none!important;
+}
+
 #middle-spiral {
   right: -5%!important;
   left: auto!important;
