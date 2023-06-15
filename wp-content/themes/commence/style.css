@@ -835,6 +835,17 @@ a{
 .uc-circle .innerCircleIcon{
   width: 135px;
   height: auto;
+  position: relative;
+}
+
+.uc-circle .innerCircleIcon::after{
+  content: url(/wp-content/uploads/2023/06/info-arrow.png);
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: 0;
 }
 
 .innerCircleIcon img{
