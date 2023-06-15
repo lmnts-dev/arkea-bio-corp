@@ -40,7 +40,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     mainImage.style.display = 'block';
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
-    startBtn.style.display = 'none'
+    // startBtn.style.display = 'none'
     close.style.zIndex = '100';
     infoBtns.style.zIndex = '100';
     interactiveContainer.style.display = 'block';
@@ -63,7 +63,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.opacity = '0';
     close.style.display = '0';
     ineractiveDiv.classList.remove('overlay');
-    startBtn.style.display = 'none'
+    // startBtn.style.display = 'none'
     interactiveContainer.style.zIndex = 1;
   });
 }));
