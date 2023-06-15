@@ -38,6 +38,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
   if (clickCount > 1) {
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
+    startBtn.style.display = 'none'
   }
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
