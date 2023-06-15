@@ -841,10 +841,6 @@ a{
   height: auto;
 }
 
-#uc_interactive_circle_infographic_elementor59269_item1 .innerCircleIcon{
-
-}
-
 .uc-circle .innerCircleIcon::after{
   content: '';
   position: absolute;
@@ -854,6 +850,24 @@ a{
   background-size: cover;
   position: absolute;
   background-position: center 100px;
+}
+
+#uc_interactive_circle_infographic_elementor59269_item6 .innerCircleIcon::after{
+  bottom: 150px;
+  left: 0px;
+  transform: rotate(320deg);
+}
+
+#uc_interactive_circle_infographic_elementor59269_item7 .innerCircleIcon::after{
+  bottom: 100px;
+  left: 120px;
+  transform: rotate(345deg);
+}
+
+#uc_interactive_circle_infographic_elementor59269_item8 .innerCircleIcon::after{
+  top: 0;
+  left: 150px;
+  transform: rotate(45deg);
 }
 
 .innerCircleIcon img{
