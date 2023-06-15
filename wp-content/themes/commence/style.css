@@ -1277,6 +1277,9 @@ a{
     max-height: 600px;
     width: auto;
   }
+  .spiral-container-2 .second-spiral {
+    left: -15%;
+  }
 }
 
 @media (max-width: 1201px){
@@ -1719,6 +1722,9 @@ a{
 {
   .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
   min-width: 70vw!important;
+  }
+  .first-spiral {
+      top: -3%!important;
   }
 }
 
