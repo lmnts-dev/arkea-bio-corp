@@ -807,7 +807,7 @@ a{
   padding: 50px 40px 83px 40px;
   align-items: start;
   text-align: start;
-  z-index: 10!important;
+  z-index: -1;
   display: none;
   opacity: 0;
 }
@@ -989,6 +989,7 @@ a{
   margin-top: 90px; 
   display: none;
   opacity: 0;
+  z-index: -1;
 }
 
 .interactive-btns .ue-carousel-nav-icon svg{
