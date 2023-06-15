@@ -1531,7 +1531,7 @@ a{
 }
 
 .card{
-  max-width: 325px;
+  max-width: 325px!important;
   margin: 0 auto;
 }
 
