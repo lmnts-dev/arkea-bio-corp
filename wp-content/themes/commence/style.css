@@ -715,6 +715,12 @@ a{
   width: 468px;
 }
 
+#middle-spiral .first-spiral{
+  right: -25%!important;
+  left: auto!important;
+  top: -8%!important;
+}
+
 .spiral-background-2, .spiral-2{
   position: absolute;
   right: 0;
