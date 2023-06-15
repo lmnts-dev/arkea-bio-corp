@@ -39,6 +39,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
     startBtn.style.display = 'none'
+    close.style.zIndex = '100';
   }
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
@@ -65,9 +66,9 @@ graphic.forEach(el => el.addEventListener('click', () => {
 }));
 
 startBtn.addEventListener("click", () => { 
-  interactiveContainer.style.opacity = 1;
-  interactiveContainer.style.zIndex = 10;
-  infoBtns.style.opacity = 1;
+  interactiveContainer.style.opacity = '1';
+  interactiveContainer.style.zIndex = '10';
+  infoBtns.style.opacity = '1';
   startBtn.style.display = 'none';
 })
 
