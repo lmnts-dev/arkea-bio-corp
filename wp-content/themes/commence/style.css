@@ -1731,7 +1731,8 @@ a{
 
   
 .spiral-container .second-spiral, .spiral-container-2 .second-spiral{
-  top: 0%!important;
+  top: 0!important;
+  left: 0!important;
 }
 
 .spiral-column .elementor-widget-html{
