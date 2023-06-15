@@ -422,6 +422,10 @@ a{
   position: relative;
 }
 
+.news-item{
+  position: relative;
+}
+
 .card-container .ue-title{
   margin-bottom: 0;
 }
@@ -430,11 +434,21 @@ a{
   margin-top: 0;
 }
 
-.card-container .card-btn{
+.card-container .card-btn, .news-item .card-btn{
   position: initial;
 }
 
 .card-container a::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.news-item a::before{
   content: '';
   display: block;
   position: absolute;
