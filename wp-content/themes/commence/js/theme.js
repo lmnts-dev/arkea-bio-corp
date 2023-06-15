@@ -40,12 +40,12 @@ graphic.forEach(el => el.addEventListener('click', () => {
     infoBtns.style.opacity = '1';
     startBtn.style.display = 'none'
     close.style.zIndex = '100';
+    interactiveContainer.style.display = 'block';
   }
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  interactiveContainer.style.zIndex = '10';
+  interactiveContainer.style.zIndex = '100';
   // ineractiveDiv.classList.add('overlay');
-  interactiveContainer.style.display = 'block';
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
   let close = document.querySelector('.innerCircle .graphic-close');
