@@ -48,7 +48,7 @@ graphic.forEach(el => el.addEventListener('click', () => {
   let close = document.querySelector('.innerCircle .graphic-close');
   close.style.display = 'block';
   title.style.display = 'block';
-  close.style.zIndex = 100;
+  close.style.zIndex = '100';
 
   // startBtn.style.display = 'none'
 
