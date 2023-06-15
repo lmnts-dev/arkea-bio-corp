@@ -835,17 +835,21 @@ a{
 .uc-circle .innerCircleIcon{
   width: 135px;
   height: auto;
-  position: relative;
+}
+
+#uc_interactive_circle_infographic_elementor59269_item1 .innerCircleIcon{
+
 }
 
 .uc-circle .innerCircleIcon::after{
-  content: url(/wp-content/uploads/2023/06/info-arrow.png);
+  content: '';
   position: absolute;
-  width: 42px;
-  height: 42px;
-  top: 50%;
-  transform: translate(0,-50%);
-  right: 0;
+  width: 20px;
+  height: 24px;
+  background-image: url(/wp-content/uploads/2023/06/info-arrow.png);
+  background-size: cover;
+  position: absolute;
+  background-position: center 100px;
 }
 
 .innerCircleIcon img{
