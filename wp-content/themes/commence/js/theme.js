@@ -81,9 +81,9 @@ startBtn.addEventListener("click", () => {
 })
 
  function simulateClick() {
-    var button = document.querySelector('.uc-circle:nth-of-type(8) .innerCircleIcon');
+   var button = document.querySelector('.uc-circle:nth-of-type(8)');
    button.click();
-   console.log('clicked');
+   console.log('clicked on', button);
  }
   
    window.addEventListener('DOMContentLoaded', function() {
