@@ -285,7 +285,7 @@ a{
 
 .card .ue-title, .card .ue-text{
   margin: 0;
-  margin-top: 0;
+  margin-top: 0!important;
 }
 
 /*ACCORDIONS*/
