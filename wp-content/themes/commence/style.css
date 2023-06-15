@@ -657,6 +657,10 @@ a{
   position: relative!important;
 }
 
+#our-opportunity .e-con-inner{
+  padding: 0;
+}
+
 #our-opportunity .e-con-inner, #contact .e-con-inner{
   position: relative!important;
 }
@@ -1506,6 +1510,10 @@ a{
 {
 #frm_field_1_container{
   margin-right: 0;
+}
+
+#second-spiral {
+    left: -30%!important;
 }
 
 .first-spiral {
