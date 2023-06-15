@@ -657,7 +657,7 @@ a{
   position: relative!important;
 }
 
-#our-opportunity .e-con-inner, #contact .e-con-inner{
+#our-opportunity .e-con-inner, #contact .e-con-inner, #our-arkeabio .e-con-inner{
   position: relative!important;
 }
 
@@ -669,7 +669,7 @@ a{
   height: 0;
 }
 
-#our-opportunity .e-con, #better-future .e-con,  #better-future .e-con-inner, #contact .e-con{
+#our-opportunity .e-con, #better-future .e-con,  #better-future .e-con-inner, #contact .e-con,  #our-arkeabio .e-con{
   position: initial;
 }
 
