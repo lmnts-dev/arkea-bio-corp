@@ -652,6 +652,10 @@ a{
   position: relative!important;
 }
 
+#our-opportunity .e-con-inner{
+  position: relative!important;
+}
+
 .dna-container .e-con, .dna-container-2 .elementor-widget-image{
   left: -20vw!important;
 }
