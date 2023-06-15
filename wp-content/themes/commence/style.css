@@ -1347,6 +1347,14 @@ a{
   height: auto;
 }
 
+#middle-spiral .spiral-container-2{
+  min-width: 400px;
+}
+
+#middle-spiral{
+  right: -20%!important;
+}
+
 .elementor-background-video-container{
   z-index: 1!important;
 }
@@ -1514,6 +1522,12 @@ a{
 {
 #frm_field_1_container{
   margin-right: 0;
+}
+
+#middle-spiral {
+  right: -5%!important;
+  left: auto!important;
+  top: -5%!important;
 }
 
 .card{
