@@ -21,7 +21,6 @@ let ineractiveDiv = document.querySelector('.elementor-widget-ucaddon_interactiv
 let container = document.querySelector('.elementor-widget-ucaddon_interactive_circle_infographic .elementor-widget-container');
 let title = document.querySelector('.innerCircleTitle.static');
 let startBtn = document.querySelector('.explore-btn');
-let mainImage = document.querySelector('.innerCircle .ue_item_image');
 
 if (active == null) { 
   interactiveContainer.style.backgroundColor = 'transparent';
@@ -37,7 +36,8 @@ graphic.forEach(el => el.addEventListener('click', () => {
   handleClick();
   let close = document.querySelector('.innerCircle .graphic-close');
   if (clickCount > 1) {
-    console.log(mainImage, 'main');
+    let mainImage = document.querySelector('.innerCircle .ue_item_image');
+    mainImage.style.display = 'block';
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
     startBtn.style.display = 'none'
