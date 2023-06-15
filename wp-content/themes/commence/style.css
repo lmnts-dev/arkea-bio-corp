@@ -304,7 +304,7 @@ a{
 
 #tom .accordion-hover-img-wrapper{
   width: 310px;
-  height: 554px;
+  height: 450px;
 }
 
 #jim img{
@@ -381,6 +381,7 @@ a{
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: .5s;
+  z-index: 10;
 } 
 
 
