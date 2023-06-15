@@ -924,6 +924,10 @@ a{
   position: relative;
 }
 
+#uc_interactive_circle_infographic_elementor56088.ciclegraph .innerCircle{
+  z-index: 10;
+}
+
 .elementor-widget-ucaddon_interactive_circle_infographic.overlay{
   z-index: 100!important;
 }
@@ -986,7 +990,7 @@ a{
   margin-left: 20px;
   top: 50%!important;
   margin-left: 155px;
-  margin-top: 90px; 
+  margin-top: 95px; 
   display: none;
   opacity: 0;
   z-index: -1;
@@ -1005,6 +1009,21 @@ a{
 }
 
 .spiral-container-2 .second-spiral{
+	position: absolute;
+  width: 100%;
+  height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.spiral-container-3, .spiral-container{
+  position: relative;
+  max-height: 734px;
+  width: 690px;
+  left: -15%;
+}
+
+.spiral-container-3 .second-spiral{
 	position: absolute;
   width: 100%;
   height: 100%;
