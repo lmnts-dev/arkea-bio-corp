@@ -71,6 +71,7 @@ startBtn.addEventListener("click", () => {
   interactiveContainer.style.opacity = '1';
   interactiveContainer.style.zIndex = '10';
   infoBtns.style.opacity = '1';
+  infoBtns.style.zIndex = '100';
   startBtn.style.display = 'none';
   ineractiveDiv.classList.add('overlay');
 })
