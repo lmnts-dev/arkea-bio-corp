@@ -716,7 +716,7 @@ a{
 }
 
 #middle-spiral{
-  right: -25%!important;
+  right: -28%!important;
   left: auto!important;
   top: -8%!important;
 }
@@ -1401,13 +1401,13 @@ a{
   color: #fff!important;
 }
 
-  #our-arkeabio img{
-  position: relative;
-  border-radius: 27px;
-  top: 0;
-  right: 0;
-  transform: none;
-  clip-path: none;
+  #our-arkeabio img:not(.blob-1){
+  position: relative!important;
+  border-radius: 27px!important;
+  top: 0!important;
+  right: 0!important;
+  transform: none!important;
+  clip-path: none!important;
 }
 
   #applications .accordion-hover-img{
