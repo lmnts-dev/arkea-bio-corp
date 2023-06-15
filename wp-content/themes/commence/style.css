@@ -712,7 +712,7 @@ a{
 
 #second-spiral .spiral-container-2{
   max-height: 516px;
-  width: 460px;
+  width: 468px;
 }
 
 .spiral-background-2, .spiral-2{
@@ -760,7 +760,7 @@ a{
   filter: brightness(1.15);
 }
 
-#our-arkeabio img{
+#our-arkeabio img:not(.blob-1){
   position: absolute;
   width: 100%;
   top: 50%;
@@ -997,7 +997,7 @@ a{
   position: relative;
   max-width: fit-content;
   margin: 0 auto;
-  line-height: 1.2;
+  line-height: 1.2!important;
 }
 
 .explore-btn::after{
@@ -1508,6 +1508,11 @@ a{
 {
 #frm_field_1_container{
   margin-right: 0;
+}
+
+.card{
+  max-width: 325px;
+  margin: 0 auto;
 }
 
 .member-title{
