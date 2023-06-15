@@ -852,19 +852,19 @@ a{
   background-position: center 100px;
 }
 
-#uc_interactive_circle_infographic_elementor59269_item6 .innerCircleIcon::after{
+.uc-circle .innerCircleIcon:nth-of-type(6)::after {
   bottom: 150px;
   left: 0px;
   transform: rotate(320deg);
 }
 
-#uc_interactive_circle_infographic_elementor59269_item7 .innerCircleIcon::after{
+.uc-circle .innerCircleIcon:nth-of-type(7)::after {
   bottom: 100px;
   left: 120px;
   transform: rotate(345deg);
 }
 
-#uc_interactive_circle_infographic_elementor59269_item8 .innerCircleIcon::after{
+.uc-circle .innerCircleIcon:nth-of-type(8)::after {
   top: 0;
   left: 150px;
   transform: rotate(45deg);
