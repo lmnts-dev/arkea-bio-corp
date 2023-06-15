@@ -82,7 +82,7 @@ startBtn.addEventListener("click", () => {
 })
 
  function simulateClick() {
-   var button = document.querySelector('.uc-circle:nth-of-type(8)');
+   var button = document.querySelector('.uc-circle:nth-of-type(7)');
    button.click();
    console.log('clicked on', button);
  }
