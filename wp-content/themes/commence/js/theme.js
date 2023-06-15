@@ -27,7 +27,18 @@ if (active == null) {
   interactiveContainer.style.backgroundColor = 'transparent';
 }
 
+let clickCount = 0;
+
+function handleClick() {
+  clickCount++;
+
+  if (clickCount > 1) {
+    console.log('more than 1 click');
+  }
+}
+
 graphic.forEach(el => el.addEventListener('click', () => {
+  handleClick();
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
   // ineractiveDiv.classList.add('overlay');
