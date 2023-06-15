@@ -42,10 +42,11 @@ graphic.forEach(el => el.addEventListener('click', () => {
     startBtn.style.display = 'none'
     close.style.zIndex = '100';
     interactiveContainer.style.display = 'block';
+    interactiveContainer.style.zIndex = '100';
   }
   interactiveContainer.style.backgroundColor = 'var(--e-global-color-accent )';
   infoBtns.style.display = 'block';
-  interactiveContainer.style.zIndex = '100';
+  interactiveContainer.style.zIndex = '1';
   // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
