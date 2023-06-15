@@ -875,6 +875,10 @@ a{
   width: auto!important;
 }
 
+.innerCircle .ue_item_image{
+  display: none;
+}
+
 .uc-circle img{
   z-index: 1!important;
 }
