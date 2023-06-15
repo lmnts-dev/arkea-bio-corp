@@ -35,6 +35,7 @@ function handleClick() {
 
 graphic.forEach(el => el.addEventListener('click', () => {
   handleClick();
+  let close = document.querySelector('.innerCircle .graphic-close');
   if (clickCount > 1) {
     interactiveContainer.style.opacity = '1';
     infoBtns.style.opacity = '1';
@@ -48,7 +49,6 @@ graphic.forEach(el => el.addEventListener('click', () => {
   // ineractiveDiv.classList.add('overlay');
   interactiveContainer.style.alignItems = 'start';
   interactiveContainer.style.textAlign = 'start';
-  let close = document.querySelector('.innerCircle .graphic-close');
   close.style.display = 'block';
   title.style.display = 'block';
   close.style.zIndex = '100';
