@@ -525,10 +525,12 @@ a{
 
 .elementor-widget-formidable input{
   padding: 20px 5px!important;
+  font-size: 16px!important;
 }
 
 .elementor-widget-formidable textarea{
   padding-top: 20px;
+  font-size: 16px!important;
 }
 
 .frm_style_arkea.with_frm_style .form-field:not(:nth-child(-n+2)){
