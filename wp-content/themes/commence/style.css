@@ -852,6 +852,36 @@ a{
   background-position: center 100px;
 }
 
+.uc-circle:nth-of-type(1) .innerCircleIcon::after {
+  right: 40px;
+  top: 140px;
+  transform: rotate(148deg);
+}
+
+.uc-circle:nth-of-type(2) .innerCircleIcon::after {
+  right: 40px;
+  top: 140px;
+  transform: rotate(148deg);
+}
+
+.uc-circle:nth-of-type(3) .innerCircleIcon::after {
+  left: -50px;
+  top: 70px;
+  transform: rotate(180deg);
+}
+
+.uc-circle:nth-of-type(4) .innerCircleIcon::after {
+  left: -50px;
+  bottom: 15px;
+  transform: rotate(234deg);
+}
+
+.uc-circle:nth-of-type(5) .innerCircleIcon::after {
+    left: -50px;
+    bottom: 90px;
+    transform: rotate(263deg);
+}
+
 .uc-circle:nth-of-type(6) .innerCircleIcon::after {
   bottom: 150px;
   left: 0px;
