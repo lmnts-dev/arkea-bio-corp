@@ -923,6 +923,7 @@ a{
   will-change: background;
   transition: background 0.25s ease 0s;
   border-radius: 50px;
+   z-index: -1;
 }
 
 .explore-btn:hover::after{
