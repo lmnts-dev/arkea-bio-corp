@@ -81,16 +81,6 @@ startBtn.addEventListener("click", () => {
 
 })
 
- function simulateClick() {
-   var button = document.querySelector('.uc-circle:nth-of-type(7)');
-   button.click();
-   console.log('clicked on', button);
- }
-  
-  window.addEventListener('DOMContentLoaded', function() {
-    simulateClick();
-  });
-
 //SPIRALS ANIMATIONS
 
 let newSpirals = Array.from(spirals);
