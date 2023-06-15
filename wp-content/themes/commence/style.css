@@ -283,8 +283,8 @@ a{
   z-index: 10;
 }
 
-.content-card .ue-title{
-  margin-bottom: 0;
+.card .ue-title, .card .ue-text{
+  margin: 0;
 }
 
 /*ACCORDIONS*/
