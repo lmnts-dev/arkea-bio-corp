@@ -653,11 +653,11 @@ a{
   clip-path: url('/wp-content/uploads/2023/03/blob.svg');
 }
 
-#our-opportunity, #better-future, .dna-container{
+#our-opportunity, #better-future, .dna-container, #contact{
   position: relative!important;
 }
 
-#our-opportunity .e-con-inner{
+#our-opportunity .e-con-inner, #contact .e-con-inner{
   position: relative!important;
 }
 
@@ -669,7 +669,7 @@ a{
   height: 0;
 }
 
-#our-opportunity .e-con, #better-future .e-con,  #better-future .e-con-inner{
+#our-opportunity .e-con, #better-future .e-con,  #better-future .e-con-inner, #contact .e-con{
   position: initial;
 }
 
@@ -701,7 +701,7 @@ a{
 .first-spiral{
   position: absolute;
   left: -20%!important;
-  top: -20%;
+  top: -20%!important;
   max-width: 40vw!important;
 }
 
