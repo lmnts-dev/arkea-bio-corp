@@ -884,6 +884,7 @@ a{
 .uc-circle .innerCircleIcon{
   width: 135px;
   height: auto;
+  max-height: 142px;
 }
 
 .uc-circle .innerCircleIcon::after{
@@ -1561,6 +1562,10 @@ a{
 .card{
   max-width: 325px!important;
   margin: 0 auto;
+}
+
+.news-item .e-con-inner{
+  flex-wrap: nowrap!important;
 }
 
 .member-title{
