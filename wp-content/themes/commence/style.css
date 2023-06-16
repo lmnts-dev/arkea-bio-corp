@@ -442,6 +442,10 @@ a{
   position: initial!important;
 }
 
+.news-item .e-con-inner{
+  flex-wrap: nowrap!important;
+}
+
 .news-item .card-btn{
   margin-top: -50px!important;
 }
@@ -1562,10 +1566,6 @@ a{
 .card{
   max-width: 325px!important;
   margin: 0 auto;
-}
-
-.news-item .e-con-inner{
-  flex-wrap: nowrap!important;
 }
 
 .member-title{
