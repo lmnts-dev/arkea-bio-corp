@@ -914,50 +914,50 @@ a{
 
 .uc-circle:nth-of-type(1) .innerCircleIcon::after {
   left: 130px;
-  top: 90px;
-  transform: rotate(112deg);
+  top: 20px;
+  transform: rotate(60deg);
 }
 
 .uc-circle:nth-of-type(2) .innerCircleIcon::after {
-  right: 40px;
-  top: 130px;
-  transform: rotate(148deg);
+  left: 130px;
+  top: 100px;
+  transform: rotate(105deg);
 }
 
 .uc-circle:nth-of-type(3) .innerCircleIcon::after {
-  left: -60px;
-  top: 75px;
-  transform: rotate(180deg);
+  right: 25px;
+  top: 135px;
+  transform: rotate(151deg);
 }
 
 .uc-circle:nth-of-type(4) .innerCircleIcon::after {
-  left: -85px;
+  left: -65px;
   bottom: -15px;
-  transform: rotate(234deg);
+  transform: rotate(187deg);
 }
 
 .uc-circle:nth-of-type(5) .innerCircleIcon::after {
-    left: -50px;
-    bottom: 90px;
-    transform: rotate(263deg);
+  left: -70px;
+  bottom: 60px;
+  transform: rotate(231deg);
 }
 
 .uc-circle:nth-of-type(6) .innerCircleIcon::after {
-  bottom: 150px;
-  left: 0px;
-  transform: rotate(320deg);
+  bottom: 90px;
+  right: 110px;
+  transform: rotate(267deg);
 }
 
 .uc-circle:nth-of-type(7) .innerCircleIcon::after {
-  bottom: 120px;
-  left: 110px;
-  transform: rotate(345deg);
+  bottom: 160px;
+  left: 0px;
+  transform: rotate(322deg);
 }
 
 .uc-circle:nth-of-type(8) .innerCircleIcon::after {
-  top: 20px;
-  left: 140px;
-  transform: rotate(64deg);
+  bottom: 120px;
+  left: 110px;
+  transform: rotate(359deg);
 }
 
 .innerCircleIcon img{
