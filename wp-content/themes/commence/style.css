@@ -937,7 +937,7 @@ a{
 }
 
 .uc-circle:nth-of-type(5) .innerCircleIcon::after {
-  left: -70px;
+  left: -65px;
   bottom: 60px;
   transform: rotate(231deg);
 }
