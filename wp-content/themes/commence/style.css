@@ -1069,31 +1069,31 @@ a{
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(2){
-  transform: rotate(315deg) translate(250px) rotate(-315deg);
+  transform: rotate(315deg) translate(250px) rotate(-315deg)!important;
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(3){
-  transform: rotate(360deg) translate(250px) rotate(-360deg);
+  transform: rotate(360deg) translate(250px) rotate(-360deg)!important;
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(4){
-  transform: rotate(405deg) translate(250px) rotate(-405deg);
+  transform: rotate(405deg) translate(250px) rotate(-405deg)!important;
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(5){
-  transform: rotate(450deg) translate(250px) rotate(-450deg);
+  transform: rotate(450deg) translate(250px) rotate(-450deg)!important;
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(6){
-  transform: rotate(495deg) translate(250px) rotate(-495deg);
+  transform: rotate(495deg) translate(250px) rotate(-495deg)!important;
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(7){
-  transform: rotate(540deg) translate(250px) rotate(-540deg);
+  transform: rotate(540deg) translate(250px) rotate(-540deg)!important;
 }
 
 #new-infographic .uc-items-wrapper .uc-circle:nth-child(8){
-  transform: rotate(585deg) translate(250px) rotate(-585deg);
+  transform: rotate(585deg) translate(250px) rotate(-585deg)!important;
 }
 
 #uc_interactive_circle_infographic_elementor56088.ciclegraph .innerCircle{
