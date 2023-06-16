@@ -1068,6 +1068,34 @@ a{
   transform: rotate(630deg) translate(250px) rotate(-630deg)!important;
 }
 
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(2){
+  transform: rotate(315deg) translate(250px) rotate(-315deg);
+}
+
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(3){
+  transform: rotate(360deg) translate(250px) rotate(-360deg);
+}
+
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(4){
+  transform: rotate(405deg) translate(250px) rotate(-405deg);
+}
+
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(5){
+  transform: rotate(450deg) translate(250px) rotate(-450deg);
+}
+
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(6){
+  transform: rotate(495deg) translate(250px) rotate(-495deg);
+}
+
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(7){
+  transform: rotate(540deg) translate(250px) rotate(-540deg);
+}
+
+#new-infographic .uc-items-wrapper .uc-circle:nth-child(8){
+  transform: rotate(585deg) translate(250px) rotate(-585deg);
+}
+
 #uc_interactive_circle_infographic_elementor56088.ciclegraph .innerCircle{
   z-index: 10;
 }
