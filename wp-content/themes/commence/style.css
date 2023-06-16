@@ -1567,8 +1567,9 @@ a{
 }
 
 @media (max-width: 820px){
-  .uc-circle .innerCircleIcon {
-    width: 100px;
+  .uc-circle:nth-of-type(5) .innerCircleIcon::after {
+      left: -60px;
+      bottom: 70px;
   }
 }
 
